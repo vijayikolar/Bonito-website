@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Isolation_Mode" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" width="600.5px" height="510.5px" viewBox="0 0 600.5 510.5" enable-background="new 0 0 600.5 510.5"
+	 xml:space="preserve">
+<g id="XMLID_236_">
+	
+		<circle id="XMLID_193_" opacity="0.61" fill="#F56E0B" stroke="#FFFFFF" stroke-width="5" stroke-miterlimit="10" enable-background="new    " cx="292.032" cy="275.232" r="44.46"/>
+	<circle id="XMLID_192_" opacity="0.61" fill="#F56E0B" enable-background="new    " cx="292.032" cy="215.203" r="44.459"/>
+	<circle id="XMLID_190_" opacity="0.61" fill="#F56E0B" enable-background="new    " cx="261.716" cy="245.122" r="44.46"/>
+	<circle id="XMLID_191_" opacity="0.61" fill="#F56E0B" enable-background="new    " cx="323.595" cy="245.122" r="44.46"/>
+	<path id="XMLID_88_" fill="none" stroke="#F56E0B" stroke-width="3" stroke-miterlimit="10" d="M383.342,244.532
+		c0-25.006-17.165-45.997-40.354-51.848c-6.758-21.788-27.071-37.613-51.082-37.613c-24.174,0-44.591,16.044-51.209,38.063
+		c-22.358,6.403-38.729,26.982-38.729,51.398c0,24.391,16.336,44.951,38.658,51.379c6.539,22.145,27.016,38.311,51.28,38.311
+		c24.1,0,44.47-15.944,51.151-37.858C366.211,290.489,383.342,269.513,383.342,244.532z"/>
+	
+		<path id="XMLID_27_" opacity="0.87" fill="none" stroke="#F56E0B" stroke-width="3" stroke-miterlimit="10" enable-background="new    " d="
+		M408.159,244.501c0-31.849-21.863-58.585-51.397-66.036c-8.607-27.751-34.479-47.906-65.061-47.906
+		c-30.79,0-56.794,20.436-65.223,48.478c-28.477,8.156-49.327,34.367-49.327,65.465c0,31.064,20.805,57.252,49.237,65.438
+		c8.328,28.205,34.409,48.794,65.313,48.794c30.695,0,56.639-20.308,65.15-48.218C386.34,303.033,408.159,276.317,408.159,244.501z"
+		/>
+	
+		<path id="XMLID_80_" opacity="0.61" fill="none" stroke="#F56E0B" stroke-width="3" stroke-miterlimit="10" enable-background="new    " d="
+		M430.716,244.472c0-38.067-26.132-70.025-61.435-78.931c-10.288-33.171-41.213-57.263-77.767-57.263
+		c-36.801,0-67.886,24.426-77.96,57.945c-34.039,9.749-58.96,41.078-58.96,78.248c0,37.132,24.869,68.435,58.853,78.218
+		c9.955,33.713,41.129,58.324,78.068,58.324c36.689,0,67.7-24.273,77.873-57.635C404.636,314.437,430.716,282.503,430.716,244.472z"
+		/>
+	
+		<path id="XMLID_81_" opacity="0.26" fill="none" stroke="#F56E0B" stroke-width="3" stroke-miterlimit="10" enable-background="new    " d="
+		M453.179,244.444c0-44.263-30.385-81.419-71.431-91.773c-11.962-38.567-47.918-66.58-90.419-66.58
+		c-42.79,0-78.93,28.4-90.645,67.374c-39.576,11.334-68.552,47.761-68.552,90.979c0,43.173,28.915,79.567,68.427,90.943
+		c11.574,39.198,47.82,67.813,90.77,67.813c42.658,0,78.714-28.224,90.542-67.012C422.854,325.791,453.179,288.662,453.179,244.444z
+		"/>
+	<rect id="XMLID_552_" x="281.032" y="190.094" fill="none" width="85.124" height="21.138"/>
+	
+		<text id="XMLID_87_" transform="matrix(1 0 0 1 281.0327 194.0239)" fill="#F2F2F2" font-family="'MyriadPro-Regular'" font-size="5.713">Content</text>
+	<g id="XMLID_90_">
+		<rect id="XMLID_95_" x="223.706" y="244.646" fill="none" width="85.124" height="21.138"/>
+		<text transform="matrix(1 0 0 1 223.7056 248.5762)" fill="#F2F2F2" font-family="'MyriadPro-Regular'" font-size="5.713">User Goals</text>
+	</g>
+	<g id="XMLID_92_">
+		<rect id="XMLID_93_" x="328.254" y="244.646" fill="none" width="85.124" height="21.138"/>
+		<text transform="matrix(1 0 0 1 328.2539 248.5762)" fill="#F2F2F2" font-family="'MyriadPro-Regular'" font-size="5.713">Business Goals</text>
+	</g>
+	<g id="XMLID_101_">
+		<rect id="XMLID_86_" x="278.36" y="296.699" fill="none" width="85.124" height="21.138"/>
+		<text transform="matrix(1 0 0 1 278.3604 300.6289)" fill="#F2F2F2" font-family="'MyriadPro-Regular'" font-size="5.713">Interaction</text>
+	</g>
+	<rect id="XMLID_538_" x="279.542" y="161.316" fill="none" width="23.208" height="21.138"/>
+	
+		<text id="XMLID_120_" transform="matrix(1 0 0 1 280.541 166.8193)" fill="#424343" font-family="'MyriadPro-Regular'" font-size="7.9982">Types</text>
+	<g id="XMLID_118_">
+		<rect id="XMLID_84_" x="248.584" y="141.526" fill="none" width="85.124" height="21.139"/>
+		<text transform="matrix(1 0 0 1 278.2471 147.0293)" fill="#424343" font-family="'MyriadPro-Regular'" font-size="7.9982">Models </text>
+	</g>
+	<g id="XMLID_116_">
+		<rect id="XMLID_82_" x="248.584" y="117.817" fill="none" width="85.124" height="21.139"/>
+		<text transform="matrix(1 0 0 1 271.9883 123.3203)" fill="#424343" font-family="'MyriadPro-Regular'" font-size="7.9982">Treatment</text>
+	</g>
+	<g id="XMLID_114_">
+		<rect id="XMLID_77_" x="248.584" y="95.045" fill="none" width="85.124" height="21.139"/>
+		<text transform="matrix(1 0 0 1 275.6104 100.5479)" fill="#424343" font-family="'MyriadPro-Regular'" font-size="7.9982">Methods</text>
+	</g>
+	<g id="XMLID_122_">
+		<rect id="XMLID_74_" x="248.584" y="74.73" fill="none" width="85.124" height="21.139"/>
+		<text transform="matrix(1 0 0 1 268.7275 80.2334)" fill="#424343" font-family="'MyriadPro-Regular'" font-size="7.9982">Architecture</text>
+	</g>
+	<g id="XMLID_133_">
+		<rect id="XMLID_73_" x="208.772" y="177.731" fill="none" width="21.138" height="85.124"/>
+		<text transform="matrix(0 -1 1 0 214.2744 262.8555)" fill="#424343" font-family="'MyriadPro-Regular'" font-size="7.9982">User Types</text>
+	</g>
+	<g id="XMLID_131_">
+		<rect id="XMLID_72_" x="121.395" y="169.601" fill="none" width="21.138" height="85.123"/>
+		<text transform="matrix(0 -1 1 0 126.897 254.7236)" fill="#424343" font-family="'MyriadPro-Regular'" font-size="7.9982">Needs</text>
+	</g>
+	<g id="XMLID_129_">
+		<rect id="XMLID_70_" x="141.104" y="177.731" fill="none" width="21.138" height="85.124"/>
+		<text transform="matrix(0 -1 1 0 146.6069 262.8555)" fill="#424343" font-family="'MyriadPro-Regular'" font-size="7.9982">Motivations</text>
+	</g>
+	<g id="XMLID_126_">
+		<rect id="XMLID_68_" x="165.439" y="176.018" fill="none" width="21.138" height="85.124"/>
+		<text transform="matrix(0 -1 1 0 170.9419 261.1416)" fill="#424343" font-family="'MyriadPro-Regular'" font-size="7.9982">Behaviours</text>
+	</g>
+	<g id="XMLID_124_">
+		<rect id="XMLID_66_" x="189.167" y="176.824" fill="none" width="21.138" height="85.123"/>
+		<text transform="matrix(0 -1 1 0 194.6694 261.9473)" fill="#424343" font-family="'MyriadPro-Regular'" font-size="7.9982">Outcomes</text>
+	</g>
+	<g id="XMLID_143_">
+		<rect id="XMLID_64_" x="355.549" y="227.006" fill="none" width="21.139" height="85.124"/>
+		<text transform="matrix(0 1 -1 0 371.1836 227.0063)" fill="#424343" font-family="'MyriadPro-Regular'" font-size="7.9982">Operations</text>
+	</g>
+	<g id="XMLID_141_">
+		<rect id="XMLID_62_" x="376.688" y="228.721" fill="none" width="21.138" height="85.123"/>
+		<text transform="matrix(0 1 -1 0 392.3232 228.7197)" fill="#424343" font-family="'MyriadPro-Regular'" font-size="7.9982">Offerings</text>
+	</g>
+	<g id="XMLID_139_">
+		<rect id="XMLID_61_" x="399.127" y="227.006" fill="none" width="21.139" height="85.124"/>
+		<text transform="matrix(0 1 -1 0 414.7627 227.0063)" fill="#424343" font-family="'MyriadPro-Regular'" font-size="7.9982">Outcomes</text>
+	</g>
+	<g id="XMLID_137_">
+		<rect id="XMLID_60_" x="423.693" y="232.1" fill="none" width="21.138" height="85.123"/>
+		<text transform="matrix(0 1 -1 0 439.3291 232.0986)" fill="#424343" font-family="'MyriadPro-Regular'" font-size="7.9982">Mission</text>
+	</g>
+	<g id="XMLID_149_">
+		<rect id="XMLID_58_" x="281.216" y="323.652" fill="none" width="85.124" height="21.139"/>
+		<text transform="matrix(1 0 0 1 281.2168 329.1543)" fill="#424343" font-family="'MyriadPro-Regular'" font-size="7.9982">Pattern</text>
+	</g>
+	<g id="XMLID_147_">
+		<rect id="XMLID_57_" x="280.645" y="342.624" fill="none" width="85.124" height="21.139"/>
+		<text transform="matrix(1 0 0 1 280.6455 348.126)" fill="#424343" font-family="'MyriadPro-Regular'" font-size="7.9982">System</text>
+	</g>
+	<g id="XMLID_145_">
+		<rect id="XMLID_56_" x="281.216" y="367.063" fill="none" width="85.124" height="21.139"/>
+		<text transform="matrix(1 0 0 1 281.2168 372.5664)" fill="#424343" font-family="'MyriadPro-Regular'" font-size="7.9982">Device</text>
+	</g>
+	<g id="XMLID_135_">
+		<rect id="XMLID_55_" x="281.216" y="390.487" fill="none" width="85.124" height="21.138"/>
+		<text transform="matrix(1 0 0 1 281.2168 395.9902)" fill="#424343" font-family="'MyriadPro-Regular'" font-size="7.9982">Human</text>
+	</g>
+	<g id="XMLID_157_">
+		<rect id="XMLID_54_" x="374.962" y="128.387" fill="none" width="98.94" height="21.138"/>
+		<text transform="matrix(1 0 0 1 388.3438 133.8892)" fill="#424343" font-family="'MyriadPro-Regular'" font-size="7.9982">Business Generated </text>
+		<text transform="matrix(1 0 0 1 409.7686 143.4873)" fill="#424343" font-family="'MyriadPro-Regular'" font-size="7.9982">Content</text>
+	</g>
+	<g id="XMLID_155_">
+		<rect id="XMLID_53_" x="123.68" y="128.387" fill="none" width="85.124" height="21.138"/>
+		<text transform="matrix(1 0 0 1 137.7363 133.8892)" fill="#424343" font-family="'MyriadPro-Regular'" font-size="7.9982">User Generated </text>
+		<text transform="matrix(1 0 0 1 151.5786 143.4873)" fill="#424343" font-family="'MyriadPro-Regular'" font-size="7.9982">Content</text>
+	</g>
+	<g id="XMLID_153_">
+		<rect id="XMLID_52_" x="101.083" y="352.051" fill="none" width="125.115" height="21.138"/>
+		<text transform="matrix(1 0 0 1 136.4722 357.5527)" fill="#424343" font-family="'MyriadPro-Regular'" font-size="7.9982">Business Goals </text>
+		<text transform="matrix(1 0 0 1 121.1724 367.1514)" fill="#424343" font-family="'MyriadPro-Regular'" font-size="7.9982">Information Interaction</text>
+	</g>
+	<g id="XMLID_151_">
+		<rect id="XMLID_51_" x="381.417" y="352.051" fill="none" width="85.124" height="21.138"/>
+		<text transform="matrix(1 0 0 1 404.3936 357.5527)" fill="#424343" font-family="'MyriadPro-Regular'" font-size="7.9982">User Goals </text>
+		<text transform="matrix(1 0 0 1 381.5117 367.1514)" fill="#424343" font-family="'MyriadPro-Regular'" font-size="7.9982">Information Interaction</text>
+	</g>
+	<g id="XMLID_112_">
+		<rect id="XMLID_50_" x="249.522" y="220.557" fill="none" width="85.124" height="21.138"/>
+		<text transform="matrix(1 0 0 1 283.9326 223.7007)" fill="#F2F2F2" font-family="'MyriadPro-Regular'" font-size="4.5704">Compre</text>
+		<text transform="matrix(1 0 0 1 282.9399 229.1855)" fill="#F2F2F2" font-family="'MyriadPro-Regular'" font-size="4.5704">-hensive</text>
+	</g>
+	<rect id="XMLID_428_" x="263.613" y="244.646" fill="none" width="23.995" height="11.363"/>
+	
+		<text id="XMLID_110_" transform="matrix(1 0 0 1 263.6133 247.7905)" fill="#F2F2F2" font-family="'MyriadPro-Regular'" font-size="4.5704">Useful</text>
+	<g id="XMLID_108_">
+		<rect id="XMLID_49_" x="283.883" y="262.855" fill="none" width="85.124" height="21.138"/>
+		<text transform="matrix(1 0 0 1 283.8828 266)" fill="#F2F2F2" font-family="'MyriadPro-Regular'" font-size="4.5704">Usability</text>
+	</g>
+	<g id="XMLID_106_">
+		<rect id="XMLID_48_" x="307.89" y="244.646" fill="none" width="20.936" height="10.568"/>
+		<text transform="matrix(1 0 0 1 307.8896 247.7905)" fill="#F2F2F2" font-family="'MyriadPro-Regular'" font-size="4.5704">Branded</text>
+	</g>
+	<g id="XMLID_34_">
+		<rect id="XMLID_47_" x="255.622" y="211.004" fill="none" width="85.124" height="21.139"/>
+		<text transform="matrix(1 0 0 1 255.6216 214.1479)" fill="#E6E6E6" font-family="'MyriadPro-Regular'" font-size="4.5704">Reactions</text>
+	</g>
+	<g id="XMLID_32_">
+		<rect id="XMLID_46_" x="258.669" y="273.562" fill="none" width="85.124" height="21.138"/>
+		<text transform="matrix(1 0 0 1 258.6685 276.7051)" fill="#E6E6E6" font-family="'MyriadPro-Regular'" font-size="4.5704">Actions</text>
+	</g>
+	<g id="XMLID_30_">
+		<rect id="XMLID_45_" x="304.45" y="274.132" fill="none" width="85.124" height="21.139"/>
+		<text transform="matrix(1 0 0 1 304.4492 277.2773)" fill="#E6E6E6" font-family="'MyriadPro-Regular'" font-size="4.5704">Transactions</text>
+	</g>
+	<g id="XMLID_28_">
+		<rect id="XMLID_44_" x="298.946" y="211.004" fill="none" width="85.124" height="21.138"/>
+		<text transform="matrix(1 0 0 1 298.9453 214.1479)" fill="#E6E6E6" font-family="'MyriadPro-Regular'" font-size="4.5704">Communications</text>
+	</g>
+	<rect id="XMLID_402_" x="283.501" y="241.146" fill="none" width="85.124" height="21.138"/>
+	
+		<text id="XMLID_104_" transform="matrix(1 0 0 1 283.502 250.1855)" fill="#FFFFFF" font-family="'MyriadPro-Regular'" font-size="13.1399">UX</text>
+	
+		<circle id="XMLID_355_" fill="none" stroke="#F56E0B" stroke-width="3" stroke-miterlimit="10" cx="292.032" cy="244.646" r="216.031"/>
+	<g id="XMLID_303_">
+		<rect id="XMLID_43_" x="51.57" y="135.988" fill="none" width="41.515" height="10.665"/>
+		<text transform="matrix(1 0 0 1 51.5693 141.4907)" fill="#424343" font-family="'MyriadPro-Regular'" font-size="7.9982">Sitemap</text>
+	</g>
+	<g id="XMLID_315_">
+		<rect id="XMLID_42_" x="62.091" y="79.968" fill="none" width="73.556" height="10.664"/>
+		<text transform="matrix(1 0 0 1 62.0908 85.4697)" fill="#424343" font-family="'MyriadPro-Regular'" font-size="7.9982">Content Strategy</text>
+	</g>
+	<g id="XMLID_343_">
+		<rect id="XMLID_41_" x="121.585" y="34.867" fill="none" width="75.602" height="10.665"/>
+		<text transform="matrix(1 0 0 1 121.585 40.3701)" fill="#424343" font-family="'MyriadPro-Regular'" font-size="7.9982">Creative Direction</text>
+	</g>
+	<g id="XMLID_348_">
+		<rect id="XMLID_40_" x="250.569" y="7.857" fill="none" width="106.974" height="10.665"/>
+		<text transform="matrix(1 0 0 1 250.5693 13.3599)" fill="#424343" font-family="'MyriadPro-Regular'" font-size="7.9982">Information Architecture</text>
+	</g>
+	<g id="XMLID_372_">
+		<rect id="XMLID_39_" x="402.745" y="34.867" fill="none" width="84.172" height="10.665"/>
+		<text transform="matrix(1 0 0 1 402.7461 40.3696)" fill="#424343" font-family="'MyriadPro-Regular'" font-size="7.9982">Visual Design</text>
+	</g>
+	<g id="XMLID_377_">
+		<rect id="XMLID_38_" x="457.749" y="79.968" fill="none" width="84.171" height="10.664"/>
+		<text transform="matrix(1 0 0 1 457.748 85.4697)" fill="#424343" font-family="'MyriadPro-Regular'" font-size="7.9982">Design Discovery</text>
+	</g>
+	<g id="XMLID_453_">
+		<rect id="XMLID_37_" x="22.894" y="170.591" fill="none" width="64.271" height="14.282"/>
+		<text transform="matrix(1 0 0 1 22.8936 176.0938)" fill="#424343" font-family="'MyriadPro-Regular'" font-size="7.9982">User Personas</text>
+	</g>
+	<g id="XMLID_455_">
+		<rect id="XMLID_36_" x="8.675" y="219.865" fill="none" width="64.271" height="14.282"/>
+		<text transform="matrix(1 0 0 1 8.6743 225.3682)" fill="#424343" font-family="'MyriadPro-Regular'" font-size="7.9982">User Interviews</text>
+	</g>
+	<g id="XMLID_462_">
+		<rect id="XMLID_35_" x="16.673" y="274.782" fill="none" width="64.271" height="14.282"/>
+		<text transform="matrix(1 0 0 1 16.6729 280.2852)" fill="#424343" font-family="'MyriadPro-Regular'" font-size="7.9982">User Research</text>
+	</g>
+	<g id="XMLID_471_">
+		<rect id="XMLID_33_" x="40.762" y="327.08" fill="none" width="64.271" height="14.282"/>
+		<text transform="matrix(1 0 0 1 40.7622 332.582)" fill="#424343" font-family="'MyriadPro-Regular'" font-size="7.9982">User Flow</text>
+	</g>
+	<g id="XMLID_473_">
+		<rect id="XMLID_31_" x="52.744" y="366.048" fill="none" width="64.271" height="14.282"/>
+		<text transform="matrix(1 0 0 1 52.7441 371.5498)" fill="#424343" font-family="'MyriadPro-Regular'" font-size="7.9982">User Journey</text>
+	</g>
+	<g id="XMLID_475_">
+		<rect id="XMLID_29_" x="68.947" y="409.546" fill="none" width="64.271" height="14.282"/>
+		<text transform="matrix(1 0 0 1 68.9463 415.0488)" fill="#424343" font-family="'MyriadPro-Regular'" font-size="7.9982">Usability Testing</text>
+	</g>
+	<g id="XMLID_477_">
+		<rect id="XMLID_26_" x="497.567" y="137.035" fill="none" width="111.575" height="14.283"/>
+		<text transform="matrix(1 0 0 1 497.5684 142.5381)" fill="#424343" font-family="'MyriadPro-Regular'" font-size="7.9982">Subject Matter Expertise</text>
+	</g>
+	<g id="XMLID_63_">
+		<rect id="XMLID_25_" x="512.969" y="170.591" fill="none" width="64.271" height="14.282"/>
+		<text transform="matrix(1 0 0 1 512.9688 176.0938)" fill="#424343" font-family="'MyriadPro-Regular'" font-size="7.9982">Identity</text>
+	</g>
+	<g id="XMLID_65_">
+		<rect id="XMLID_24_" x="518.813" y="198.377" fill="none" width="64.271" height="14.283"/>
+		<text transform="matrix(1 0 0 1 518.8125 203.8799)" fill="#424343" font-family="'MyriadPro-Regular'" font-size="7.9982">Marketing</text>
+	</g>
+	<g id="XMLID_67_">
+		<rect id="XMLID_23_" x="522.324" y="229.586" fill="none" width="86.818" height="14.283"/>
+		<text transform="matrix(1 0 0 1 522.3242 235.0889)" fill="#424343" font-family="'MyriadPro-Regular'" font-size="7.9982">Stakeholder Interviews</text>
+	</g>
+	<g id="XMLID_69_">
+		<rect id="XMLID_22_" x="519.468" y="274.445" fill="none" width="72.536" height="14.283"/>
+		<text transform="matrix(1 0 0 1 519.4678 279.9492)" fill="#424343" font-family="'MyriadPro-Regular'" font-size="7.9982">Business Research</text>
+	</g>
+	<g id="XMLID_71_">
+		
+			<rect id="XMLID_21_" x="510.918" y="325.559" transform="matrix(-1 0.0042 -0.0042 -1 1101.9871 663.0903)" fill="none" width="78.762" height="14.282"/>
+		<text transform="matrix(1 0 0 1 510.9199 330.8682)" fill="#424343" font-family="'MyriadPro-Regular'" font-size="7.9982">Discovery Workshop</text>
+	</g>
+	<g id="XMLID_76_">
+		<rect id="XMLID_20_" x="488.631" y="366.127" fill="none" width="96.167" height="14.282"/>
+		<text transform="matrix(1 0 0 1 488.6309 371.6299)" fill="#424343" font-family="'MyriadPro-Regular'" font-size="7.9982">Requirements Gathering</text>
+	</g>
+	<g id="XMLID_78_">
+		<rect id="XMLID_19_" x="461.667" y="409.546" fill="none" width="87.08" height="14.282"/>
+		<text transform="matrix(1 0 0 1 461.667 415.0488)" fill="#424343" font-family="'MyriadPro-Regular'" font-size="7.9982">Competitive Analysis</text>
+	</g>
+	<g id="XMLID_479_">
+		<rect id="XMLID_18_" x="154.493" y="471.913" fill="none" width="94.95" height="14.282"/>
+		<text transform="matrix(1 0 0 1 154.4932 477.416)" fill="#424343" font-family="'MyriadPro-Regular'" font-size="7.9982">Wireframes/Visualization</text>
+	</g>
+	<g id="XMLID_89_">
+		<rect id="XMLID_17_" x="117.016" y="444.205" fill="none" width="64.271" height="14.282"/>
+		<text transform="matrix(1 0 0 1 117.0156 449.707)" fill="#424343" font-family="'MyriadPro-Regular'" font-size="7.9982">Prototypes</text>
+	</g>
+	<g id="XMLID_481_">
+		<rect id="XMLID_16_" x="260.468" y="489.052" fill="none" width="81.238" height="14.282"/>
+		<text transform="matrix(1 0 0 1 260.4678 494.5547)" fill="#424343" font-family="'MyriadPro-Regular'" font-size="7.9982">Interaction Design</text>
+	</g>
+	<g id="XMLID_255_">
+		<rect id="XMLID_15_" x="376.023" y="471.913" fill="none" width="64.271" height="14.282"/>
+		<text transform="matrix(1 0 0 1 376.0234 477.416)" fill="#424343" font-family="'MyriadPro-Regular'" font-size="7.9982">Development</text>
+	</g>
+	<g id="XMLID_59_">
+		<rect id="XMLID_14_" x="427.277" y="444.205" fill="none" width="93.249" height="14.282"/>
+		<text transform="matrix(1 0 0 1 427.2773 449.708)" fill="#424343" font-family="'MyriadPro-Regular'" font-size="7.9982">Feature Prioritization</text>
+	</g>
+	<g id="XMLID_207_">
+		<g>
+			<polyline fill="none" stroke="#F56E0B" stroke-width="3" stroke-miterlimit="10" points="166.1,123.039 166.1,104.472 
+				172.669,104.472 			"/>
+			<g>
+				<polygon fill="#F56E0B" points="171.527,107.634 177.003,104.472 171.527,101.31 				"/>
+			</g>
+		</g>
+	</g>
+	<g id="XMLID_229_">
+		<g>
+			<polyline fill="none" stroke="#F56E0B" stroke-width="3" stroke-miterlimit="10" points="163.814,372.126 163.814,390.693 
+				170.384,390.693 			"/>
+			<g>
+				<polygon fill="#F56E0B" points="169.242,393.569 174.718,390.407 169.242,387.245 				"/>
+			</g>
+		</g>
+	</g>
+	<g id="XMLID_230_">
+		<g>
+			<polyline fill="none" stroke="#F56E0B" stroke-width="3" stroke-miterlimit="10" points="424.899,369.841 424.899,388.407 
+				418.329,388.407 			"/>
+			<g>
+				<polygon fill="#F56E0B" points="419.472,384.96 413.995,388.122 419.472,391.284 				"/>
+			</g>
+		</g>
+	</g>
+	<g id="XMLID_226_">
+		<g>
+			<polyline fill="none" stroke="#F56E0B" stroke-width="3" stroke-miterlimit="10" points="432.326,123.039 432.326,104.472 
+				425.756,104.472 			"/>
+			<g>
+				<polygon fill="#F56E0B" points="426.898,101.31 421.422,104.472 426.898,107.634 				"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

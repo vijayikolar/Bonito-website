@@ -1,0 +1,93 @@
+<svg version="1.1" id="polyline-circle" class="polyline-circle" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" width="100%" height="100%" viewBox="0 0 118.334 118.334" enable-background="new 0 0 118.334 118.334"
+	 xml:space="preserve">
+<g>
+	<!-- <defs>
+		<rect id="SVGID_1_" width="118.334" height="118.334"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  overflow="visible"/>
+	</clipPath> -->
+	<g id="polylines--01" class="polylines--01" clip-path="url(#SVGID_2_)">
+		
+			<circle fill="none" stroke="#F36D21" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="59.167" cy="59.167" r="58.773"/>
+
+			<circle fill="none" stroke="#F36D21" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="59.167" cy="59.167" r="47.891"/>
+		
+			<polygon class="polygon" fill="none" stroke="#F36D21" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+			79.317,11.276 95.094,12.654 89.093,21.785 "/>
+		
+			<polyline class="polygon" fill="none" stroke="#F36D21" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+			109.662,47.269 117.927,60.41 111.832,33.05 109.662,47.269 101.912,27.696 89.093,21.785 		"/>
+		
+			<line class="polygon" fill="none" stroke="#F36D21" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="109.662" y1="47.269" x2="113.077" y2="80.556"/>
+		
+			<path class="polygon" fill="none" stroke="#F36D21" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+			M90.905,108.642c-1.867-0.552-15.498-4.41-15.498-4.41l12.712-6.388L90.905,108.642l14.907-13.719"/>
+		
+			<polyline class="polygon" fill="none" stroke="#F36D21" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+			58.377,107.052 41.832,115.342 74.494,105.234 58.377,107.052 63.046,117.813 		"/>
+		
+			<polyline class="polygon" fill="none" stroke="#F36D21" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+			57.503,107.026 29.279,109.781 32.419,98.898 42.669,114.921 		"/>
+		
+			<polygon class="polygon" fill="none" stroke="#F36D21" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+			19.417,96.398 26.216,93.919 17.939,83.544 		"/>
+		
+			<polyline class="polygon" fill="none" stroke="#F36D21" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+			6.439,84.444 13.962,75.012 0.952,67.281 11.376,62.247 6.439,85.157 		"/>
+		
+			<polyline class="polygon" fill="none" stroke="#F36D21" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+			11.339,61.59 3.791,39.436 17.069,36.317 7.458,51.031 		"/>
+		
+			<polyline class="polygon" fill="none" stroke="#F36D21" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+			26.217,24.414 15.004,20.388 36.358,17.047 30.503,7.849 		"/>
+		
+			<polyline class="polygon" fill="none" stroke="#F36D21" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+			30.997,8.211 46.198,13.055 52.257,1.38 58.388,11.276 41.773,3.011 46.198,13.055 		"/>
+		
+			<line class="polygon" fill="none" stroke="#F36D21" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="72.96" y1="2.343" x2="58.477" y2="10.565"/>
+		
+			<polyline class="polygon" fill="none" stroke="#F36D21" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+			57.947,10.565 79.317,11.276 84.446,6.094 		"/>
+
+			<polygon class="polygon" fill="none" stroke="#F36D21" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+			59.167,4.971 72.687,1.958 79.317,11.276 		"/>
+		
+			<polygon class="polygon" fill="none" stroke="#F36D21" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+			95.094,12.654 101.912,27.696 111.831,33.05 		"/>
+		
+			<polyline class="polygon" fill="none" stroke="#F36D21" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+			105.892,70.658 113.926,80.556 117.927,60.41 105.787,71.309 109.662,47.269 104.311,43.147 101.912,27.696 		"/>
+		
+			<path class="polygon" fill="none" stroke="#F36D21" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+			M101.912,81.979c0.267-0.03,3.9,12.943,3.9,12.943l-18.607,3.072l26.722-17.439L101.24,82.06"/>
+		
+			<polyline class="polygon" fill="none" stroke="#F36D21" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+			75.406,104.231 63.046,117.813 89.867,108.343 		"/>
+		
+			<line class="polygon" fill="none" stroke="#F36D21" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" x1="75.981" y1="104.394" x2="76.456" y2="113.077"/>
+		
+			<path class="polygon" fill="none" stroke="#F36D21" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+			M29.279,109.781c0,0-10.256-13.383-9.862-13.383s13.61,2.898,13.61,2.898"/>
+		
+			<polyline class="polygon" fill="none" stroke="#F36D21" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+			17.939,84.444 6.439,85.157 19.417,96.398 17.939,101.052 		"/>
+		
+			<polyline class="polygon" fill="none" stroke="#F36D21" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+			11.376,62.247 0.952,55.15 12.65,47.744 		"/>
+		
+			<polyline class="polygon" fill="none" stroke="#F36D21" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+			17.069,36.317 8.026,30.185 26.217,24.414 3.79,39.437 		"/>
+		
+			<polyline class="polygon" fill="none" stroke="#F36D21" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+			15.735,20.273 30.996,8.625 25.505,25.104 		"/>
+		
+			<polyline class="polygon" fill="none" stroke="#F36D21" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+			52.257,1.38 59.167,4.971 58.387,11.276 		"/>
+		
+			<path class="polygon" fill="none" stroke="#F36D21" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+			M41.938,3.388c-0.364,0.62-5.975,13.72-5.975,13.72"/>
+	</g>
+</g>
+</svg>

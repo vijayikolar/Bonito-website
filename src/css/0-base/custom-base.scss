@@ -1,0 +1,71 @@
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	@media(min-width: 768px) {
+		height: 100%;
+	}
+}
+
+p, a, body, button, dl, input, label, li, p, span, td, th, thead td, thead th {
+	font-family: 'Gotham-Book', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin: 0;
+	font-family: 'Monteserrat-Bold', sans-serif;
+	color: #333;
+}
+
+blockquote {
+	margin: 0;
+}
+
+p {
+	font-size: 14px;
+	line-height: 30px;
+	margin: 0;
+	margin-bottom: 25px;
+	font-family: 'Gotham-Book', sans-serif;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+
+	@media(min-width:992px){
+		font-size: 16px;
+		line-height: 32px;
+		margin: 0;
+		margin-bottom: 30px;
+	}
+
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+	display: inline-block;
+}
+
+img {
+	max-width: 100%;
+}
+
+// Helper Classes
+.sr-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	border: 0;
+}
+
+ul {
+  margin:0;
+  padding:0;
+  list-style-type: none;
+}
