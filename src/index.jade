@@ -7,12 +7,15 @@ head
 	
 body
 	main
+		include jade-components/base/header-nav
 		
 		//about bonito section
 		include jade-components/home/about-bonito.jade
 
 		//our services seciton
 		include jade-components/home/our-services.jade
+
+		include jade-components/base/footer
 
 	script(src="js/plugins/jquery.min.js")
 	script(src="js/plugins/bootstrap.min.js")
