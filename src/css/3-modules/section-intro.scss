@@ -2,6 +2,7 @@
 	&__heading {
 		color:$dark-blue;
 		padding-bottom:25px;
+		text-align:center;
 		@media(min-width:768px){
 			padding-bottom:30px;
 		}
@@ -22,6 +23,7 @@
 	}
 	&__info {
 		color:$light-black;
+		text-align:center;
 		padding-top:30px;
 		@media(min-width:768px){
 			padding-top:30px;

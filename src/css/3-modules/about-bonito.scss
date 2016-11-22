@@ -9,6 +9,24 @@
  }
 .about-bonito {
 	@include sectionPadding;
+
+	&__info {
+		h2 {
+
+			&::before {
+				left:0;
+				transform: translateX(0%);
+			}
+
+		}
+	}
+
+	&__dsec {
+		.section-intro__heading, .section-intro__info {
+			text-align:left;
+		}
+
+	}
 }
 
 .about-bonito-banner {
