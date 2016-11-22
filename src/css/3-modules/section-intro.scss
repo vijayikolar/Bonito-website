@@ -27,9 +27,14 @@
 		padding-top:30px;
 		@media(min-width:768px){
 			padding-top:30px;
+			max-width: 400px;
+			margin: 0 auto;
+			width: 100%;
 		}
 		@media(min-width:992px){
 			padding-top:40px;
+			max-width: 500px;
+			
 		}
 	}
 }
