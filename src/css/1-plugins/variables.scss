@@ -7,7 +7,7 @@ $light-black:#181818;
 
 //background colors
 $bg-light-blue:#f9fcfd;
-
+$bg-medium-blue:#e8f4f7;
 //other colors
 $btn-border:#606364;
 
@@ -45,6 +45,7 @@ p {
 	  font-family: 'Lato-Regular';
 	  font-size: 13px;
 	  line-height: 23px;
+	  color:$light-black;
 	  @media(min-width:768px){
 		 font-size: 14px;
 	 	 line-height: 24px;
@@ -79,6 +80,13 @@ p {
 	    width:100%;
 }
 
+.rectangular-border-top {
+	    top: -20px;
+	    bottom:0;
+}
+.text-center {
+	text-align:center;
+}
 @mixin sectionPadding(){
 	padding:50px 0;
 
@@ -101,4 +109,10 @@ p {
 	display:$display;
 	align-items:$align-item;
 	justify-content:$justify-content;
+}
+
+@mixin flex-default(){
+	display:flex;
+	justify-content:center;
+	align-items:center;
 }
