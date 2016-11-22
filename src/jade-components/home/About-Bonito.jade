@@ -1,3 +1,21 @@
 
 
-h2  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas eligendi laboriosam, et explicabo magnam suscipit reiciendis quo laborum nesciunt asperiores necessitatibus, nulla fugit illo excepturi, commodi aliquam fuga vitae nostrum?
+section.about-bonito
+	.container
+		.row
+			.col-sm-10.col-sm-offset-1.about-bonito-wraper
+
+				.col-sm-6
+					.about-bonito-banner
+						img.about-bonito-banner__img.img-responsive(src="img/about-bonoto-img.png", alt="about bonito imge")
+						.rectangular-border
+
+				.col-sm-6.about-bonito__info
+					div
+						include ../comman/section-intro.jade
+						+section-intro("Perfect interior design for the place you call home", "We’re rated as one of the best interior design firms in Bangalore. We design elegant and aesthetic residential interiors, modular kitchen designs, office & commercial interiors, and interiors and exteriors for residential, official & commercial buildings.")
+
+			.col-sm-6.col-sm-offset-6
+				.button-default.button-default--about-bonito know more
+				
+				
