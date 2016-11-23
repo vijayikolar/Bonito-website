@@ -25,6 +25,15 @@
 		.section-intro__heading, .section-intro__info {
 			text-align:left;
 		}
+		p.section-intro__info {
+			line-height: 27px;
+			@media(min-width:768px){ 
+				line-height: 28px;
+			}
+			@media(min-width:992px){ 
+				line-height: 32px;
+			}
+		}
 
 	}
 }

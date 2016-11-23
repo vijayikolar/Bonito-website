@@ -1,0 +1,130 @@
+
+.about-us-video-section {
+	@include sectionPadding;
+	background:$bg-light-blue;
+}
+.about-us-video-banner-img {
+	width:100%;
+}
+.about-us-video-section-container {
+	position:relative
+}
+.about-us-video-banner__wraper {
+	position:relative;
+}
+.about-us-video-banner-icon  {
+	font-size:50px;
+	color:$white;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translarte(-50%, -50%);
+	@media(min-width:768px){ 
+		left:35%;
+	}
+	@media(min-width:992px){ 
+		left:40%;
+	}
+}
+
+
+
+.about-us-video-content {
+	background:$white;
+	padding:35px 35px 30px 35px;
+	    box-shadow: 0 1px 3px 2px rgba(204,204,204,.42);
+	@media(min-width:768px){
+			padding:65px 25px 35px 25px;
+			position:absolute;
+			left:-130px;
+			top:50%;
+			// transform:translateY(-50%);
+	}
+	@media(min-width:992px){
+		padding: 55px 40px 40px 40px;
+	    transform: translateY(25%);
+	    top: 0;
+	}
+
+	&__quote {
+		color:$black666;
+		font-family: 'Monteserrat-Regular';
+		font-size: 13px;
+		font-style: italic;
+		line-height: 26px;
+		padding-bottom:15px;
+		@media(min-width:768px){
+			// font-size: 12px;
+			// line-height: 24px;
+		}
+		@media(min-width:992px){
+			    font-size: 18px;
+    			line-height: 35px;
+		}
+	}
+	&__quote-by {
+		color: $black666;
+		font-family: 'Lato-Regular';
+		font-weight:600;
+		font-size: 16px;
+		line-height: 26px;
+		padding-bottom:5px;
+		text-transform: uppercase;
+		@media(min-width:768px){
+			font-size: 14px;
+			line-height: 24px;
+		}
+		@media(min-width:768px){
+			// font-size: 16px;
+			// line-height: 26px;
+		}
+		@media(min-width:992px){
+			font-size: 14px;
+			line-height: 24px;
+			display: inline-block;
+		}
+
+		
+	}
+	&__quote-about {
+		color: $black999;
+		font-family: 'Lato-Regular';
+		font-size: 13px;
+		line-height: 22px;
+		@media(min-width:768px){
+			// font-size: 18px;
+			// line-height: 28px;
+		}
+		@media(min-width:992px){
+			font-size: 16px;
+			line-height: 26px;
+			display: inline-block;
+			padding-left:8px;
+		}
+	}
+
+	&__quote-icon{
+		    position: absolute;
+		    top: -20px;
+		    left: 50%;
+    		transform: translateX(-50%);
+			
+    		@media(min-width:768px){
+				height: 40px;
+				top: 10px;
+    		 }
+
+    		 @media(min-width:992px){
+				height: 55px;
+				top: -35px;
+    		 }
+	}
+}
+
+.button-default--about-us-video {
+	margin:50px 15px 0 15px;
+
+	@media(min-width:768px){
+		margin:100px 0 0 0;
+	}
+}

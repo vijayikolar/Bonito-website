@@ -1,0 +1,76 @@
+.our-work {
+	@include sectionPadding;
+	// background:$bg-light-blue;
+}
+
+.our-work-wraper {
+}
+
+.work-list {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+
+    &__item {
+    	margin-bottom:30px;
+    	flex: 1 0 auto;
+    }
+    &__link {
+    	position:relative;
+    	&::before {
+		   	content: '';
+		    position: absolute;
+		    left: 0;
+		    top: 0;
+		    width: 100%;
+		    height: 100%;
+		    display: inline-block;
+		    background: -moz-linear-gradient(top, transparent 50%, rgba(0, 0, 0, 0.8) 100%);
+		    background: -webkit-gradient(linear, left top, left bottom, color-stop(30%, rgba(0, 0, 0, 0.8)), color-stop(100%, transparent));
+		    background: -webkit-linear-gradient(top, transparent 50%, rgba(0, 0, 0, 0.8) 100%);
+		    background: -o-linear-gradient(top, transparent 50%, rgba(0, 0, 0, 0.8) 100%);
+		    background: -ms-linear-gradient(top, transparent 50%, rgba(0, 0, 0, 0.8) 100%);
+		    background: linear-gradient(to bottom, transparent 50%, rgba(0, 0, 0, 0.8) 100%);
+		    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 );
+	   }
+	}
+
+	&__caption {
+		position:absolute;
+		bottom:15px;
+		left:50%;
+		width:100%;
+		transform: translateX(-50%);
+		color:$white;
+		text-align:center;
+	}
+
+	&__owner {
+		font-family: 'Monteserrat-Regular';
+		font-size: 14px;
+		font-weight: 500;
+		line-height: 24px;
+		text-transform: uppercase;
+		@media(min-width:992px){
+			font-size: 22px;
+			line-height: 32px;
+		}
+	}
+
+	&__info{
+		font-family: 'Lato-Light';
+		font-size: 13px;
+		line-height: 22px;
+		font-weight: 300;
+		@media(min-width:768px){
+			font-size: 14px;
+			line-height: 24px;
+		}
+		@media(min-width:992px){
+			font-size: 18px;
+			line-height: 28px;
+		}
+	}
+}
