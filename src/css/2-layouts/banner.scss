@@ -1,0 +1,19 @@
+  
+ @each $banners in banner-slider, our-story-banner {
+   .#{$banners} {
+     background-image: url('../img/#{$banners}.png');
+    background-repeat: no-repeat;
+   }
+}
+
+// banners styling
+
+.banner-slider{
+	height: 538px;
+	background-size: contain;
+	background-position-x: 100%;
+}
+.our-story-banner{
+	height: 765px;
+	background-size: cover;
+}

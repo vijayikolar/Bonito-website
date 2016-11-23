@@ -11,9 +11,18 @@ $bg-medium-blue:#e8f4f7;
 //other colors
 $btn-border:#606364;
 
+// font-sizes 
+
+$fnt-xxs: 12px;
+$fnt-xs: 14px;
+$fnt-sm: 18px;
+$fnt-md: 20px;
+
 body {
 	font-family: 'Lato', sans-serif;
 }
+
+// Typography styles
 
 h1 {
 	font-family: 'Monteserrat-Regular';
@@ -22,6 +31,7 @@ h1 {
 	@media(min-width:768px){ 
 		font-size: 44px;
 		line-height: 44px;
+		letter-spacing: 4px;
 	}
 	@media(min-width:992px){ 
 		font-size: 52px;
@@ -57,19 +67,38 @@ p {
 }
 
 .button-default {
-	padding: 15px 40px;
-	display:inline-block;
-	border:1px solid $btn-border;
-	text-align:center;
-	text-transform:uppercase;
-	color: $light-black;
-	font-size:16px;
-	transition: all 0.6s ease;
-	&:hover {
-		color: $white;
-		background: $light-black
-	}
+   padding: 15px 40px;
+   display:inline-block;
+   border:1px solid $btn-border;
+   text-align:center;
+   text-transform:uppercase;
+   color: $light-black;
+   font-size:16px;
+   transition: all 0.6s ease;
+   &:hover {
+      color: $white;
+      background: $light-black
+   }
+  &--brand{
+   background: transparent;
+   border: 1px solid $white;
+   color: $white;
+  }
+  @media(min-width:768px){
+  	
+  }
 }
+
+// common colors 
+
+.item-white{
+	color: $white;
+}
+
+.posit-relative{
+	position: relative;;
+}
+
 
 .rectangular-border {
 	 border: 1px solid #191616;
@@ -87,8 +116,18 @@ p {
 .text-center {
 	text-align:center;
 }
+
+// removing paragraphs
+
+.our-clients, .our-story{
+	p{
+		display: none;;
+	}
+}
+
+
 @mixin sectionPadding(){
-	padding:50px 0;
+	padding:35px 0;
 
 	@media(min-width:768px){
 		padding:50px 0;

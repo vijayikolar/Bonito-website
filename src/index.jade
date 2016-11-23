@@ -5,15 +5,29 @@ head
 	title 
 	link(rel="stylesheet", href="css/main.css")
 	
-bodygit git 
+body
 	main
+
 		include jade-components/base/header-nav
+
+		include jade-components/home/banner-slider
 		
 		//about bonito section
-		include jade-components/home/about-bonito.jade
+		
+		include jade-components/home/about-bonito
 
 		//our services seciton
-		include jade-components/home/our-services.jade
+		include jade-components/home/our-services
+
+		// our-clients
+
+		include jade-components/home/our-clients
+
+		// our-story
+
+		include jade-components/home/our-story
+
+		// footer
 
 		include jade-components/base/footer
 
