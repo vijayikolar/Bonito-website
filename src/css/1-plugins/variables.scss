@@ -3,6 +3,8 @@
 $dark-blue:#00355f;
 $white :#fff;
 $black:#000;
+$black666:#666;
+$black999:#999;
 $light-black:#181818;
 
 //background colors
@@ -99,6 +101,29 @@ p {
 	position: relative;;
 }
 
+.button-filled {
+	color: $white;
+	background: $dark-blue;
+	&:hover {
+		border:1px solid $dark-blue;
+		background:$white;
+		color: $dark-blue;
+	}
+}
+
+.cta-link {
+	display:inline-block;
+	font-family: 'Lato-Regular';
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 34px;
+	color:$dark-blue;
+	text-transform:uppercase;
+	cursor: pointer;
+	&:hover {
+		text-decoration: none;
+	}
+}
 
 .rectangular-border {
 	 border: 1px solid #191616;
@@ -113,6 +138,25 @@ p {
 	    top: -20px;
 	    bottom:0;
 }
+
+.rectangular-border-bottom-right {
+	 border: 1px solid #191616;
+    position: absolute;
+    bottom: -20px;
+    right: 0;
+    width: calc(100% - 30px);
+    height: 100%;
+    @media(min-width:768px){ 
+		width: calc(100% - 25px);
+    	right: -5px;
+    }  
+    @media(min-width:768px){ 
+		// width: calc(100% - 25px);
+		width:100%;
+    	right: -20px;
+    }      
+}
+
 .text-center {
 	text-align:center;
 }

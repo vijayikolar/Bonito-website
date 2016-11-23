@@ -5,7 +5,9 @@ head
 	title 
 	link(rel="stylesheet", href="css/main.css")
 	
+
 body
+
 	main
 
 		include jade-components/base/header-nav
@@ -17,6 +19,7 @@ body
 		include jade-components/home/about-bonito
 
 		//our services seciton
+
 		include jade-components/home/our-services
 
 		// our-clients
@@ -29,7 +32,21 @@ body
 
 		// footer
 
+		include jade-components/home/our-services.jade
+		
+		//our work section
+		include jade-components/home/our-work.jade
+		
+		//abou-tus videos section
+		include jade-components/home/about-us-videos.jade
+		
+		//our blog section
+		include jade-components/home/our-blog.jade
+
+
 		include jade-components/base/footer
 
 	script(src="js/plugins/jquery.min.js")
 	script(src="js/plugins/bootstrap.min.js")
+
+
