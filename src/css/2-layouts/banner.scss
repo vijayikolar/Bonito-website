@@ -1,4 +1,4 @@
-  
+
  @each $banners in banner-slider__img, our-story-banner {
    .#{$banners} {
      background-image: url('../img/#{$banners}.png');
@@ -75,6 +75,7 @@
 		font-size: 12px;
 		font-weight: 500;
 		line-height: 23px;
+		letter-spacing: 3px;
 		text-transform: uppercase;
 		@media(min-width:768px){ 
 			font-size: 20px;
