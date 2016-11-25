@@ -33,39 +33,25 @@
 					}
 				}
 
-				// slick slider 
-			// 		$(".our-clients-slider").not('.slick-initialized').slick({					
-			// 		arrows : false,
-			// 		dots : false,
-			// 		infinite : true,
-			// 		speed : 350,
-			// 		slidesToShow : 1,
-			// 		slidesToScroll : 1,
-			// 		centerMode : true,
-			// 		centerPadding : '40px',
-			// 		variableWidth : true,	
-			// 		loop : true,
-			// 		cssEase : 'cubic-bezier(0.25, 0.1, 0.24, 1.26)',
-			// 		autoplay : false,
-			// 		responsive : [{
-			// 			breakpoint : 768,
-			// 			settings : {
-			// 				slidesToShow : 1,
-			// 				slidesToScroll : 1
-			// 			}
-			// 		}, {
-			// 			breakpoint : 3000,
-			// 			settings : "unslick"
-			// 		}]
-
-			// });
+				// clients slider 
 
 				$('.our-clients-slider').slick({
 				  slidesToShow: 3,
 				  slidesToScroll: 1,
 				  arrows : false,
 				  dots : false,
-				  autoplay: false,
+				  autoplay: true,
+				  infinite: true
+				});
+
+				// banner-slider
+
+				$('.carousel-inner').slick({
+				  slidesToShow: 1,
+				  slidesToScroll: 1,
+				  arrows : false,
+				  dots : true,
+				  autoplay: true,
 				  infinite: true
 				});
 

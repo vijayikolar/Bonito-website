@@ -19,9 +19,11 @@
   font-size: 12px;
   line-height: 24px;
   text-transform: uppercase;
+  font-family: 'Lato-Light';
+  -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
   // tablet and desktop
   @media (min-width: 768px) {
-    font-size: 14px;
     padding: 10px 20px;
   }
 }

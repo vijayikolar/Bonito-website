@@ -136,3 +136,35 @@
 .slick-arrow.slick-hidden {
     display: none;
 }
+
+// slick indicators 
+
+
+.slick-dots{
+	position: absolute;
+    top: 50%;
+    right: 15px;
+       text-align:center;
+       li{
+           display: block;
+           margin: 0 10px;
+           button{
+           border:0;
+           text-indent:-9999px;
+           outline: 0;
+           background-color:transparent;
+           border:1.5px solid $dark-blue;
+           height: 0;
+           padding:3px;
+           &:hover{
+               background-color: $dark-blue;
+            }
+           }            
+       }
+   }
+.slick-dots li.slick-active button{
+	background-color: $dark-blue;
+}
+
+
+
