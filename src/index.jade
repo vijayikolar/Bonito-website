@@ -4,7 +4,6 @@ head
 	meta(name="viewport", content="width=device-width, initial-scale=1")
 	title 
 	link(rel="stylesheet", href="css/main.css")
-	
 
 body
 
@@ -22,6 +21,9 @@ body
 
 		include jade-components/home/our-services
 
+		//our work section
+		include jade-components/home/our-work.jade
+
 		// our-clients
 
 		include jade-components/home/our-clients
@@ -29,24 +31,26 @@ body
 		// our-story
 
 		include jade-components/home/our-story
-
-		// footer
-
-		include jade-components/home/our-services.jade
-		
-		//our work section
-		include jade-components/home/our-work.jade
-		
+				
 		//abou-tus videos section
+
 		include jade-components/home/about-us-videos.jade
 		
 		//our blog section
+
 		include jade-components/home/our-blog.jade
 
+		//get-in-touch
+	
+		include jade-components/home/get-in-touch.jade
 
 		include jade-components/base/footer
 
 	script(src="js/plugins/jquery.min.js")
 	script(src="js/plugins/bootstrap.min.js")
+	script(src="js/plugins/slick.min.js")
+	script(src="js/plugins/classie.js")  	
+	script(src="js/plugins/main.js")
+
 
 
