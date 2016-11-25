@@ -7150,10 +7150,12 @@ p {
   color: #181818;
   font-size: 12px;
   line-height: 24px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  font-family: 'Lato-Light';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
   @media (min-width: 768px) {
     #bnt-header-menu.navbar-default .navbar-nav > li > a {
-      font-size: 14px;
       padding: 10px 20px; } }
 
 .navbar-default {
@@ -7696,6 +7698,28 @@ div.services:last-of-type {
 
 .slick-arrow.slick-hidden {
   display: none; }
+
+.slick-dots {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  text-align: center; }
+  .slick-dots li {
+    display: block;
+    margin: 0 10px; }
+    .slick-dots li button {
+      border: 0;
+      text-indent: -9999px;
+      outline: 0;
+      background-color: transparent;
+      border: 1.5px solid #00355f;
+      height: 0;
+      padding: 3px; }
+      .slick-dots li button:hover {
+        background-color: #00355f; }
+
+.slick-dots li.slick-active button {
+  background-color: #00355f; }
 
 .our-story {
   padding: 35px 0; }
