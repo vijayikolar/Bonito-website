@@ -1,10 +1,11 @@
 
 //Font-colors
 $dark-blue:#00355f;
-$white :#fff;
-$black:#000;
-$black666:#666;
-$black999:#999;
+$white :#ffffff;
+$black:#000000;
+$black666:#666666;
+$black999:#999999;
+$black333:#333333;
 $light-black:#181818;
 
 //background colors
@@ -55,23 +56,25 @@ h2 {
 
 p {
 	  font-family: 'Lato-Light';
+	  font-weight: 600;
+	  letter-spacing: 1px;
 	  font-size: 13px;
 	  line-height: 23px;
-	  color:$light-black;
+	  color:$black333;
 	  @media(min-width:768px){
 		 font-size: 14px;
 	 	 line-height: 24px;
 		}
 		@media(min-width:992px){
-			font-size: 16px;
-		  	line-height: 26px;
+			font-size: 15px;
+		  	line-height: 28px;
 		}
 }
 
 .button-default {
    padding: 15px 40px;
    display:inline-block;
-   border:1px solid $btn-border;
+   border:1px solid $dark-blue;
    text-align:center;
    text-transform:uppercase;
    color: $light-black;
@@ -79,7 +82,7 @@ p {
    transition: all 0.6s ease;
    &:hover {
       color: $white;
-      background: $light-black;
+      background: $dark-blue;
       text-decoration: none;
    }
   &--brand{
@@ -173,11 +176,13 @@ p {
 			bottom: -40px;
 	    }
 	    @media(min-width:1200px){ 
-			width:calc(100% - 280px);
-			left: 130px;
+			 width: calc(100% - 370px);
+    		left: 200px;
 			bottom: -45px;
 	    }
 }
+
+
 
 .text-center {
 	text-align:center;
@@ -256,3 +261,5 @@ p {
 	justify-content:center;
 	align-items:center;
 }
+
+

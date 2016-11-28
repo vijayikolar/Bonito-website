@@ -57,3 +57,15 @@
        url('../fonts/Lato-Regular/Lato-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
        url('../fonts/Lato-Regular/Lato-Regular.svg#Lato-Regular') format('svg'); /* Legacy iOS */
 }
+
+
+
+@font-face {
+  font-family: 'PlayfairDisplay-Regular';
+  src: url('../fonts/PlayfairDisplay-Regular/PlayfairDisplay-Regular.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/PlayfairDisplay-Regular/PlayfairDisplay-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/PlayfairDisplay-Regular/PlayfairDisplay-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/PlayfairDisplay-Regular/PlayfairDisplay-Regular.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/PlayfairDisplay-Regular/PlayfairDisplay-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/PlayfairDisplay-Regular/PlayfairDisplay-Regular.svg#PlayfairDisplay-Regular') format('svg'); /* Legacy iOS */
+}

@@ -49,25 +49,26 @@
 	}
 
 	&__quote {
-		color:$black666;
-		font-family: 'Monteserrat-Regular';
+		color:$black;
+		font-family: 'PlayfairDisplay-Regular';
 		font-size: 13px;
-		font-style: italic;
 		line-height: 26px;
+		
 		padding-bottom:15px;
 		@media(min-width:768px){
 			// font-size: 12px;
 			// line-height: 24px;
+			padding-bottom:20px;
 		}
 		@media(min-width:992px){
-			    font-size: 18px;
-    			line-height: 35px;
+			    font-size: 20px;
+    			line-height: 40px;
+
 		}
 	}
 	&__quote-by {
 		color: $black666;
-		font-family: 'Lato-Regular';
-		font-weight:600;
+		font-family: 'Lato-Black';
 		font-size: 16px;
 		line-height: 26px;
 		padding-bottom:5px;

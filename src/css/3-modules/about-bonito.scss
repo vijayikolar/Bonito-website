@@ -7,10 +7,14 @@
 	 	align-items:flex-end;
  	}
  }
+
 .about-bonito {
 	@include sectionPadding;
 
 	&__info {
+		@media(min-width:1200px){
+			padding-left:30px;
+		}
 		h2 {
 
 			&::before {
@@ -25,15 +29,16 @@
 		.section-intro__heading, .section-intro__info {
 			text-align:left;
 		}
-		p.section-intro__info {
-			line-height: 27px;
-			@media(min-width:768px){ 
-				line-height: 28px;
-			}
-			@media(min-width:992px){ 
-				line-height: 32px;
-			}
-		}
+
+		// p.section-intro__info {
+		// 	line-height: 27px;
+		// 	@media(min-width:768px){ 
+		// 		line-height: 28px;
+		// 	}
+		// 	@media(min-width:992px){ 
+		// 		line-height: 32px;
+		// 	}
+		// }
 
 	}
 }
@@ -44,6 +49,14 @@
 
 	@media(min-width:768px){
 		margin-bottom: 0;
+	}
+
+	&__img {
+		height:400px;
+		width: 100%;
+		@media(min-width:768px){
+			height:auto;
+		}
 	}
 
 }
