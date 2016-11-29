@@ -1,0 +1,26 @@
+// portpolio
+
+.portfolio-details{
+	margin-top: 80px;
+	padding-top: 70px;
+}
+
+// project-heading pannel
+
+.project-heading{
+	// @include sectionPadding;
+	.section-intro__heading, .section-intro__info{
+		text-align: left;
+	}
+	.section-intro__heading{
+		&::before{
+			left:0;
+			transform: translateX(0%);
+		}
+	}
+	.section-intro__info{
+		margin:0;
+		max-width: auto !important;
+		padding-bottom: 30px;
+	}
+}

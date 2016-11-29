@@ -82,13 +82,13 @@ p {
       background: $light-black;
       text-decoration: none;
    }
-  &--brand{
+  &--white{
    background: transparent;
    border: 1px solid $white;
    color: $white;
    &:hover{
    		background: $white;
-   		color: $btn-border;
+   		color: $dark-blue;
    }
   }
 }
@@ -225,7 +225,6 @@ p {
 	}
 
 }
-
 
 @mixin sectionPadding(){
 	padding:35px 0;

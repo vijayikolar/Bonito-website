@@ -144,7 +144,8 @@
 	position: absolute;
     top: 50%;
     right: 15px;
-       text-align:center;
+    text-align:center;
+    transform: translateY(50%);
        li{
            display: block;
            margin: 0 10px;

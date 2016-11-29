@@ -4,7 +4,10 @@
 }
 
 .contact-form{
-	margin-top:70px;
+	margin-top:35px;
+	@media(min-width:768px){ 
+		margin-top:70px;
+	}
 }
 
 .input {
@@ -62,6 +65,10 @@
 	overflow: hidden;
 	background: #fff;
 	width: 100%;
+	margin-bottom: 30px;
+	@media(min-width:768px){ 
+	
+	}
 }
 
 .input__field--kohana {
