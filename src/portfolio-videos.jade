@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+head
+	meta(charset="UTF-8")
+	meta(name="viewport", content="width=device-width, initial-scale=1")
+	title Bonito - Portfolio-Videos
+	link(rel="stylesheet", href="css/main.css")
+body
+
+	main
+		//navbar
+		include jade-components/base/header-nav
+		
+
+		section.about-us-video-section
+			.container
+				.row
+					.about-us-video-section-container.clearfix
+						.col-sm-7
+							.about-us-video-banner__wraper
+								img.about-us-video-banner-img(src="img/about-us-video-banner.png" alt="about-video-baner")
+								.rectangular-border-bottom-right
+								i.fa.fa-play-circle-o.about-us-video-banner-icon  
+
+						.col-sm-5.clearfix
+							.about-us-video-content
+								img.about-us-video-content__quote-icon(src="img/quote-icon.png")
+								.about-us-video-content__quote “I was pretty impressed with the Bonito videos that I saw on youtube and contacted them to furnish my apartment in Bangalore. Since I do not live in Bangalore, the entire project was managed online”
+								.about-us-video-content__quote-by Hemant Bajrangi,
+								.about-us-video-content__quote-about Happy bonito Customer
+
+
+		//footer
+		include jade-components/base/footer
+
+
+	script(src="js/plugins/jquery.min.js")
+	script(src="js/plugins/bootstrap.min.js")
+	//- script(src="js/plugins/slick.min.js")
+	script(src="js/plugins/classie.js")  	
+	//- script(src="js/plugins/main.js")
+	script(src="js/plugins/masonry.pkgd.min.js")
+	script(src="js//masonry-initialization.js")
+
+
+
+
+
