@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Bonito - Portfolio-Videos</title>
+  <link rel="stylesheet" href="css/main.css"/>
+</head>
+<body>
+  <main>
+    <!--navbar-->
+    <!--Created by manjunath on 11/22/2016.
+    -->
+    <header>
+      <nav id="bnt-header-menu" class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" class="navbar-toggle collapsed"><span class="sr-only">Toggle navigation</span><span class="icon-bar top-bar"></span><span class="icon-bar middle-bar"></span><span class="icon-bar bottom-bar"></span></button><a href="#" class="navbar-brand"><img src="img/logo.png" alt="Brand logo"/></a>
+          </div>
+          <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right nav-right--list">
+              <li class="nav-right--list__item"><a href="#">about-us</a></li>
+              <li class="nav-right--list__item"><a href="#">Our Portfolio</a></li>
+              <li class="nav-right--list__item"><a href="#">Blog</a></li>
+              <li class="nav-right--list__item"><a href="#">Contact Us</a></li>
+              <li class="nav-right--list__item"><a href="#">Squadro</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="bonito-maps">
+      <div class="container">
+        <div class="row">
+          <div class="map-wrapper clearfix">		
+            <div class="col-sm-8 col-md-9">
+              <div class="maps">
+                <div id="map_canvas" style="width:100%;height:550px" class="maps__map"></div>
+                <div id="map_canvas_2" style="width:100%;height:550px" class="maps__map"></div>
+                <div id="map_canvas_3" style="width:100%;height:550px" class="maps__map"></div>
+              </div>
+            </div>
+            <div class="col-xs-10 col-xs-offset-1 col-sm-5 col-md-4 address-wrapper">
+              <ul class="nav nav-tabs">
+                <li class="address-wrapper__adress active"><a id="address1" href="#map_canvas" data-toggle="tab" class="active"> 
+                    <h3 class="address-wrapper__heading">Bonito Designs (South) Bangalore</h3></a>
+                  <address class="address-wrapper__info">#2362, 24th Main Road Sector 1,
+                    <HSR>Layout Bengaluru, Karnataka 560102</HSR>
+                  </address>
+                </li>
+                <li class="address-wrapper__adress"><a id="address2" href="#map_canvas_2" data-toggle="tab"> 
+                    <h3 class="address-wrapper__heading">Bonito Designs (North) Bangalore</h3></a>
+                  <address class="address-wrapper__info">#324, 7th Cross Rd, Defence Colony,
+                    <Sahakara>Nagar, Bengaluru, Karnataka 560092</Sahakara>
+                  </address>
+                </li>
+                <li class="address-wrapper__adress"><a id="address3" href="#map_canvas_3" data-toggle="tab"> 
+                    <h3 class="address-wrapper__heading">Bonito Factory</h3></a>
+                  <address class="address-wrapper__info">#35/2A, 6th main road, Singasandra
+                    <Industrial>Area, Bangalore - 560068</Industrial>
+                  </address>
+                </li>
+                <li class="address-wrapper__adress address-wrapper__adress--contact">
+                  <div class="address-wrapper__contact">
+                    <h3 class="address-wrapper__heading"> Email</h3><span class="address-wrapper__info">ramya@bonito.in</span>
+                  </div>
+                  <div class="address-wrapper__contact">
+                    <h3 class="address-wrapper__heading"> Phone</h3><span class="address-wrapper__info">+919019598877</span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="js/plugins/jquery.min.js"></script>
+  <script src="js/plugins/bootstrap.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+  <script src="js/plugins/map.js"></script>
+</body>
