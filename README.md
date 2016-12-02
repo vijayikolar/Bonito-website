@@ -1,5 +1,4 @@
-# Hakuna Matata Website #
-
+# Bonito #
 This README would document whatever steps are necessary to get your application up and running.
 
 ### Summary ###
