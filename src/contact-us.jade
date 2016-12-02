@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+head
+	meta(charset="UTF-8")
+	meta(name="viewport", content="width=device-width, initial-scale=1")
+	title Bonito - Portfolio-Videos
+	link(rel="stylesheet", href="css/main.css")
+body
+
+	main
+		//navbar
+		include jade-components/base/header-nav
+		
+		section.bonito-maps
+			.container
+				.row
+					.map-wrapper.clearfix		
+						.col-sm-8.col-md-9
+								.maps
+									#map_canvas.maps__map(style="width:100%;height:550px")
+									#map_canvas_2.maps__map(style="width:100%;height:550px")
+									#map_canvas_3.maps__map(style="width:100%;height:550px")
+
+							.col-xs-10.col-xs-offset-1.col-sm-5.col-md-4.address-wrapper
+								ul.nav.nav-tabs
+									li.address-wrapper__adress.active
+										a#address1.active(href='#map_canvas', data-toggle='tab') 
+
+											h3.address-wrapper__heading Bonito Designs (South) Bangalore
+										address.address-wrapper__info #2362, 24th Main Road Sector 1,
+													HSR Layout Bengaluru, Karnataka 560102
+
+									li.address-wrapper__adress
+										a#address2(href='#map_canvas_2', data-toggle='tab') 
+											h3.address-wrapper__heading Bonito Designs (North) Bangalore
+										address.address-wrapper__info #324, 7th Cross Rd, Defence Colony,
+											Sahakara Nagar, Bengaluru, Karnataka 560092
+
+									li.address-wrapper__adress
+										a#address3(href='#map_canvas_3', data-toggle='tab') 
+											h3.address-wrapper__heading Bonito Factory
+										address.address-wrapper__info #35/2A, 6th main road, Singasandra
+											Industrial Area, Bangalore - 560068
+
+									li.address-wrapper__adress.address-wrapper__adress--contact
+										.address-wrapper__contact
+											h3.address-wrapper__heading  Email
+											span.address-wrapper__info ramya@bonito.in
+
+										.address-wrapper__contact
+											h3.address-wrapper__heading  Phone
+											span.address-wrapper__info +919019598877
+
+
+
+	script(src="js/plugins/jquery.min.js")
+	//- script(src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCEZS9WrIL_JIUlw00ZeBo7fzB4xuWig_M&callback=initialize" async defer)
+	script(src="js/plugins/bootstrap.min.js")
+	//- script(src="https://maps.googleapis.com/maps/api/js")
+	script(src="https://maps.googleapis.com/maps/api/js?sensor=false")
+	script(src="js/plugins/map.js")
+
+
+
+
+
+

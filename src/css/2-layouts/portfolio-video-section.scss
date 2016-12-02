@@ -1,0 +1,117 @@
+
+
+.about-us-video-section.portfolio-video-section {
+	margin-top:80px;
+	padding:50px 0 30px 0;
+	background:$white;
+	@media(min-width:992px){ 
+		padding:50px 0 50px 0;
+	}
+}
+
+.about-us-video-content.portfolio-video {
+	padding:35px 35px 40px 35px;
+	@media(min-width:992px){  
+		padding:45px 45px 50px 45px;
+		transform: translateY(42%);
+	}
+
+}
+
+.portfolio-video {
+	&__heading {
+		font-family: 'Lato-Bold';
+		line-height: 34px;
+		font-size: 22px;
+		font-weight: 700;
+		color: $black;
+		@media(min-width:992px){
+			line-height: 24px;
+		}
+		@media(min-width:992px){
+			line-height: 34px;
+		}
+	}
+
+	&__sub-heading {
+		font-family: 'Lato-Regular';
+		font-size: 18px;
+		line-height: 24px;
+		font-weight: 500;
+		color: $black;
+		padding-top:10px;
+		@media(min-width:768px){
+			line-height: 34px;
+			padding-top:0;
+		}
+	}
+
+	&__info {
+		padding-top:20px;
+		@media(min-width:768px){
+			padding-top:12px;
+		}
+		@media(min-width:992px){
+			max-width: 400px;
+			width:100%;
+		}
+	}
+
+	&__design{
+		display: flex;
+		align-items:center;
+		margin-top:30px;
+		@media(min-width:992px){ 
+			margin-top:40px;
+		}
+	}
+
+	&__design-heading {
+		color: $black333;
+		font-size: 16px;
+		font-weight: 600;
+
+	}
+}
+
+.subscribe {
+	display: flex;
+	align-items:center;
+	&:hover {
+		text-decoration: none;
+	}
+	
+	&__content {
+		background:#ea4138;
+		padding:5px 6px;
+		&:hover {
+		cursor: pointer;
+	}
+
+	}
+	&__icon {
+		color:$white;
+		font-size: 16px;
+		padding-right:5px;
+	}
+	&__info {
+		color:$white;
+		font-size: 14px;
+	}
+	&__number{
+		padding:4px 6px;
+		border:1px solid #e1e1e1;
+		color:$black999;
+	}
+}
+
+.subscribe-wrapper {
+	padding-left:15px;
+}
+
+// portfolio our-work
+.our-work.portfolio-our-work {
+	.our-blog__intro p {
+		display: none;
+	}
+}
