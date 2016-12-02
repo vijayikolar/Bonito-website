@@ -68,6 +68,30 @@
 		  infinite: true
 		});
 
+	// box-slider for portfolio 
+	
+
+	 $('.project-banner-slider').slick({
+		  slidesToShow: 1,
+		  slidesToScroll: 1,
+		  arrows: false,
+		  fade: true,
+		  asNavFor: '.project-list'
+	});
+	$('.project-list').slick({
+		  slidesToShow: 5,
+		  slidesToScroll: 1,
+		  asNavFor: '.project-banner-slider',
+		  dots: false,
+		  centerMode: true,
+		  focusOnSelect: true,
+		  centerPadding: '100px',
+		  arrows: true,
+		  prevArrow: '<div class="slick-prev"></div>',
+	      nextArrow: '<div class="slick-next"></div>'
+		});
+		
+
 	//Pralallax image scroll Animation
 	
 	if (window.matchMedia('(min-width: 767px)').matches) {

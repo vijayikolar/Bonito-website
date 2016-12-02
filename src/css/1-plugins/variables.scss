@@ -23,6 +23,8 @@ $fnt-md: 20px;
 
 body {
 	font-family: 'Lato', sans-serif;
+	 -webkit-font-smoothing: antialiased;
+  	-moz-osx-font-smoothing: grayscale;
 }
 
 // Typography styles
@@ -161,8 +163,6 @@ p {
     	right: -20px;
     }      
 }
-
-
 .rectangular-border-banner {
 	 border: 1px solid #191616;
 	    position: absolute;
@@ -181,8 +181,6 @@ p {
 			bottom: -45px;
 	    }
 }
-
-
 
 .text-center {
 	text-align:center;
@@ -228,7 +226,6 @@ p {
 			}
 		}
 	}
-
 }
 
 @mixin sectionPadding(){
