@@ -27,14 +27,17 @@
         </div>
       </nav>
     </header>
-    <div class="banner-slider posit-relative">
-      <div class="container">
-        <div class="row">
-          <div class="banner-slider-rectangle">
-            <div class="banner-slider__content">
-              <sapn>Welcome to Bonito</sapn>
-              <h1>INTERIOR DESIGN STUDIO</h1>
-            </div>
+    <div class="banner-slider">
+      <div class="banner-slider-wraper">
+        <div class="banner-slider__img-wraper">
+          <ul role="listbox" class="carousel-inner">
+            <li class="item active"><img src="img/banner-slider__img.png" class="banner-slider__img"/></li>
+            <li class="item"><img src="img/banner-slider__img.png" class="banner-slider__img"/></li>
+            <li class="item"><img src="img/banner-slider__img.png" class="banner-slider__img"/></li>
+          </ul>
+          <div class="rectangular-border-banner"></div>
+          <div class="banner-slider__content"><span class="banner-slider__info">Welcome to Bonito- </span>
+            <h1 class="banner-slider__heading">INTERIOR DESIGN STUDIO</h1>
           </div>
         </div>
       </div>
@@ -61,77 +64,6 @@
       </div>
     </section>
     <!--our services seciton-->
-    <section class="our-services">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-10 col-sm-offset-1">
-            <div class="col-sm-10 col-sm-offset-1 our-services-intro">
-                            <h2 class="section-intro__heading">What we can do for you</h2>
-                            <p class="section-intro__info">Interior designing can be daunting at first; nevertheless, following are two important things that matter to you to begin with.</p>
-            </div>
-            <div class="col-sm-6 services">
-              <div class="col-sm-8 col-sm-offset-2">
-                <div class="services-icon">
-                  <div class="services-icon__wraper"><img src="img/design-only.png" alt="Design only" class="services-icon__img"/>
-                    <div class="rectangular-border rectangular-border-top"> </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-12 services-content-wraper">
-                <div class="services__heading">DESIGN ONLY</div>
-                <p class="services__info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
-              </div>
-            </div>
-            <div class="col-sm-6 services">
-              <div class="col-sm-8 col-sm-offset-2">
-                <div class="services-icon">
-                  <div class="services-icon__wraper"><img src="img/turnkey-project.png" alt="Design only" class="services-icon__img"/>
-                    <div class="rectangular-border rectangular-border-top"> </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-sm-12 services-content-wraper">
-                <div class="services__heading">TURNKEY PROJECTS</div>
-                <p class="services__info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-12 text-center">
-            <div class="button-default button-default--about-bonito button-default--our-services">know more</div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- our-clients-->
-    <!-- our-clients -->
-    <section class="our-clients">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-10 col-sm-push-1">
-                        <h2 class="section-intro__heading">Our clients</h2>
-                        <p class="section-intro__info"></p>
-            <!-- our clients logos -->
-            <ul class="our-clients__lists">
-              <li><img src="../img/clients/sattva-logo.png " alt="Sattva Brand-logo"/></li>
-              <li><img src="../img/clients/eden-greens.png" alt="Sattva Brand-logo"/></li>
-              <li><img src="../img/clients/brigrade-logo.png" alt="Sattva Brand-logo"/></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- our-story-->
-    <!--our-story-->
-    <section class="our-story">
-      <div class="container">
-        <div class="row">
-                    <h2 class="section-intro__heading">Who we are</h2>
-                    <p class="section-intro__info"></p>
-          <div class="our-story-banner"></div>
-        </div>
-      </div>
-    </section>
-    <!-- footer-->
     <section class="our-services">
       <div class="container">
         <div class="row">
@@ -241,6 +173,37 @@
         </div>
       </div>
     </section>
+    <!-- our-clients-->
+    <!-- our-clients -->
+    <section class="our-clients">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-10 col-sm-push-1">
+                        <h2 class="section-intro__heading">Our clients</h2>
+                        <p class="section-intro__info"></p>
+            <!-- our clients logos -->
+            <ul class="our-clients__lists our-clients-slider">
+              <li><img src="../img/clients/sattva-logo.png " alt="Sattva Brand-logo"/></li>
+              <li><img src="../img/clients/eden-greens.png" alt="Sattva Brand-logo"/></li>
+              <li><img src="../img/clients/brigrade-logo.png" alt="Sattva Brand-logo"/></li>
+              <li><img src="../img/clients/brigrade-logo.png" alt="Sattva Brand-logo"/></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- our-story-->
+    <!--our-story-->
+    <section class="our-story">
+      <div class="container">
+                <h2 class="section-intro__heading">Who we are</h2>
+                <p class="section-intro__info"></p>
+        <div class="our-story-banner"></div>
+        <div class="col-sm-10 col-sm-push-1">
+          <div class="white-patch white-patch--spacing text-center"><span> Each of our team member take up a very  special and unique role when it comes to designing and executing projects.</span><a class="button-default button-filled">MEET OUR TEAM</a> 	</div>
+        </div>
+      </div>
+    </section>
     <!--abou-tus videos section-->
     <section class="about-us-video-section">
       <div class="container">
@@ -293,6 +256,27 @@
         </div>
       </div>
     </section>
+    <!--get-in-touch-->
+    <!-- get-in touch contact form -->
+    <section class="get-in-touch">
+      <div class="container">
+                <h2 class="section-intro__heading">We want to hear from you</h2>
+                <p class="section-intro__info">Don't step back. It's your right to know if we're good for you. We'd be more than happy and waiting to offer our services for you.</p>
+        <div class="contact-form">
+          <form class="clearfix text-center">
+            <div class="col-sm-4"><span class="input input--kohana">
+                <input id="input-29" type="text" class="input__field input__field--kohana"/>
+                <label for="input-29" class="input__label input__label--kohana"><i class="fa fa-fw fa-clock-o icon icon--kohana"></i><span class="input__label-content input__label-content--kohana">	Full name</span></label></span></div>
+            <div class="col-sm-4"><span class="input input--kohana">
+                <input id="input-30" type="text" class="input__field input__field--kohana"/>
+                <label for="input-30" class="input__label input__label--kohana"><i aria-hidden="true" class="fa fa-envelope-o icon icon--kohana"></i><span class="input__label-content input__label-content--kohana">	yashna@bonito.com</span></label></span></div>
+            <div class="col-sm-4">		<span class="input input--kohana">
+                <input id="input-31" type="text" class="input__field input__field--kohana"/>
+                <label for="input-31" class="input__label input__label--kohana"><i class="fa fa-fw fa-clock-o icon icon--kohana"></i><span class="input__label-content input__label-content--kohana">	Contact Number</span></label></span></div><a class="button-default button-default--about-bonito">submit			</a>
+          </form>
+        </div>
+      </div>
+    </section>
     <!--
     Created by manjunath on 11/22/2016.
     
@@ -324,4 +308,7 @@
   </main>
   <script src="js/plugins/jquery.min.js"></script>
   <script src="js/plugins/bootstrap.min.js"></script>
+  <script src="js/plugins/slick.min.js"></script>
+  <script src="js/plugins/classie.js"> 	</script>
+  <script src="js/plugins/main.js"></script>
 </body>
