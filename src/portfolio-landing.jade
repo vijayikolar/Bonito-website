@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+head
+	meta(charset="UTF-8")
+	meta(name="viewport", content="width=device-width, initial-scale=1")
+	title Bonito - Portfolio-Landing
+	link(rel="stylesheet", href="css/main.css")
+body
+
+	main
+		//navbar
+		include jade-components/base/header-nav
+		
+		//main-video section
+		section.portfolio-all-projects
+			.container
+				.row 
+					.col-sm-12.section-intro-left
+						include  jade-components/comman/section-intro.jade
+						+section-intro("All Projects", "Interior designing is not just to impress your guests but also to ensure that when you’re away from your beautiful home, it makes you want to come back. That’s what we do.")
+
+					.col-sm-12.portfolio-filters
+						.portfolio-filters__heading 
+								span.portfolio-filters__heading-info filters
+						.portfolio-filters__info.filters
+							.filters__heading
+								.fa.fa-close.filters__close-btn
+								.filters__close-heading filters	
+							.filters__content
+								#accordion.panel-group
+									.panel.panel-default
+										.panel-heading
+											h3.panel-title
+												a(data-toggle='collapse', data-parent='#accordion', href='#collapse1') Collapsible Group 1
+												i.indicator.fa.fa-minus
+										#collapse1.panel-collapse.collapse.in
+											.panel-body
+												.col-sm-6.col-md-4
+													label 
+														input(type="checkbox" name="apartment-name")
+														span.check-box apartment-name
+
+									.panel.panel-default
+										.panel-heading
+											h3.panel-title
+												a(data-toggle='collapse', data-parent='#accordion', href='#collapse2') Collapsible Group 1
+												i.indicator.fa.fa-plus
+										#collapse2.panel-collapse.collapse
+											.panel-body
+												p second tab
+
+									.panel.panel-default
+										.panel-heading
+											h3.panel-title
+												a(data-toggle='collapse', data-parent='#accordion', href='#collapse3') Collapsible Group 1
+												i.indicator.fa.fa-plus
+										#collapse3.panel-collapse.collapse
+											.panel-body
+												p third tab
+
+
+
+
+
+
+
+					.our-work-wraper.col-sm-12
+
+						ul.image-thumbnail
+							//- .col-sm-6
+							li.image-thumbnail__item.grid
+								figure.image-thumbnail__link.effect-bubba(href="#")
+									img.image-thumbnail__img(src="/img/work1.png", alt="our work images")
+									figcaption
+										.image-thumbnail__caption
+											h3.image-thumbnail__owner Mr. Shaman Ahuja
+											p.image-thumbnail__info 3bhk home interiors in Salarpuria Senorita
+
+							li.image-thumbnail__item.grid
+								figure.image-thumbnail__link.effect-bubba(href="#")
+									img.image-thumbnail__img(src="/img/work4.png", alt="our work images")
+									figcaption
+										.image-thumbnail__caption
+											h3.image-thumbnail__owner Mr. Shaman Ahuja
+											p.image-thumbnail__info 3bhk home interiors in Salarpuria Senorita
+
+							li.image-thumbnail__item.grid
+								figure.image-thumbnail__link.effect-bubba(href="#")
+									img.image-thumbnail__img(src="/img/work2.png", alt="our work images")
+									figcaption
+										.image-thumbnail__caption
+											h3.image-thumbnail__owner Mr. Shaman Ahuja
+											p.image-thumbnail__info 3bhk home interiors in Salarpuria Senorita
+							//- .col-sm-6
+							li.image-thumbnail__item.grid
+								figure.image-thumbnail__link.effect-bubba(href="#")
+									img.image-thumbnail__img(src="/img/work5.png", alt="our work images")
+									figcaption
+										.image-thumbnail__caption
+											h3.image-thumbnail__owner Mr. Shaman Ahuja
+											p.image-thumbnail__info 3bhk home interiors in Salarpuria Senorita
+
+							li.image-thumbnail__item.grid
+								figure.image-thumbnail__link.effect-bubba(href="#")
+									img.image-thumbnail__img(src="/img/work3.png", alt="our work images")
+									figcaption
+										.image-thumbnail__caption
+											h3.image-thumbnail__owner Mr. Shaman Ahuja
+											p.image-thumbnail__info 3bhk home interiors in Salarpuria Senorita
+
+							li.image-thumbnail__item.grid
+								figure.image-thumbnail__link.effect-bubba(href="#")
+									img.image-thumbnail__img(src="/img/work6.png", alt="our work images")
+									figcaption
+										.image-thumbnail__caption
+											h3.image-thumbnail__owner Mr. Shaman Ahuja
+											p.image-thumbnail__info 3bhk home interiors in Salarpuria Senorita
+
+
+
+		//footer
+		include jade-components/base/footer
+
+
+	script(src="js/plugins/jquery.min.js")
+	script(src="js/plugins/bootstrap.min.js")
+	//- script(src="js/plugins/slick.min.js")
+	script(src="js/plugins/classie.js")  	
+	//- script(src="js/plugins/main.js")
+	script(src="js/plugins/masonry.pkgd.min.js")
+	script(src="js/masonry-initialization.js")
+	script(src="js/filtars.js")
+
+
+
+
+

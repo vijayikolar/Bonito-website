@@ -1,4 +1,4 @@
-// portpolio
+//comman css for portfolio-details page
 
 .portfolio-details{
 	margin-top: 80px;
@@ -23,4 +23,157 @@
 		max-width: auto !important;
 		padding-bottom: 30px;
 	}
+}
+
+
+
+//comman css for portfolio-landing page
+
+.portfolio-all-projects {
+		margin-top:80px;
+		@include sectionPadding;
+}
+
+.portfolio-filters{
+		position: relative;
+		&__heading {
+				font-family: 'Lato-Regular';
+				font-size: 14px;
+				font-weight: 500;
+				line-height: 34px;
+				color:$dark-blue;
+				text-transform: uppercase;
+				text-align: right;
+				padding:10px 0 30px 0;
+
+		}
+
+		&__heading-info {
+				cursor: pointer;
+		}
+
+		&__info {
+			background: #ccc;
+
+			 // visibility: hidden; /* hides sub-menu */
+			 //  opacity: 0;
+			 //  position: absolute;
+			 //  top: 100%;
+			 //  left: 0;
+			 //  width: 100%;
+			 //  transform: translateY(-2em);
+			 //  z-index: 1;
+			 //  transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
+		}
+
+		&:hover {
+			.portfolio-filters__info {
+			// visibility: visible;
+			//   opacity: 1;
+			//   z-index: 1;
+			//   transform: translateY(0%);
+			//   transition-delay: 0s, 0s, 0.3s; 
+			}
+		}
+}
+
+.portfolio-filters__info--visible {
+	visibility: visible;
+	  opacity: 1;
+	  z-index: 1;
+	  transform: translateY(0%);
+	  transition-delay: 0s, 0s, 0.3s; 
+}
+
+.filters {
+	&__heading{
+		font-family: 'Lato-Regular';
+		font-size: 14px;
+		font-weight: 600;
+		line-height: 34px;
+		color:$dark-blue;
+		text-transform: uppercase;
+		padding:15px 20px;
+		border-bottom: 1px solid #e3e3e3;
+
+		@include flex-box(flex, center, flex-start);
+	}
+
+	&__close-btn {
+		font-size: 18px;
+		font-weight: 100;
+		padding-right:8px;
+	}
+
+	&__accordian-info {
+		display: none;
+	}
+
+	&__content {
+		.panel-default>.panel-heading {
+			    padding: 0;
+			   	border:none;
+			   	background:$white;
+		}
+		.panel-default>.panel-heading+.panel-collapse>.panel-body {
+			border:none;
+		}
+		.panel-group .panel+.panel {
+			margin-top: 0;
+		}
+		.panel-group .panel {
+		    margin-bottom: 0;
+		    border-radius: 0;
+		}
+		.panel-default {
+		   border:none;
+		   a:hover{
+		   	text-decoration: none;
+		   }
+		}
+
+		.panel-title {
+			color: $dark-blue;
+			font-family: 'Lato-Bold';
+			font-size: 16px;
+			line-height: 55px;
+			@media(min-width:768px){
+				font-size: 20px;
+			}
+		}
+
+
+	}
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+.check-box {
+	position:relative;
+	cursor: pointer;
+}
+input[type="checkbox"] + .check-box:before {
+    content: "\f096";
+    font-size: 16px;
+    transition: ease-in 150ms;
+    transform: scale(1);
+    max-width: 12px;
+}
+input[type="checkbox"]:checked + .check-box:before {
+    content: "\f14a";
+    color: #f59131;
+    transform: scale(1.1);
+}
+input[type="checkbox"] + .check-box:before
+ {
+    font-family: "fontAwesome";
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-transform: normal;
+    line-height: 1;
+    margin-right: 5px;
+    display: inline-block;
 }

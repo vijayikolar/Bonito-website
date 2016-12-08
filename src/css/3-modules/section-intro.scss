@@ -33,7 +33,7 @@
 		}
 		@media(min-width:992px){
 			padding-top:40px;
-			max-width: 500px;
+			max-width: 700px;
 			
 		}
 	}
@@ -46,5 +46,22 @@
 		transform: translateX(0%);
 	}
 
+}
+
+.section-intro-left {
+	.section-intro__heading, .section-intro__info {
+		text-align:left;
+	}
+
+	.section-intro__heading {
+		&:before {
+			left:0;
+			transform: translateX(0);
+		}
+	}
+
+	.section-intro__info {
+		margin:0;
+	}
 }
 

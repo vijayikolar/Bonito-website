@@ -104,3 +104,31 @@ p {
 	align-items:$align-item;
 	justify-content:$justify-content;
 }
+
+//comman checkbox
+
+input[type="checkbox"] {
+    display: none;
+}
+
+.check-box {
+position:relative;
+}
+input[type="checkbox"] + .check-box:before {
+    content: "\f096";
+    font-size: 16px;
+    transition: ease-in 150ms;
+    transform: scale(1);
+    max-width: 12px;
+}
+
+input[type="checkbox"] + .check-box:before, input[type="radio"] + .check-box:before {
+    font-family: "fontAwesome";
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-transform: normal;
+    line-height: 1;
+    margin-right: 5px;
+    display: inline-block;
+}
