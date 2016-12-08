@@ -102,7 +102,10 @@
 
 // project team-member-list
 
-.project-team{
+.projcet-team{
+	display: flex;
+	@include sectionPadding;
+    
 	&__member{
 		display: flex;
     	align-items: center;
@@ -114,5 +117,3 @@
     	}
 	}
 }
-
-
