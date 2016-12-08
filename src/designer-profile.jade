@@ -1,0 +1,204 @@
+doctype
+html
+	head
+		meta(charset="UTF-8")
+		meta(name="viewport", content="width=device-width, initial-scale=1")
+		title Bonito: Designer Profile
+		link(rel="stylesheet", href="css/main.css")
+	body
+		//START: Header
+		header
+			nav.navbar.navbar-default.navbar-fixed-top#bnt-header-menu
+				.container
+					.navbar-header
+						button.navbar-toggle.collapsed(type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1")
+							span.sr-only Toggle navigation
+							span.icon-bar.top-bar
+							span.icon-bar.middle-bar
+							span.icon-bar.bottom-bar
+						a.navbar-brand(href="#")
+							img(src="img/logo.png" alt="Brand logo")
+					.collapse.navbar-collapse#bs-example-navbar-collapse-1
+						ul.nav.navbar-nav.navbar-right.nav-right--list
+							li.nav-right--list__item
+								a(href="#") about-us
+							li.nav-right--list__item
+								a(href="#") Our Portfolio
+							li.nav-right--list__item
+								a(href="#") Blog
+							li.nav-right--list__item
+								a(href="#") Contact Us
+							li.nav-right--list__item
+								a(href="#") Squadro
+		//START: Main
+		main
+			//START: Designs from Pradeep
+			section.our-work.portfolio-our-work
+				.container
+					.row
+						.col-sm-8.col-sm-offset-2.our-blog__intro
+							include ./jade-components/comman/section-intro.jade
+							+section-intro("Designs from Pradeep", "")
+
+						.our-work-wraper.col-sm-12
+
+							ul.image-thumbnail
+								li.image-thumbnail__item.grid
+									figure.image-thumbnail__link.effect-bubba(href="#")
+										img.image-thumbnail__img(src="/img/work1.png", alt="our work images")
+										figcaption
+											.image-thumbnail__caption
+												a.about-us-video-banner-icon.video#open-popup
+													i.fa.fa-play 
+												h3.image-thumbnail__owner Mr. Shaman Ahuja
+												p.image-thumbnail__info 3bhk home interiors in Salarpuria Senorita
+												
+
+								li.image-thumbnail__item.grid
+									figure.image-thumbnail__link.effect-bubba(href="#")
+										img.image-thumbnail__img(src="/img/work4.png", alt="our work images")
+										figcaption
+											.image-thumbnail__caption
+												a.about-us-video-banner-icon.video#open-popup
+													i.fa.fa-play
+												h3.image-thumbnail__owner Mr. Shaman Ahuja
+												p.image-thumbnail__info 3bhk home interiors in Salarpuria Senorita
+
+								li.image-thumbnail__item.grid
+									figure.image-thumbnail__link.effect-bubba(href="#")
+										img.image-thumbnail__img(src="/img/work2.png", alt="our work images")
+										figcaption
+											.image-thumbnail__caption
+												a.about-us-video-banner-icon.video#open-popup
+													i.fa.fa-play
+												h3.image-thumbnail__owner Mr. Shaman Ahuja
+												p.image-thumbnail__info 3bhk home interiors in Salarpuria Senorita
+
+								li.image-thumbnail__item.grid
+									figure.image-thumbnail__link.effect-bubba(href="#")
+										img.image-thumbnail__img(src="/img/work5.png", alt="our work images")
+										figcaption
+											.image-thumbnail__caption
+												a.about-us-video-banner-icon.video#open-popup
+													i.fa.fa-play
+												h3.image-thumbnail__owner Mr. Shaman Ahuja
+												p.image-thumbnail__info 3bhk home interiors in Salarpuria Senorita
+
+								li.image-thumbnail__item.grid
+									figure.image-thumbnail__link.effect-bubba(href="#")
+										img.image-thumbnail__img(src="/img/work3.png", alt="our work images")
+										figcaption
+											.image-thumbnail__caption
+												a.about-us-video-banner-icon.video#open-popup
+													i.fa.fa-play
+												h3.image-thumbnail__owner Mr. Shaman Ahuja
+												p.image-thumbnail__info 3bhk home interiors in Salarpuria Senorita
+
+								li.image-thumbnail__item.grid
+									figure.image-thumbnail__link.effect-bubba(href="#")
+										img.image-thumbnail__img(src="/img/work6.png", alt="our work images")
+										figcaption
+											.image-thumbnail__caption
+												a.about-us-video-banner-icon.video#open-popup
+													i.fa.fa-play
+												h3.image-thumbnail__owner Mr. Shaman Ahuja
+												p.image-thumbnail__info 3bhk home interiors in Salarpuria Senorita
+			//Toughtful words
+			section.about-us-video-section
+				.container
+					.row
+						.col-sm-8.col-sm-offset-2.our-blog__intro
+							include jade-components/comman/section-intro.jade
+							+section-intro("Thoughtful words", "Each of us are different from one another. That’s what makes our work interesting as well as challenging. See what you hate and what you fall in love with from our videos.")
+						
+						.about-us-video-section-container.clearfix
+							.col-sm-7
+								.about-us-video-banner__wraper
+									img.about-us-video-banner-img(src="img/about-us-video-banner.png" alt="about-video-baner")
+									.rectangular-border-bottom-right
+									a.about-us-video-banner-icon.video#open-popup
+										i.fa.fa-play
+
+							.col-sm-5.clearfix
+								.about-us-video-content
+									img.about-us-video-content__quote-icon(src="img/quote-icon.png")
+									.about-us-video-content__quote “I was pretty impressed with the Bonito videos that I saw on youtube and contacted them to furnish my apartment in Bangalore. Since I do not live in Bangalore, the entire project was managed online”
+									.about-us-video-content__quote-by Hemant Bajrangi,
+									.about-us-video-content__quote-about Happy bonito Customer
+
+
+			//START: Rapidefire Questions
+			section.rapidfire-questions
+				.container
+					.row
+						.col-sm-8.col-sm-offset-2
+							h2.section-intro__heading Rapidfire questions
+							p.section-intro__info
+						.col-sm-10.col-md-11.col-sm-offset-1.col-md-offset-0
+							.rapidfire-qa-container
+								h2.rapidfire-que 01. What does good interior design mean to you?
+								p.rapidfire-ans “It is not just about the quality of service and the design we deliver to you; but also the experience that we both will cherish. We are fun to work with.  We understand that getting your home ready to occupy is your highest priority.”
+							
+							.rapidfire-qa-container
+								h2.rapidfire-que 02. What does good interior design mean to you?
+								p.rapidfire-ans “It is not just about the quality of service and the design we deliver to you; but also the experience that we both will cherish. We are fun to work with.  We understand that getting your home ready to occupy is your highest priority.”
+							
+							.rapidfire-qa-container
+								h2.rapidfire-que 03. What does good interior design mean to you?
+								p.rapidfire-ans “It is not just about the quality of service and the design we deliver to you; but also the experience that we both will cherish. We are fun to work with.  We understand that getting your home ready to occupy is your highest priority.”
+							
+							.rapidfire-qa-container
+								h2.rapidfire-que 04. What does good interior design mean to you?
+								p.rapidfire-ans “It is not just about the quality of service and the design we deliver to you; but also the experience that we both will cherish. We are fun to work with.  We understand that getting your home ready to occupy is your highest priority.”
+							
+							.rapidfire-qa-container
+								h2.rapidfire-que 05. What does good interior design mean to you?
+								p.rapidfire-ans “It is not just about the quality of service and the design we deliver to you; but also the experience that we both will cherish. We are fun to work with.  We understand that getting your home ready to occupy is your highest priority.”				
+
+
+		//START: Footer
+		footer
+			section.footer-info.text-center
+				.container
+					.row
+						ul.footer-blocks
+							li.col-xs-12.col-sm-4
+								.footer-blocks__items
+									span.footer-blocks__heading Need Help
+									.contact-info
+										span Email Id :
+											a(href="#") ramya@bonito.in
+										span Phone number :
+											a(href="tel: +9538509629") +9538509629
+							li.col-xs-12.col-sm-4
+								.footer-blocks__items
+									span.footer-blocks__heading want to join us?
+									a(href="#")
+										button.button-default.button-default--white Explore Careers                      
+
+							li.col-xs-12.col-sm-4
+								.footer-blocks__items
+									span.footer-blocks__heading Follow us
+									a.social-links(href="#" aria-hidden="true")
+										i.fa.fa-medium.item-white.social-links__medium
+									a.social-links(href="#" aria-hidden="true")
+										i.fa.fa-twitter.item-white.social-links__twitter
+									a.social-links(href="#" aria-hidden="true")
+										i.fa.fa-facebook.item-white.social-links__facebook
+									a.social-links(href="#" aria-hidden="true")
+										i.fa.fa-twitter.item-white.social-links__google
+
+			// copyright
+			section.copy-right.text-center
+				span Copyright 2013 Bonito Designs |  All rights reserved |  Crafted by 
+					a.item-white(href="#" target="_blank") Lollypop
+
+		//START: Scripts
+
+		script(src="js/plugins/jquery.min.js")
+		script(src="js/plugins/bootstrap.min.js")
+		//- script(src="js/plugins/slick.min.js")
+		script(src="js/plugins/classie.js")  	
+		//- script(src="js/plugins/main.js")
+		script(src="js/plugins/masonry.pkgd.min.js")
+		script(src="js//masonry-initialization.js")
