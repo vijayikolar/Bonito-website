@@ -25,6 +25,12 @@ body {
 	font-family: 'Lato', sans-serif;
 }
 
+//common font-family
+
+.fnt-Monteserrat-Regular{
+	font-family: 'Monteserrat-Regular';
+}
+
 // Typography styles
 
 h1 {
@@ -54,6 +60,17 @@ h2 {
 	}
 }
 
+h3{
+	font-size: 24px;
+	line-height: 34px;
+	@extend .fnt-Monteserrat-Regular;
+	font-weight: 300;
+	@media(min-width:768px){
+		font-size: 34px;
+		line-height: 45px;
+	}
+}
+
 p {
 	  font-family: 'Lato-Light';
 	  font-weight: 600;
@@ -70,6 +87,15 @@ p {
 		  	line-height: 28px;
 		}
 }
+
+//anchor undeline removeing
+
+.anchor{
+	&:hover{
+		text-decoration: none;;
+	}
+}
+
 
 .button-default {
    padding: 15px 40px;
@@ -131,21 +157,21 @@ p {
 }
 
 .rectangular-border {
-	 border: 1px solid #191616;
-	    position: absolute;
-	    bottom: -20px;
-    	left: -20px;
-	    height: 100%;
-	    width:100%;
+	border: 1px solid #191616;
+    position: absolute;
+    bottom: -20px;
+	left: -20px;
+    height: 100%;
+    width:100%;
 }
 
 .rectangular-border-top {
-	    top: -20px;
-	    bottom:0;
+    top: -20px;
+    bottom:0;
 }
 
 .rectangular-border-bottom-right {
-	 border: 1px solid #191616;
+	border: 1px solid #191616;
     position: absolute;
     bottom: -20px;
     right: 0;
@@ -190,8 +216,13 @@ p {
 
 // removing paragraphs
 
-.our-clients, .our-story{
+.our-clients, .our-story, .explore-projects__heading-pannel, .testimonials{
 	p{
+		display: none;
+	}
+}
+.about-in-numbers{
+	.section-intro__info{
 		display: none;
 	}
 }
@@ -228,7 +259,13 @@ p {
 			}
 		}
 	}
-
+	h3{
+		color: $dark-blue;
+		margin-bottom: 10px;
+		@media(min-width:768px){
+			margin-bottom: 20px;
+		}
+	}
 }
 
 @mixin sectionPadding(){

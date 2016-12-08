@@ -1,0 +1,72 @@
+
+// services 
+
+.providing-services{
+	padding: 0px 0 10px 0;
+	@media(min-width:768px){
+		padding: 10px 0 40px 0;
+	}
+}	
+.service-card{
+	margin-bottom: 30px;
+	padding:0 20px;
+	&__view{
+		margin-bottom: 30px;
+		img{
+			display: flex;
+			margin:0 auto;
+		}
+	}
+	&__info{
+		h4{
+		 	font-family: 'Lato-Regular';
+		}
+		padding-top: 0;
+	}
+	@media(min-width:768px){
+		margin-bottom: 60px;
+		padding:0 40px;
+	}
+}
+
+//testimonials
+
+.about-in-numbers{
+	padding:35px 0;
+	.section-intro__heading{
+		margin:35px 0;
+	}
+	@media(min-width:768px){
+		padding: 70px 0;
+		.section-intro__heading{
+			margin:70px 0;
+		}
+	}
+	@media(max-width:767px){
+		p:last-child{
+			margin-bottom: 25px;
+		}
+	}
+}
+.numbers-list{
+	&__heading{
+		color: #00355f;
+		@media(max-width:768px){
+			font-size: $fnt-sm;
+			line-height: 28px;
+		} 		
+	}
+	&__info{
+		font-weight: 300;
+		margin-top: 8px;
+		@media(min-width:768px){
+			margin:15px 0;
+		}
+	}
+}
+// services
+
+.process-areas{
+	@include sectionPadding;
+}
+
