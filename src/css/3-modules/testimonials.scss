@@ -1,0 +1,93 @@
+//testimonials
+
+.testimonials-media{
+	padding-top:35px;
+	&__list{
+	  @include flex-box(flex, flex-start, inherit);
+	  flex-direction: column;
+	  padding: 15px 0;
+	  border-bottom: 1px solid #f1f1f1;
+	  margin-bottom: 15px;
+	}
+	&__right-wrapper span{
+	 	font-size: 18px;
+	 	line-height: 30px;
+	 	padding-bottom: 20px;
+	 	font-family: 'PlayfairDisplay-Regular';
+	 	display: block;
+	 }
+	 @media(min-width:768px){
+	 	padding-top:50px;
+	 	&__list{
+		 @include flex-box(flex, center, inherit);
+		 flex-direction: inherit;
+		 margin-bottom: 30px;
+	 	}
+	 	&__right-wrapper span{
+		  font-size: 22px;
+		  line-height: 40px;
+	 	}
+	 }
+}
+
+.card{
+	img{
+		height: 100px;
+		width: 100px;
+		@media(min-width:768px){
+		    height: 150px;
+			width: 150px;
+		}
+	}
+	&__info{
+		margin:15px 0 20px 0;
+		h4{
+			font-size: 16px;
+			line-height: 26px;
+			font-family: 'Lato-Regular';
+		}
+		span{
+			font-size: 13px;
+			line-height: 23px;
+			color: $black666;
+		}
+		@media(min-width:768px){
+			margin:25px 0;
+			h4{
+				font-size: $fnt-sm;
+				line-height: 30px;
+			}
+		}
+	}
+}
+
+// video circle 
+
+.testimonial-media-video{
+	display: inline-block;
+	position: relative;
+		a.btn-play{
+			position: absolute;
+			bottom:0;
+			right: 0;
+			border-radius: 50%;
+		&--danger{
+			background: #f6363f;
+			color: $white;
+		}	
+			.fa-play{
+				border-radius: 50%;
+				padding: 12px 12px 12px 15px;
+			    font-size: $fnt-xs;
+				@include flex-box(flex, center, center);
+				box-shadow: 0px 0px 33px -12px #000000;
+			    -moz-box-shadow: 0px 0px 33px -12px #000000;
+			    -webkit-box-shadow: 0px 0px 33px -12px #000000;
+			    @media(min-width:768px){ 
+			    	padding: 15px 15px 15px 18px;
+			    	font-size: $fnt-sm;
+			    }
+			}
+		}
+}
+
