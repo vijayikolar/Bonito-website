@@ -311,3 +311,8 @@ input[type="checkbox"] + .check-box:before
 // }
 
 
+.slick-slide {
+	&:focus{
+		outline: none;
+	}
+}

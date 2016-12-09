@@ -34,14 +34,28 @@ html
 		main
 
 			//START: Pradeep section
-			section.designer-profile
+			section.designer-profile-container
 				.container
 					.row
-						.col-sm-6
-							.design-profile-image
-								img(src='/img/')
-						.col-sm-6
+						.designer-profile.col-sm-12
+							.col-sm-6.col-xs-10.col-xs-offset-1.col-sm-offset-0.col-md-5
+								.designer-profile__block
+									img(src='/img/designer-image.png').designer-profile__image
+									.rectangular-border-bottom-right.visible-xs.rectangular-border-bottom-right--designer-profile
+							.col-sm-6.col-xs-12.custom-padding
+								.designer-profile__user
+									h2.designer-profile__name pradeep bhatt
+									p.designer-profile__info He is not only a self taught entrepreneur; but also carries the fame of rag to riches. With an immense business experience that he has acquired because of his chain restaurants (Cubbonpet Biryani Bazaar) and having them run successfully under fierce competition from neighbor restaurants; He knows well what it takes to make a business tick and a bucket load about our speed of growth
+									.social-icons
+										a(href='#').social-icons__link
+											i.fa.fa-facebook
+										a(href='#').social-icons__link
+											i.fa.fa-linkedin
+													
 
+							.rectangular-border-bottom-right.rectangular-border-bottom-right--designer-profile.hidden-xs
+
+	
 
 			//START: Designs from Pradeep
 			section.our-work.portfolio-our-work
