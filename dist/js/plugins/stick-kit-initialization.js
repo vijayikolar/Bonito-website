@@ -1,0 +1,1 @@
+$(document).ready(function(){$("aside.article-aside").stick_in_parent({offset_top:100})});

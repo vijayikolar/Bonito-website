@@ -1,5 +1,5 @@
 
- @each $banners in banner-slider__img, our-story-banner, project-video-banner {
+ @each $banners in banner-slider__img, our-story-banner, project-video-banner, elite-services-banner  {
    .#{$banners} {
      background-image: url('../img/#{$banners}.png');
     background-repeat: no-repeat;
@@ -127,12 +127,23 @@
 
 // portfolio video-banner
 
-.project-video-banner{
+
+.project-video-banner, .elite-services-banner{
+
 	background-attachment: inherit;
 	margin-top: 0;
 	background-position-x: inherit;
 	background-position: center center;
 	background-size: cover;
+}
+
+// Elite services banner
+
+.elite-services-banner{
+	height: 350px;
+	@media(min-width:768px){
+		height: 765px;
+	}
 }
 
 

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+head
+	meta(charset="UTF-8")
+	meta(name="viewport", content="width=device-width, initial-scale=1")
+	title Elite-services 
+	link(rel="stylesheet", href="css/main.css")
+
+body
+
+	main
+
+		include jade-components/base/header-nav.jade
+
+		section.elite-services
+
+			.container
+				.elite-services-banner.posit-relative
+
+				.col-sm-10.col-sm-push-1
+					.white-patch.white-patch--spacing.text-center
+						h3 End to End interiors for your new flat!
+						span  World class personalised interior designing done for your home. You decide how much to spend !
+
+				
+				.our-work-wraper.text-center.col-sm-12.clearfix
+					ul.image-thumbnail
+						li.image-thumbnail__item.grid
+							figure.image-thumbnail__link.effect-bubba(href="#")
+								img.image-thumbnail__img(src="/img/work1.png", alt="our work images")
+								figcaption
+									.image-thumbnail__caption
+										h3.image-thumbnail__owner Mr. Shaman Ahuja
+										p.image-thumbnail__info 3bhk home interiors in Salarpuria Senorita
+
+						li.image-thumbnail__item.grid
+							figure.image-thumbnail__link.effect-bubba(href="#")
+								img.image-thumbnail__img(src="/img/work4.png", alt="our work images")
+								figcaption
+									.image-thumbnail__caption
+										h3.image-thumbnail__owner Mr. Shaman Ahuja
+										p.image-thumbnail__info 3bhk home interiors in Salarpuria Senorita
+
+						li.image-thumbnail__item.grid
+							figure.image-thumbnail__link.effect-bubba(href="#")
+								img.image-thumbnail__img(src="/img/elite-project-img.png", alt="our work images")
+								figcaption
+									.image-thumbnail__caption
+										h3.image-thumbnail__owner Mr. Shaman Ahuja
+										p.image-thumbnail__info 3bhk home interiors in Salarpuria Senorita
+						//- .col-sm-6
+						li.image-thumbnail__item.grid
+							figure.image-thumbnail__link.effect-bubba(href="#")
+								img.image-thumbnail__img(src="/img/work5.png", alt="our work images")
+								figcaption
+									.image-thumbnail__caption
+										h3.image-thumbnail__owner Mr. Shaman Ahuja
+										p.image-thumbnail__info 3bhk home interiors in Salarpuria Senorita
+
+					a.button-default(href="") View more	
+
+		section.our-services.text-center
+			.container
+				.col-sm-6.col-sm-offset-3.our-services-intro
+					include ./jade-components/comman/section-intro.jade
+					+section-intro("What you get", "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do")
+				
+				.clearfix
+					
+				.providing-services.clearfix
+
+					+feature_block("/img/elite-services/illustration-img.png", "DESIGN & ITERATION", "We are patient till you end up loving what we have to show you. We know its your dream home, and you get to revise it till its just perfect. And you get only practical designs.", "Illustration-img")
+
+					+feature_block("/img/elite-services/illustration-img.png", "PROFESSIONAL COMMUNICATION", "We are talkative, and hence ensure that small details aren’t missed out. We are reachable at the touch of a button, and are ready to help you at the first opportunity. So there is nothing that you can’t ask us..", "Illustration-img")
+
+					+feature_block("/img/elite-services/illustration-img.png", "PHOTO REALISTIC RENDER", "Its important to know how the designs would turn out in reality. We help you with complementary visual renders to get you started. Additional renders are always available a- la-carte..", "Illustration-img")
+
+					+feature_block("/img/elite-services/illustration-img.png", "SOLID TECHNICAL DRAWINGS", "Having worked with carpenters, supervisors and shop owners, we know what needs to be put in the drawings; so that you don’t need to do any explaining.", "Illustration-img")
+
+				.clearfix
+
+				a.button-default(href="") Know More
+
+		section.process-areas
+			.container
+				.row
+					.col-sm-8.col-sm-offset-2.col-md-6.col-md-offset-3
+						+section-intro("What’s the process you ask?We keep it simple")
+
+
+
+		section.services-testimonials
+			.container
+				.row
+					.col-sm-10.col-sm-offset-1.our-blog__intro
+						+section-intro("Testimonials", "Each of us are different from one another. That’s what makes our work interesting as well as challenging. See what you hate and what you fall in love with from our videos.")
+
+					.about-us-video-section-container.clearfix
+						.col-sm-7
+							.about-us-video-banner__wraper
+								img.about-us-video-banner-img(src="img/about-us-video-banner.png" alt="about-video-baner")
+								.rectangular-border-bottom-right
+								a.about-us-video-banner-icon.video#open-popup
+									i.fa.fa-play
+
+						.col-sm-5.clearfix
+							.about-us-video-content
+								img.about-us-video-content__quote-icon(src="img/quote-icon.png")
+								.about-us-video-content__quote “I was pretty impressed with the Bonito videos that I saw on youtube and contacted them to furnish my apartment in Bangalore. Since I do not live in Bangalore, the entire project was managed online”
+								.about-us-video-content__quote-by Hemant Bajrangi,
+								.about-us-video-content__quote-about Happy bonito Customer	
+
+					.col-sm-12.text-center			
+						a.button-default.button-default--about-us-video(href="") view more videos
+
+				.row
+					.about-in-numbers.text-center.clearfix
+						+section-intro("Here is something about us")
+
+						+our_numbers("350+ Homes", "Designed & delivered more than 350 full home interiors")
+
+						+our_numbers("40+ Designers", "Amazing designers with crazy streaks always ready to dive in.")
+
+						+our_numbers("8.9/9 Rating", "We take stars seriously, our work has won awards at Houzz")
+
+
+
+
+
+
+
+
+
+
+
+		include jade-components/base/footer.jade
+
+	script(src="js/plugins/jquery.min.js")
+	script(src="js/plugins/bootstrap.min.js")
+	script(src="js/plugins/jquery.stellar.min.js")
+	script(src="js/plugins/SmoothScroll.js")
+	script(src="js/plugins/jquery.magnific-popup.min.js")
+	script(src="js/plugins/slick.min.js")
+	script(src="js/plugins/classie.js")
+	script(src="js/plugins/masonry.pkgd.min.js")
+	script(src="js//masonry-initialization.js")  	
+	script(src="js/plugins/main.js")
+		

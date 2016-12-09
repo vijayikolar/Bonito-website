@@ -1,6 +1,10 @@
 //comman css for portfolio-details page
 
 .portfolio-details{
+	margin-top: 60px;
+}
+
+.portfolio-details, .testimonials, .elite-services{
 	margin-top: 50px;
 	padding-top: 35px;
 	@media(min-width:768px){ 
@@ -263,12 +267,47 @@ input[type="checkbox"] + .check-box:before
 	&__member{
 		display: flex;
     	align-items: center;
-    	.card-img-wrapper{
 
-    	}
+    	// .card-img-wrapper{
+
+    	// }    	
     	.card-view{
-    		padding:0 50px;
+    		padding:0 35px;
+    		&__title{
+				font-size: $fnt-xs;
+				line-height: 24px;
+				font-family: 'Monteserrat-Regular';	
+				text-transform: uppercase;
+				color: $black333;
+				display: block;			
+    		}
+    		&__name{
+				font-size: 16px;
+				line-height: 26px;
+				color: $black999;
+    		}
     	}
 	}
 }
+
+// explore projects 
+
+// .explore-projects{
+// 	@include sectionPadding;
+// 	&__heading-pannel{
+// 		margin-bottom: 35px;
+// 		@media(min-width:768px){ 
+// 			margin-bottom: 70px;
+// 		}
+// 	}
+// }
+//     	.card-img-wrapper{
+
+//     	}
+//     	.card-view{
+//     		padding:0 50px;
+//     	}
+// 	}
+// }
+
 
