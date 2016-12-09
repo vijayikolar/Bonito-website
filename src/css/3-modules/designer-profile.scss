@@ -1,0 +1,58 @@
+.rapidfire-questions {
+	padding: 35px 0px;
+
+	@media(min-width: 768px) {
+		padding: 50px 0px;
+	}
+	@media(min-width: 768px) {
+		padding: 70px 0px;
+	}
+	
+	.section-intro__info {
+		 display: none;
+	}
+
+}
+
+.rapidfire-qa-container {
+	margin-top: 50px;
+}
+
+.rapidfire-que {
+	font-family: 'PlayfairDisplay-Bold', serif;
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: 0.4px;
+	@media(min-width: 768px) {
+		font-size: 18px;
+		line-height: 18px;
+	}
+
+	@media(min-width: 1200px) {
+		font-size: 22px;
+		line-height: 22px;
+	}
+}
+
+.rapidfire-ans {
+	font-family: 'Lato-Regular', serif;
+	font-weight: normal;
+	margin-top: 30px;
+	font-size: $fnt-xxs;
+	line-height: 22px;
+
+	
+	@media(min-width: 768px) {
+		font-size: 16px;
+		line-height: 26px;
+	}
+
+	@media(min-width: 1200px) {
+		font-size: $fnt-sm;
+		line-height: 28px;
+		letter-spacing: 0.6px;
+	}
+	&:last-child {
+		margin-bottom: 50px;
+	}
+}

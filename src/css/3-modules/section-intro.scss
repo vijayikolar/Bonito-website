@@ -3,6 +3,7 @@
 		color:$dark-blue;
 		padding-bottom:25px;
 		text-align:center;
+
 		@media(min-width:768px){
 			padding-bottom:30px;
 		}
@@ -33,7 +34,7 @@
 		}
 		@media(min-width:992px){
 			padding-top:40px;
-			max-width: 500px;
+			max-width: 700px;
 			
 		}
 	}
@@ -46,5 +47,22 @@
 		transform: translateX(0%);
 	}
 
+}
+
+.section-intro-left {
+	.section-intro__heading, .section-intro__info {
+		text-align:left;
+	}
+
+	.section-intro__heading {
+		&:before {
+			left:0;
+			transform: translateX(0);
+		}
+	}
+
+	.section-intro__info {
+		margin:0;
+	}
 }
 
