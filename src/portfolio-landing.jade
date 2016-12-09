@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+head
+	meta(charset="UTF-8")
+	meta(name="viewport", content="width=device-width, initial-scale=1")
+	title Bonito - Portfolio-Videos
+	link(rel="stylesheet", href="css/main.css")
+body
+
+	main
+		//navbar
+		include jade-components/base/header-nav
+		
+		//main-video section
+		section.about-us-video-section.portfolio-video-section
+			.container
+				.row
+					.about-us-video-section-container.clearfix
+						.col-sm-8
+							.about-us-video-banner__wraper
+								img.about-us-video-banner-img(src="img/about-us-video-banner.png" alt="about-video-baner")
+								.rectangular-border-bottom-right
+								a.about-us-video-banner-icon.video#open-popup
+									i.fa.fa-play 
+
+						.col-sm-4.clearfix
+							.about-us-video-content.portfolio-video
+								.portfolio-video__heading Mr. Veeresh’s House Interiors Design
+								.portfolio-video__sub-heading Nitesh Columbus Square Apartment
+								p.portfolio-video__info A walk through the Nitesh Columbus square apartment of Mr.Veeresh
+
+
+								.portfolio-video__design
+									img.portfolio-video__img(src="img/bonito-subscribe.png" alt="subscribe image")
+									.subscribe-wrapper
+										.portfolio-video__design-heading Bonito Designs
+										a.portfolio-video__subsribe.subscribe
+											.subscribe__content
+												span.subscribe__icon.fa.fa-youtube-play
+												span.subscribe__info Subscribe
+											.subscribe__number 3,245 
+	
+
+		section.our-work.portfolio-our-work
+			.container
+				.row
+					.col-sm-8.col-sm-offset-2.our-blog__intro
+						include ./jade-components/comman/section-intro.jade
+						+section-intro("Videos", "")
+
+					.our-work-wraper.col-sm-12
+
+						ul.image-thumbnail
+							li.image-thumbnail__item.grid
+								figure.image-thumbnail__link.effect-bubba(href="#")
+									img.image-thumbnail__img(src="/img/work1.png", alt="our work images")
+									figcaption
+										.image-thumbnail__caption
+											a.about-us-video-banner-icon.video#open-popup
+												i.fa.fa-play 
+											h3.image-thumbnail__owner Mr. Shaman Ahuja
+											p.image-thumbnail__info 3bhk home interiors in Salarpuria Senorita
+											
+
+							li.image-thumbnail__item.grid
+								figure.image-thumbnail__link.effect-bubba(href="#")
+									img.image-thumbnail__img(src="/img/work4.png", alt="our work images")
+									figcaption
+										.image-thumbnail__caption
+											a.about-us-video-banner-icon.video#open-popup
+												i.fa.fa-play
+											h3.image-thumbnail__owner Mr. Shaman Ahuja
+											p.image-thumbnail__info 3bhk home interiors in Salarpuria Senorita
+
+							li.image-thumbnail__item.grid
+								figure.image-thumbnail__link.effect-bubba(href="#")
+									img.image-thumbnail__img(src="/img/work2.png", alt="our work images")
+									figcaption
+										.image-thumbnail__caption
+											a.about-us-video-banner-icon.video#open-popup
+												i.fa.fa-play
+											h3.image-thumbnail__owner Mr. Shaman Ahuja
+											p.image-thumbnail__info 3bhk home interiors in Salarpuria Senorita
+
+							li.image-thumbnail__item.grid
+								figure.image-thumbnail__link.effect-bubba(href="#")
+									img.image-thumbnail__img(src="/img/work5.png", alt="our work images")
+									figcaption
+										.image-thumbnail__caption
+											a.about-us-video-banner-icon.video#open-popup
+												i.fa.fa-play
+											h3.image-thumbnail__owner Mr. Shaman Ahuja
+											p.image-thumbnail__info 3bhk home interiors in Salarpuria Senorita
+
+							li.image-thumbnail__item.grid
+								figure.image-thumbnail__link.effect-bubba(href="#")
+									img.image-thumbnail__img(src="/img/work3.png", alt="our work images")
+									figcaption
+										.image-thumbnail__caption
+											a.about-us-video-banner-icon.video#open-popup
+												i.fa.fa-play
+											h3.image-thumbnail__owner Mr. Shaman Ahuja
+											p.image-thumbnail__info 3bhk home interiors in Salarpuria Senorita
+
+							li.image-thumbnail__item.grid
+								figure.image-thumbnail__link.effect-bubba(href="#")
+									img.image-thumbnail__img(src="/img/work6.png", alt="our work images")
+									figcaption
+										.image-thumbnail__caption
+											a.about-us-video-banner-icon.video#open-popup
+												i.fa.fa-play
+											h3.image-thumbnail__owner Mr. Shaman Ahuja
+											p.image-thumbnail__info 3bhk home interiors in Salarpuria Senorita
+
+					.col-sm-12.text-center
+						a.button-default.button-default--about-bonito view MORE 
+
+
+		//footer
+		include jade-components/base/footer
+
+
+	script(src="js/plugins/jquery.min.js")
+	script(src="js/plugins/bootstrap.min.js")
+	//- script(src="js/plugins/slick.min.js")
+	script(src="js/plugins/classie.js")  	
+	//- script(src="js/plugins/main.js")
+	script(src="js/plugins/masonry.pkgd.min.js")
+	script(src="js//masonry-initialization.js")
+
+
+
+
+
