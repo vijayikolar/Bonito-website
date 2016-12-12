@@ -65,6 +65,7 @@
 	margin-bottom:10px;
 	@media(min-width:992px) {
 		order:2;
+		padding-left:30px;
 	}
 }
 
@@ -164,6 +165,8 @@
 	padding:0;
 	@media(min-width:992px){ 
 		border-right:1px solid #d9d9d9;
+		padding-right:15px;
+		margin-bottom: 50px;
 	}
 }
 
@@ -174,7 +177,7 @@
 			margin-bottom:70px;
 		}
 		@media(min-width:992px){ 
-			margin-bottom:100px;
+			margin-bottom:85px;
 		}
 	}
 }

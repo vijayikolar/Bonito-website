@@ -1,0 +1,70 @@
+doctype html
+html(lang='en-us')
+	head
+		meta(charset="UTF-8")
+		meta(name="viewport", content="width=device-width, initial-scale=1")
+		title Bonito -  Blog - Details
+		link(rel="stylesheet", href="css/main.css")
+
+	body
+		// header
+		include jade-components/base/header-nav
+		
+		//main-content
+		main.comman-margin
+
+		section.blog-section
+			.container
+				.row
+					.blog-wrapper
+						aside.col-md-2.blog-aside
+							.categories
+								.categories__heading.hidden-xs.hidden-sm Categories
+								ul.categories__lists
+									li.categories__item
+										a(href="#").categories__link Blog
+											span.categories__count (132)
+									li.categories__item
+										a(href="#").categories__link  Home Decor 
+											span.categories__count (102)
+									li.categories__item
+										a(href="").categories__link  Foyer 
+											span.categories__count (2)
+									li.categories__item
+										a(href="").categories__link  Living
+											span.categories__count  (3)
+									li.categories__item
+										a(href="").categories__link  Bedrooms 
+											span.categories__count (9)
+									li.categories__item
+										a(href="").categories__link  Dining  
+											span.categories__count (2)
+									li.categories__item
+										a(href="").categories__link  Kitchen 
+											span.categories__count (17) 
+									li.categories__item.hidden-xs.hidden-sm
+										a.cta-link More.. 
+
+						.col-sm-12.col-md-10.blog-content
+							
+							.blog-content-container.clearfix
+								
+
+								P 	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi blanditiis omnis necessitatibus a, facere nesciunt rerum esse ducimus accusantium minima id sit sapiente atque quibusdam qui, deserunt nihil quod repudiandae!  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus earum voluptatibus quaerat quia, sint architecto voluptatum molestias adipisci repellat consequatur deserunt maxime dolor aperiam ratione similique dolore laborum mollitia eius? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi blanditiis omnis necessitatibus a, facere nesciunt rerum esse ducimus accusantium minima id sit sapiente atque quibusdam qui, deserunt nihil quod repudiandae!  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus earum voluptatibus quaerat quia, sint architecto voluptatum molestias adipisci repellat consequatur deserunt maxime dolor aperiam ratione similique dolore laborum mollitia eius?
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi blanditiis omnis necessitatibus a, facere nesciunt rerum esse ducimus accusantium minima id sit sapiente atque quibusdam qui, deserunt nihil quod repudiandae!  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus earum voluptatibus quaerat quia, sint architecto voluptatum molestias adipisci repellat consequatur deserunt maxime dolor aperiam ratione similique dolore laborum mollitia eius?
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi blanditiis omnis necessitatibus a, facere nesciunt rerum esse ducimus accusantium minima id sit sapiente atque quibusdam qui, deserunt nihil quod repudiandae!  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus earum voluptatibus quaerat quia, sint architecto voluptatum molestias adipisci repellat consequatur deserunt maxime dolor aperiam ratione similique dolore laborum mollitia eius?
+
+
+
+
+
+						
+
+
+		
+		//footer
+		include jade-components/base/footer.jade
+
+		script(src="js/plugins/jquery.min.js")
+		script(src="js/plugins/bootstrap.min.js")
+
