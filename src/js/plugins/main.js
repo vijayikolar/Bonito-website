@@ -38,6 +38,7 @@
 		$('.our-clients-slider').slick({
 		  slidesToShow: 3,
 		  slidesToScroll: 1,
+		  speed: 500,
 		  arrows : false,
 		  dots : false,
 		  autoplay: true,
