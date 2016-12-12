@@ -376,9 +376,11 @@ input[type="checkbox"] + .check-box:before
 }
 
 .project-team {
-	margin: 40px 0 25px;
+	margin: 40px 0 ;
+	text-align: center;
 	@media(min-width: 768px) {
-		margin: 50px 0 35px;	
+		margin: 50px 0 35px;
+		text-align: left;
 	}
 	&__name {
 		font-family: 'Monteserrat-Regular',serif;
@@ -398,4 +400,13 @@ input[type="checkbox"] + .check-box:before
 		color: #a0a0a0;
 		text-transform: capitalize;
 	}
+}
+
+.rectangular-border-bottom-right{
+
+	&--pm {
+		width: 100% ;
+		left: 20px;
+	}
+
 }
