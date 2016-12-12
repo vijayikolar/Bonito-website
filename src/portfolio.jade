@@ -34,25 +34,25 @@ body
 				
 					ul.flat-details-list.text-center.clearfix
 
-						li.col-xs-6.col-sm-3
+						li.col-xs-6.col-sm-4.flat-details-list__item.col-md-3
 							span.flat-details-list__heading Location
 							.flat-details-list__intro
-								span Sarjapur, Bangalore
+								span Sarjapur
 
-						li.col-xs-6.col-sm-3
+						li.col-xs-6.col-sm-4.flat-details-list__item.col-md-3
 							span.flat-details-list__heading Flat Type
 							.flat-details-list__intro
 								span 3BHK
 
-						li.col-xs-6.col-sm-3
+						li.col-xs-6.col-sm-4.flat-details-list__item.col-md-3
 							span.flat-details-list__heading Flat Type
 							.flat-details-list__intro
 								span 2200 sq, ft
 
-						li.col-xs-6.col-sm-3
+						li.col-xs-6.col-sm-4.flat-details-list__item.col-md-3
 							span.flat-details-list__heading Flat Type
 							.flat-details-list__intro
-								span 1 crore - 1.5 crore
+								span 1-1.5 crore
 
 					ul.project-banner-slider
 						li
@@ -82,30 +82,53 @@ body
 						li
 							img(src="/img/portpolio/slider-img/project-indiacting-img2.png" alt="")
 
-					.row 
-						.col-sm-10.col-sm-offset-1
+					//- .row 
+					//- 	.col-sm-10.col-sm-offset-1
 					
-							ul.projcet-team.clearfix
+					//- 		ul.projcet-team.clearfix
 
-								li.col-sm-6.projcet-team__member
-									.card-img-wrapper
-										img(src="/img/portpolio/designer-profile-img.png" alt="")
-									.card-view
-										span.card-view__title project designer
-										span.card-view__name  Smeer A
-									.rectangular-border.rectangular-border-top
+					//- 			li.col-sm-10.projcet-team__member.col-md-6
+					//- 				.card-img-wrapper
+					//- 					img(src="/img/portpolio/designer-profile-img-01.png" alt="")
+					//- 				.card-view
+					//- 					span.card-view__title project designer
+					//- 					span.card-view__name  Smeer A
+					//- 				.rectangular-border-bottom-right.rectangular-border-bottom-right--pm
 
-								li.col-sm-6.projcet-team__member
-									.card-img-wrapper
-										img(src="/img/portpolio/designer-profile-img.png" alt="")
-									.card-view
-										span.card-view__title project designer
-										span.card-view__name Smeer A
-									.rectangular-border.rectangular-border-top
+					//- 			li.col-sm-10.projcet-team__member.col-sm-offset-3.col-md-offset-0.col-md-6
+					//- 				.card-img-wrapper
+					//- 					img(src="/img/portpolio/designer-profile-img.png" alt="")
+					//- 				.card-view
+					//- 					span.card-view__title project designer
+					//- 					span.card-view__name Smeer A
+					//- 				.rectangular-border-bottom-right.rectangular-border-bottom-right--pm
+					.designer-profile.designer-profile--pm.col-sm-12
+						.col-md-6.designer-profile__pm
+							.col-sm-6.col-xs-10.col-xs-offset-1.col-sm-offset-0.col-md-6
+								.designer-profile__block
+									img(src='/img/portpolio/designer-profile-img-01.png').designer-profile__image
+									.rectangular-border-bottom-right.visible-xs.rectangular-border-bottom-right--designer-profile
+							.col-sm-6.col-xs-12.custom-padding
+								.project-team
+									h2.project-team__name pradeep bhatt
+									p.project-team__info project manager
+							.rectangular-border-bottom-right.rectangular-border-bottom-right--designer-profile.hidden-xs		
+									
+						.col-md-6.designer-profile__pm
+							.col-sm-6.col-xs-10.col-xs-offset-1.col-sm-offset-0.col-md-6
+								.designer-profile__block
+									img(src='/img/portpolio/designer-profile-img.png').designer-profile__image
+									.rectangular-border-bottom-right.visible-xs.rectangular-border-bottom-right--designer-profile
+							.col-sm-6.col-xs-12.custom-padding
+								.project-team
+									h2.project-team__name pradeep bhatt
+									p.project-team__info project manager
+							.rectangular-border-bottom-right.rectangular-border-bottom-right--designer-profile.hidden-xs		
+														
 
 					.explore-projects
 
-						.explore-projects__heading-pannel
+						.explore-projects__heading-pannel.our-blog__intro
 							include ./jade-components/comman/section-intro.jade
 							+section-intro("Explore other projects")
 
