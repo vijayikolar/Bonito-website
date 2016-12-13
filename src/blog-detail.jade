@@ -17,8 +17,21 @@ html(lang='en-us')
 			.container
 				.row
 					.blog-wrapper
-						aside.col-md-2.blog-aside
-							.categories
+						aside.col-md-3.blog-aside.blog-aside--details
+
+							.blogger
+								.blogger__profile
+									img.blogger__profile-img.img-circle(src="img/bloger.png")
+
+								.blogger__wraper
+									.blogger__meta-data Written By 
+									.blogger__name Mihit Kottekattinmel
+									.blogger__blog-date Nov 8, 2016
+
+								p.blogger__details Contemporary- modern design with little antique touch is the theme of this apartment interiors, which is very unique on its own. A Home without wood work will always  look incomplete.
+
+
+							.categories.categories
 								.categories__heading.hidden-xs.hidden-sm Categories
 								ul.categories__lists
 									li.categories__item
@@ -44,20 +57,29 @@ html(lang='en-us')
 											span.categories__count (17) 
 									li.categories__item.hidden-xs.hidden-sm
 										a.cta-link More.. 
+							.tabs
+								ul.nav.nav-tabs
+									li.active
+										a(href="#menu1" data-toggle="tab") first
+									li
+										a(href="#menu2" data-toggle="tab") seod
+									li
+										a(href="#menu3" data-toggle="tab") this
+								.tab-content
+									#menu1.tab-pane.fade.in.active
+										P first tab
+									#menu2.tab-pane.fade 
+										P second tab
+									#menu3.tab-pane.fade 
+										P thid tab
 
-						.col-sm-12.col-md-10.blog-content
-							
-							.blog-content-container.clearfix
-								
-
-								P 	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi blanditiis omnis necessitatibus a, facere nesciunt rerum esse ducimus accusantium minima id sit sapiente atque quibusdam qui, deserunt nihil quod repudiandae!  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus earum voluptatibus quaerat quia, sint architecto voluptatum molestias adipisci repellat consequatur deserunt maxime dolor aperiam ratione similique dolore laborum mollitia eius? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi blanditiis omnis necessitatibus a, facere nesciunt rerum esse ducimus accusantium minima id sit sapiente atque quibusdam qui, deserunt nihil quod repudiandae!  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus earum voluptatibus quaerat quia, sint architecto voluptatum molestias adipisci repellat consequatur deserunt maxime dolor aperiam ratione similique dolore laborum mollitia eius?
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi blanditiis omnis necessitatibus a, facere nesciunt rerum esse ducimus accusantium minima id sit sapiente atque quibusdam qui, deserunt nihil quod repudiandae!  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus earum voluptatibus quaerat quia, sint architecto voluptatum molestias adipisci repellat consequatur deserunt maxime dolor aperiam ratione similique dolore laborum mollitia eius?
-								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi blanditiis omnis necessitatibus a, facere nesciunt rerum esse ducimus accusantium minima id sit sapiente atque quibusdam qui, deserunt nihil quod repudiandae!  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus earum voluptatibus quaerat quia, sint architecto voluptatum molestias adipisci repellat consequatur deserunt maxime dolor aperiam ratione similique dolore laborum mollitia eius?
 
 
 
 
+						.col-sm-12.col-md-9.blog-content
 
+							p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero molestiae mollitia possimus voluptate debitis distinctio, temporibus! Aliquam sequi magni sit, repellat, illo exercitationem ullam eveniet aperiam, placeat perspiciatis veniam eligendi! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero molestiae mollitia possimus voluptate debitis distinctio, temporibus! Aliquam sequi magni sit, repellat, illo exercitationem ullam eveniet aperiam, placeat perspiciatis veniam eligendi!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero molestiae mollitia possimus voluptate debitis distinctio, temporibus! Aliquam sequi magni sit, repellat, illo exercitationem ullam eveniet aperiam, placeat perspiciatis veniam eligendi!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero molestiae mollitia possimus voluptate debitis distinctio, temporibus! Aliquam sequi magni sit, repellat, illo exercitationem ullam eveniet aperiam, placeat perspiciatis veniam eligendi!
 						
 
 
