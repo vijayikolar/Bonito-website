@@ -58,7 +58,7 @@ p {
 }
 
 .button-default {
-	padding: 15px 40px;
+	padding: 10px 15px;
 	display:inline-block;
 	border:1px solid $btn-border;
 	text-align:center;
@@ -69,6 +69,12 @@ p {
 	&:hover {
 		color: $white;
 		background: $light-black
+	}
+	@media(min-width: 768px) {
+		padding: 15px 30px;
+	}
+	@media(min-width: 992px) {
+		padding: 15px 40px;
 	}
 }
 
