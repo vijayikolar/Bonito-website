@@ -33,9 +33,14 @@
 		font-size: 14px;
 		padding:8px 0;
 		color:$black;
-		&:hover, &:visited {
+		&:hover {
 			text-decoration: none;
 			color:$dark-blue;
+		}
+
+		&:visited {
+			text-decoration: none;
+			color:$black;
 		}
 
 	}
