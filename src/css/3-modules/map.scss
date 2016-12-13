@@ -97,3 +97,26 @@
 		font-style: inherit;
 	}
 }
+
+
+.section-intro__heading{
+	&--contact-us {
+		text-align: left;
+		padding: 15px;
+		margin-bottom: 35px;
+
+		@media(min-width: 768px) {
+			margin-bottom: 75px;
+		}
+
+		@media(min-width: 992px) {
+			margin-bottom: 60px;
+		}
+		&:before {
+			left: 0;
+			transform: translate(0%);
+			margin-left: 15px;
+		}
+	}
+
+}

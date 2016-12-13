@@ -2,17 +2,18 @@
 head
 	meta(charset="UTF-8")
 	meta(name="viewport", content="width=device-width, initial-scale=1")
-	title Bonito - Portfolio-Videos
+	title Bonito - Contact Us
 	link(rel="stylesheet", href="css/main.css")
 body
-
+	//START: Main
 	main
-		//navbar
+		//START: navbar
 		include jade-components/base/header-nav
-		
+		//START: Bonito Map
 		section.bonito-maps
 			.container
 				.row
+					h2.section-intro__heading.section-intro__heading--contact-us Contact Us
 					.map-wrapper.clearfix		
 						.col-sm-8.col-md-9
 								.maps
@@ -49,7 +50,12 @@ body
 										.address-wrapper__contact
 											h3.address-wrapper__heading  Phone
 											span.address-wrapper__info +919019598877
+		
+		//START: Contact form
+		include jade-components/home/get-in-touch.jade
 
+		//START: Footer
+		include jade-components/base/footer.jade
 
 	script(src="js/plugins/jquery.min.js")
 	script(src="js/plugins/bootstrap.min.js")

@@ -191,13 +191,24 @@ input[type="checkbox"] + .check-box:before
 
 .flat-details-list{
 	@include sectionPadding;
+	text-align: left;
+	&__item {
 
+		@media(min-width: 768px) {
+			margin-right: 100px;
+		}
+		@media(min-width: 992px) {
+			margin-right: 0px;
+		}
+	}
+	
 	&__heading{
 		font: {
 			family: 'Monteserrat-Regular';
 			weight: 100;
 			size: 18px;
 		}
+
 		-webkit-font-smoothing: antialiased;
   		-moz-osx-font-smoothing: grayscale;
 		color: $dark-blue;
@@ -216,10 +227,12 @@ input[type="checkbox"] + .check-box:before
 		color: #181818;
 		font-size: 14px;
 		line-height: 24px;
+
 		@media(min-width:768px){ 
 			font-size: $fnt-sm;
 			line-height: 28px;
 			padding: 20px;
+
 		}
 	}
 }
@@ -234,6 +247,7 @@ input[type="checkbox"] + .check-box:before
 	.slick-arrow{
 		position: absolute;
 		z-index: 10;
+		cursor: pointer;
 	}
 }
 
@@ -261,12 +275,25 @@ input[type="checkbox"] + .check-box:before
 // project team-member-list
 
 .projcet-team{
-	display: flex;
-	@include sectionPadding;
+	//display: flex;
+	padding: 60px 0px;
+
+	@media(min-width: 992px) {
+		padding: 120px 0px;
+	}
     
 	&__member{
 		display: flex;
     	align-items: center;
+
+    	&:last-child {
+			margin-top: 80px;
+
+			@media(min-width: 992px){
+			
+				margin-top: 0px;
+			}
+		}
 
     	// .card-img-wrapper{
 
@@ -315,4 +342,71 @@ input[type="checkbox"] + .check-box:before
 	&:focus{
 		outline: none;
 	}
+}
+
+
+.rectangular-border-bottom-right{
+
+	&--pm {
+	
+		width: calc(100% - 45px);
+		left: 35px;
+		top: 20px;
+	}
+}
+
+
+.designer-profile {
+	&--pm {
+		padding: 30px 0px;
+		@media(min-width: 768px) {
+			padding: 60px 0px;
+		}
+		@media(min-width: 992px) {
+			padding: 120px 0px;
+
+		}
+	}
+	&__pm {
+		@media(min-width: 768px) {
+			display: flex;
+			align-items: center;
+		}
+	}
+}
+
+.project-team {
+	margin: 40px 0 ;
+	text-align: center;
+	@media(min-width: 768px) {
+		margin: 50px 0 35px;
+		text-align: left;
+	}
+	&__name {
+		font-family: 'Monteserrat-Regular',serif;
+		font-size: 14px;
+		color: $black333;
+		text-transform: uppercase;
+		@media(min-width: 768px) {
+			font-size: 16px;
+		}
+		@media(min-width: 992px) {
+			font-size: 18px;
+		}
+	}
+
+	&__info {
+		font-family: 'Gotham-Book',serif;
+		color: #a0a0a0;
+		text-transform: capitalize;
+	}
+}
+
+.rectangular-border-bottom-right{
+
+	&--pm {
+		width: 100% ;
+		left: 20px;
+	}
+
 }
