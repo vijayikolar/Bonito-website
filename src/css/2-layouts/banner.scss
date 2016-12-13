@@ -46,10 +46,10 @@
 			transform: translateX(40px);
 			padding:20px 0;
 		 }
-		 @media(min-width:1200px){ 
-			transform: translateX(140px);
-			padding:30px 0;
-			 }
+		 @media(min-width:1200px) { 
+				transform: translateX(15px);
+				padding:30px 0;
+			}
 		&::before{
 			content: " ";
 			position:absolute;
@@ -145,5 +145,3 @@
 		height: 765px;
 	}
 }
-
-

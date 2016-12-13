@@ -16,6 +16,25 @@
 	display: inline-block;
 	vertical-align: top;
 	border-bottom: 1px solid #000000;
+
+	&__down-arrow {
+		position: absolute;
+		right: 15px;
+		top: 50%;
+		//transform: translate(-15px,-50%);
+		font-size: 20px;
+		color: $dark-blue;
+	}
+
+	&__upload {
+		display: inline-block;
+		width: auto;
+		/* text-align: right; */
+		/* float: right; */
+		position: absolute;
+		right: 0;
+		top: 30%;
+	}
 }
 
 .input__field {
@@ -29,6 +48,7 @@
 	border-radius: 0;
 	color: #333;
 	font-size: $fnt-sm;
+	line-height: normal;
 }
 
 .input__field:focus {
@@ -127,3 +147,9 @@
 	color: #24a8de;
 }
 
+select.input__field {
+	padding-left: 10px;
+	color: #666;
+	-webkit-appearance: none;
+	position: relative;
+}
