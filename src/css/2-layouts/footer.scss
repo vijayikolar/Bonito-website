@@ -120,16 +120,26 @@
   padding: 15px 0;
 
   &__item {
-    border-right: 1px solid #007cb4;
+    border-right: 0;
     padding: 0 10px;
+
+    @media(min-width: 768px) {
+      border-right: 1px solid #007cb4;
+    }
     
     &:first-child {
       padding-left: 0px;
+      border-right: 1px solid #007cb4;
     }
     &:last-child {
       border-right: 0px;
       padding-right: 0px;
       transition: all 0.3s ease-in-out;
+      display: block;
+
+      @media(min-width: 768px) {
+        display: inline-block;
+      }
 
       a:hover {
         color: #2a76bd;

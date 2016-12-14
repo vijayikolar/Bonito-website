@@ -71,7 +71,7 @@
 			padding: 62px 22px 30px;
 			position:absolute;
 			left:-130px;
-			top:50%;
+			top: 30px;
 			// transform:translateY(-50%);
 	}
 	@media(min-width:992px){
@@ -141,11 +141,12 @@
 		    position: absolute;
 		    top: -20px;
 		    left: 50%;
+		    height: 35px;
     		transform: translateX(-50%);
 			
     		@media(min-width:768px){
-				height: 40px;
-				top: 10px;
+				top: 20px;
+    			height: 30px;
     		 }
 
     		 @media(min-width:992px){

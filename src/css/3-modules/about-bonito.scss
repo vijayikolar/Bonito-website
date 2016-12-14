@@ -62,13 +62,15 @@
 }
 
 .button-default--about-bonito  {
-	margin:40px 15px 0 15px;
+	margin: 15px 15px 0;
+	padding: 10px 40px;
 
 	@media(min-width:768px){
 		margin:45px 0 0 115px;
 	}
+
 	@media(min-width:992px){
-		margin:55px 0 0 130px;
+		margin:55px 0 0 115px;
 	}
 }
 
