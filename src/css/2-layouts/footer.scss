@@ -76,7 +76,7 @@
       family: 'Lato-Light';
       size: $fnt-xs;
     }
-    line-height: 24px;
+    line-height: 30px;
   }
   a{
     color:$white;
@@ -118,6 +118,24 @@
   font-size: $fnt-xxs;
   line-height: 22px;
   padding: 15px 0;
+
+  &__item {
+    border-right: 1px solid #007cb4;
+    padding: 0 10px;
+    
+    &:first-child {
+      padding-left: 0px;
+    }
+    &:last-child {
+      border-right: 0px;
+      padding-right: 0px;
+      transition: all 0.3s ease-in-out;
+
+      a:hover {
+        color: #2a76bd;
+      }
+    }
+  }
 }
 
 
