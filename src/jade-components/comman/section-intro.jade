@@ -1,0 +1,25 @@
+
+mixin section-intro(heading, info)
+	h2.section-intro__heading= heading
+	p.section-intro__info= info
+
+
+// mixin for list-thumnails for services 
+
+mixin  feature_block(img_src, header, content, alt)
+	.col-sm-6
+		.service-card
+			.service-card__view
+				img(src=img_src  alt=alt)
+			.services-content-wraper.service-card__info
+				h4.services__heading= header
+				p.services__info= content
+
+mixin our_numbers(title, description)
+	.col-sm-4
+		.numbers-list
+			h2.numbers-list__heading= title
+			p.numbers-list__info= description				
+
+
+

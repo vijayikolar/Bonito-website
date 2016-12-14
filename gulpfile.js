@@ -42,9 +42,10 @@ gulp.task('scripts', function(){
 
 // Images not getting compressed. Needs to be checked. Copying over images as is for now.
 gulp.task('images', function(){
-	gulp.src('src/img/*')
-		.pipe(imageMin())
+	gulp.src('src/img/**')
+		// .pipe(imageMin())
 		.pipe(gulp.dest('dist/img/'))
+
 
 	// gulp.src('src/img/*')
 	// .pipe(gulp.dest('dist/img/'))

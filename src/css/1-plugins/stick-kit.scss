@@ -1,0 +1,138 @@
+// @media (min-width: 992px) {
+// 	section.blog-article-section {
+// 	    margin-top: 200px;
+// 	}
+
+// 	section.blog-article-section {
+// 	    padding: 30px;
+// 	}
+// }
+
+
+// @media (min-width: 992px) {
+// 	article.blog-article {
+// 		position:relative;
+// 	    -webkit-flex-direction: row-reverse;
+// 	    -ms-flex-direction: row-reverse;
+// 	    flex-direction: row-reverse;
+// 	}
+
+// 	article.blog-article {
+// 	    max-width: 1200px;
+// 	    margin-left: auto;
+// 	    margin-right: auto;
+// 	    display: -webkit-flex;
+// 	    display: -ms-flexbox;
+// 	    display: flex;
+// 	    -webkit-flex-direction: column;
+// 	    -ms-flex-direction: column;
+// 	    flex-direction: column;
+// 	}
+// }
+
+// @media (min-width: 992px) {
+// 	.article-content {
+// 	    float: left;
+// 	    display: block;
+// 	    margin-left: 2.35765%;
+// 	    width: 65.88078%;
+// 	    margin-right: 34.11922%;
+// 	    padding-right: 80px;
+// 	}
+
+// 	.article-content {
+// 	    margin-bottom: 30px;
+// 	}
+// }
+
+// @media (min-width: 992px) {
+// 	aside.article-aside:last-child {
+// 	    margin-right: 0;
+// 	}
+// }
+
+// @media (min-width: 1200px) {
+// 	aside.article-aside {
+// 	    padding: 0px 60px;
+// 	    background:red;
+// 	}
+// }
+
+
+// @media (min-width: 992px) {
+// 	aside.article-aside.is_stuck {
+// 	    position: absolute;
+// 	    background:green;
+// 	    left:64.2%;
+// 	    margin:0;
+// 	}
+// 	aside.article-aside.is_stuck {
+// 	    position: relative;
+
+// 	}
+// }
+
+// @media (min-width: 1200px) {
+// 	aside.article-aside {
+// 	    padding: 0px 60px;
+// 	}
+// }
+
+
+// @media (min-width: 992px) {
+// 	aside.article-aside {
+// 	    position: absolute;
+// 	    float:right;
+// 	    display: block;
+// 	    margin-left: 2.35765%;
+// 	    width: 31.76157%;
+// 	    border-left: 1px solid #ebebeb;
+// 	    right:30px;
+// 	}
+
+// 	aside.article-aside {
+// 	    // position: relative;
+// 	    text-align: center;
+// 	}
+// }
+
+
+/* clearfix */
+// .clearfix:before, .clearfix:after {
+// content: "";
+// display: table;
+// }
+// .clearfix:after {
+// clear: both;
+// }
+
+
+
+/* Main ................ */
+.sticky-container {
+	margin: 20px auto;
+	max-width: 1170px;
+}
+/* aside */
+aside {
+	float: right;
+	max-width: 300px;
+}
+.inside {
+	background-color: #f4f4f4;
+	padding: 10px;
+}
+#sidebar.sticky {
+	float: none;
+	position: fixed;
+	top: 20px;
+	z-index: 6;
+	left: auto;
+	margin-left: 870px;
+}
+/* main content */
+.sticky__content {
+	float: left;
+	max-width: 850px;
+}
+

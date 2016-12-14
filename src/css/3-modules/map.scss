@@ -1,0 +1,123 @@
+
+.bonito-maps {
+	margin-top:80px;
+	padding:50px 0;
+	.nav-tabs {
+		border:none;
+	}
+	.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+	    border: none;
+	}
+	.nav-tabs>li>a {
+	    margin-right:none;
+	    line-height: none;
+	    border: none;
+	    border-radius:none;
+	}
+	.nav>li>a {
+		padding:0;
+	}
+	.nav>li>a:hover, .nav>li>a:focus {
+	    text-decoration: none;
+	    background-color: $white;
+	}
+}
+.maps{
+	height:550px;
+	width:100%;
+	position:relative;
+
+	&__map {
+			position:absolute;
+			top:0;
+			left:0;
+			width:100%;
+			height:100%;
+
+	}
+}
+
+.map-wrapper {
+	position:relative;
+}
+
+.address-wrapper{
+
+	 //box-shadow: 0 0 33px -12px #333;
+    //-moz-box-shadow: 0 0 33px -12px #333;
+    //-webkit-box-shadow: 0 0 33px -12px #333;
+    box-shadow: 0 0 25px -12px #333;
+    padding:30px;
+    background:$white;
+
+
+
+	@media(min-width:768px){
+		display: flex;
+		flex-direction:column;
+		position:absolute;
+		right:0;
+		top:50%;
+		transform: translateY(-50%);
+	}
+
+	&__adress {
+		padding:12px 0 18px 0;
+		
+
+		&--contact {
+			display: flex !important;
+			justify-content: space-between;
+			width:100%;
+			border-top:1px solid #d9d9d9;
+			@media(min-width:768px){
+				
+			}
+		}
+
+		&.active, &:hover  {
+			.address-wrapper__heading {
+				color:$dark-blue;
+			}
+		}
+	}
+
+	&__heading {
+		font-family: 'Monteserrat-Regular';
+		font-size: 16px;
+		font-weight: 700;
+		line-height: 28px;
+		transition: color 0.4s ease;
+	}
+
+	&__info {
+		color: $black333;
+		font-size: 14px;
+		font-weight: 300;
+		line-height: 21px;
+		font-style: inherit;
+	}
+}
+
+
+.section-intro__heading{
+	&--contact-us {
+		text-align: left;
+		padding: 15px;
+		margin-bottom: 35px;
+
+		@media(min-width: 768px) {
+			margin-bottom: 75px;
+		}
+
+		@media(min-width: 992px) {
+			margin-bottom: 60px;
+		}
+		&:before {
+			left: 0;
+			transform: translate(0%);
+			margin-left: 15px;
+		}
+	}
+
+}

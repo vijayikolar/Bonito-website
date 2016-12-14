@@ -1,0 +1,18 @@
+// our clients css
+
+.our-clients{
+	@include sectionPadding;
+	&__lists{
+		padding-top: 45px;
+		@include flex-box(flex, center, space-between);	
+		@media(min-width:768px){
+		 padding-top: 70px;
+		}
+		li{
+			&:focus{
+				outline: none;
+			}
+		}
+	}
+}
+

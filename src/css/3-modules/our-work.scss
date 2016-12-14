@@ -1,0 +1,330 @@
+.our-work {
+	@include sectionPadding;
+	// background:$bg-light-blue;
+}
+
+.elite-services{
+	padding-bottom: 35px;
+	ul.image-thumbnail{
+		padding:35px 0;
+		@media(min-width:768px){
+			padding:50px 0;
+		}
+	}
+	@media(min-width:768px){ 
+		padding-bottom: 70px;
+	}
+	.our-work-wraper {
+		padding:0;
+	}
+}
+
+
+.image-thumbnail{
+	// display: flex;
+ //    justify-content: center;
+ //    align-items: center;
+ //    width: 100%;
+ //    flex-wrap: wrap;
+
+    &__item {
+    	margin-bottom:30px;
+    	flex: 1 0 auto;
+    	padding:0 15px;
+    	width: 100%;
+    	@media(min-width:768px){
+    		width: 50%;
+    	}
+    }
+    &__link {
+    	position:relative;
+    	&::before {
+		   	content: '';
+		    position: absolute;
+		    left: 0;
+		    top: 0;
+		    width: 100%;
+		    height: 100%;
+		    display: inline-block;
+		    background: -moz-linear-gradient(top, transparent 50%, rgba(0, 0, 0, 0.8) 100%);
+		    background: -webkit-gradient(linear, left top, left bottom, color-stop(30%, rgba(0, 0, 0, 0.8)), color-stop(100%, transparent));
+		    background: -webkit-linear-gradient(top, transparent 50%, rgba(0, 0, 0, 0.8) 100%);
+		    background: -o-linear-gradient(top, transparent 50%, rgba(0, 0, 0, 0.8) 100%);
+		    background: -ms-linear-gradient(top, transparent 50%, rgba(0, 0, 0, 0.8) 100%);
+		    background: linear-gradient(to bottom, transparent 50%, rgba(0, 0, 0, 0.8) 100%);
+		    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 );
+	   		
+	   		@media(min-width:1200px){
+	   			 background:none;
+	   		}
+	   }
+	}
+	&__link {
+		width: 100%;
+	}
+	&__img {
+		width: 100%;
+	}
+
+	&__caption {
+		    position: absolute;
+		    left: 50%;
+		    width: 100%;
+		    border: 0;
+		    top: 90%;
+		    transform: translate(-50%, -90%);
+			color: #fff;
+			text-align: center;
+			// height: 100%;
+
+			// top: 50%;
+			// left: 50%;
+			// transform: translate(-50%,-50%);
+
+			@media(min-width:992px){
+				left: 50%;
+			    width: 100%;
+			    top: 50%;
+			    -webkit-transform: translate(-50%,-50%);
+    /* transform: translate(-50%,-50%); */
+			}
+			h3,p {
+				color:$white;
+			}
+
+			.about-us-video-banner-icon {
+			    position: relative;
+			    bottom: 0;
+			    left: 0;
+			    padding-bottom: 30px;
+			    @media(min-width:992px){ 
+					padding-bottom: 40px;
+			    }
+			}
+	}
+
+	&__owner {
+		font-family: 'Monteserrat-Regular';
+		font-size: 16px;
+		font-weight: 500;
+		line-height: 24px;
+		padding-bottom:5px;
+		text-transform: uppercase;
+		@media(min-width:992px){
+			font-size: 22px;
+			line-height: 32px;
+			padding-bottom:0;
+		}
+	}
+
+	&__info{
+		font-family: 'Lato-Light';
+		font-size: 14px;
+		line-height: 22px;
+		font-weight: 300;
+		@media(min-width:768px){
+			font-size: 14px;
+			line-height: 24px;
+		}
+		@media(min-width:992px){
+			font-size: 18px;
+			line-height: 28px;
+		}
+	}
+}
+
+//css for hover effect
+*, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+.clearfix:before, .clearfix:after { display: table; content: ''; }
+.clearfix:after { clear: both; }
+
+.portfolio-our-work {
+	.grid figure figcaption { 
+		position:relative; 
+		@media(min-width:992px) { 
+			position:absolute;
+		}
+		.image-thumbnail__caption {
+		    transform: translate(-50%,-180px);
+
+		    @media(min-width:992px){
+		    	left: 50%;
+			    width: 100%;
+			    top: 50%;
+			    -webkit-transform: translate(-50%,-50%);
+		    }
+		}
+	}
+}
+
+@media(min-width:992px) {
+	.grid {
+		position: relative;
+		// margin: 0 auto;
+		// padding: 1em 0 4em;
+		// max-width: 1000px;
+		// list-style: none;
+		// text-align: center;
+	}
+
+	/* Common style */
+	.grid figure {
+		position: relative;
+		// float: left;
+		overflow: hidden;
+		// margin: 10px 1%;
+		// min-width: 320px;
+		// max-width: 480px;
+		// max-height: 360px;
+		// width: 48%;
+		// margin:1px;
+		background: #3085a3;
+		text-align: center;
+		cursor: pointer;
+	}
+
+	.grid figure img {
+		position: relative;
+		display: block;
+		min-height: 100%;
+		max-width: 100%;
+		opacity: 0.8;
+	}
+
+	.grid figure figcaption {
+		padding: 2em;
+		color: #fff;
+		text-transform: uppercase;
+		font-size: 1.25em;
+		-webkit-backface-visibility: hidden;
+		backface-visibility: hidden;
+	}
+
+	.grid figure figcaption::before,
+	.grid figure figcaption::after {
+		pointer-events: none;
+	}
+
+	.grid figure figcaption,
+	.grid figure figcaption > a {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+
+	/* Anchor will cover the whole item by default */
+	/* For some effects it will show as a button */
+	.grid figure figcaption > a {
+		z-index: 1000;
+		text-indent: 200%;
+		white-space: nowrap;
+		font-size: 0;
+		opacity: 0;
+	}
+
+	.grid figure h3 {
+		word-spacing: -0.15em;
+		font-weight: 300;
+	}
+
+	.grid figure h3 span {
+		font-weight: 800;
+	}
+
+	.grid figure h3,
+	.grid figure p {
+		margin: 0;
+	}
+
+	.grid figure p {
+		letter-spacing: 1px;
+		font-size: 16px;
+		line-height: 26px;
+		text-transform: capitalize;
+	}
+
+
+	/*---------------*/
+	/***** Bubba *****/
+	/*---------------*/
+
+	figure.effect-bubba {
+		background: #00355f;
+	}
+
+	figure.effect-bubba img {
+		opacity: 1;
+		-webkit-transition: opacity 0.55s ease , transform 0.8s ease;
+		transition:opacity 0.55s ease , transform 0.8s ease;
+		transform:scale(1.01);
+	}
+
+	figure.effect-bubba:hover img {
+		opacity: 0.2;
+		transform:scale(1.05);
+	}
+
+	figure.effect-bubba figcaption::before,
+	figure.effect-bubba figcaption::after {
+		position: absolute;
+		top: 30px;
+		right: 30px;
+		bottom: 30px;
+		left: 30px;
+		content: '';
+		opacity: 0;
+		-webkit-transition: opacity 0.55s ease , -webkit-transform 0.55s ease;
+		transition: opacity 0.55s ease , transform 0.55s ease;
+	}
+
+	figure.effect-bubba figcaption::before {
+		border-top: 1px solid #fff;
+		border-bottom: 1px solid #fff;
+		-webkit-transform: scale(0,1);
+		transform: scale(0,1);
+	}
+
+	figure.effect-bubba figcaption::after {
+		border-right: 1px solid #fff;
+		border-left: 1px solid #fff;
+		-webkit-transform: scale(1,0);
+		transform: scale(1,0);
+	}
+
+	figure.effect-bubba h3, .about-us-video-banner-icon  {
+		color:$white;
+		// padding-top: 30%;
+		opacity: 0;
+		-webkit-transition: opacity 0.55s ease , -webkit-transform 0.55s ease;
+		transition: opacity 0.55s ease , transform 0.55s ease;
+		-webkit-transform: translate3d(0,-20px,0);
+		transform: translate3d(0,-20px,0);
+	}
+
+	figure.effect-bubba p {
+		color:$white;
+		padding: 10px 2.5em;
+		opacity: 0;
+		-webkit-transition: opacity 0.55s ease , -webkit-transform 0.55s ease;
+		transition: opacity 0.55s ease , transform 0.55s ease;
+		-webkit-transform: translate3d(0,20px,0);
+		transform: translate3d(0,20px,0);
+	}
+
+	figure.effect-bubba:hover figcaption::before,
+	figure.effect-bubba:hover figcaption::after {
+		opacity: 1;
+		-webkit-transform: scale(1);
+		transform: scale(1);
+	}
+
+	figure.effect-bubba:hover h3,
+	figure.effect-bubba:hover .about-us-video-banner-icon,
+	figure.effect-bubba:hover p {
+		opacity: 1;
+		-webkit-transform: translate3d(0,0,0);
+		transform: translate3d(0,0,0);
+	}
+}

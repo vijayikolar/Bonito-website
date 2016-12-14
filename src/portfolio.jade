@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+head
+	meta(charset="UTF-8")
+	meta(name="viewport", content="width=device-width, initial-scale=1")
+	title Bonito: Portfolio 
+	link(rel="stylesheet", href="css/main.css")
+
+body
+
+	include jade-components/base/header-nav.jade
+	main
+		//START: Portfolio Details
+		section.portfolio-details
+
+			.container
+
+				include jade-components/portfolio/portfolio-details.jade
+
+				.project-video-banner.posit-relative
+
+					a.about-us-video-banner.about-us-video-banner-icon--lg.video#open-popup
+						i.fa.fa-play.fa-play--lg
+
+				.col-sm-10.col-sm-push-1
+					.white-patch.white-patch--spacing.text-center
+						span  Parents bedroom has a huge wardrobe with an interesting pattern while kids bedroom is fully designed with hues of blues and whites. Check out other interesting designs in this album.
+
+
+				.clearfix
+
+				//project Flat-details 
+
+				.row
+				
+					ul.flat-details-list.clearfix
+
+						li.col-xs-6.col-sm-4.flat-details-list__item.col-md-3
+							span.flat-details-list__heading Location
+							.flat-details-list__intro
+								span Sarjapur
+
+						li.col-xs-6.col-sm-4.flat-details-list__item.col-md-3
+							span.flat-details-list__heading Flat Type
+							.flat-details-list__intro
+								span 3BHK
+
+						li.col-xs-6.col-sm-4.flat-details-list__item.col-md-3
+							span.flat-details-list__heading Flat Type
+							.flat-details-list__intro
+								span 2200 sq, ft
+
+						li.col-xs-6.col-sm-4.flat-details-list__item.col-md-3
+							span.flat-details-list__heading Flat Type
+							.flat-details-list__intro
+								span 1-1.5 crore
+
+					.project-banner-slider
+						.project-banner-slider__item
+							img(src="img/portpolio/slider-img/slider-banner-img.png" alt="slider-banner")
+						.project-banner-slider__item
+							img(src="img/portpolio/slider-img/slider-banner-img.png" alt="slider-banner")
+						.project-banner-slider__item
+							img(src="img/portpolio/slider-img/slider-banner-img.png" alt="slider-banner")
+						.project-banner-slider__item
+							img(src="img/portpolio/slider-img/slider-banner-img.png" alt="slider-banner")
+						.project-banner-slider__item
+							img(src="img/portpolio/slider-img/slider-banner-img.png" alt="slider-banner")
+						.project-banner-slider__item
+							img(src="img/portpolio/slider-img/slider-banner-img.png" alt="slider-banner")
+						.project-banner-slider__item
+							img(src="img/portpolio/slider-img/slider-banner-img.png" alt="slider-banner")
+					.project-list
+						.project-list__item
+							img(src="img/portpolio/slider-img/project-indicating-img.png" alt="")
+
+						.project-list__item 
+							img(src="img/portpolio/slider-img/project-indiacting-img2.png" alt="")
+
+						.project-list__item 
+							img(src="img/portpolio/slider-img/project-indicating-img3.png" alt="")
+
+						.project-list__item 
+							img(src="img/portpolio/slider-img/project-indicating-img3.png" alt="")
+
+						.project-list__item
+							img(src="img/portpolio/slider-img/project-indiacting-img2.png" alt="")
+
+						.project-list__item
+							img(src="img/portpolio/slider-img/project-indicating-img.png" alt="")
+
+						.project-list__item
+							img(src="img/portpolio/slider-img/project-indiacting-img2.png" alt="")
+
+					//- .row 
+					//- 	.col-sm-10.col-sm-offset-1
+					
+
+					//- 		ul.projcet-team.clearfix
+
+					//- 			li.col-sm-10.projcet-team__member.col-md-6
+					//- 				.card-img-wrapper
+					//- 					img(src="/img/portpolio/designer-profile-img-01.png" alt="")
+					//- 				.card-view
+					//- 					span.card-view__title project designer
+					//- 					span.card-view__name  Smeer A
+					//- 				.rectangular-border-bottom-right.rectangular-border-bottom-right--pm
+
+					//- 			li.col-sm-10.projcet-team__member.col-sm-offset-3.col-md-offset-0.col-md-6
+					//- 				.card-img-wrapper
+					//- 					img(src="/img/portpolio/designer-profile-img.png" alt="")
+					//- 				.card-view
+					//- 					span.card-view__title project designer
+					//- 					span.card-view__name Smeer A
+					//- 				.rectangular-border-bottom-right.rectangular-border-bottom-right--pm
+					.designer-profile.designer-profile--pm.col-sm-12.clearfix
+						.col-md-6.designer-profile__pm
+							.col-sm-6.col-xs-10.col-xs-offset-1.col-sm-offset-0.col-md-6
+								.designer-profile__block
+									img(src='/img/portpolio/designer-profile-img-01.png').designer-profile__image
+									.rectangular-border-bottom-right.visible-xs.rectangular-border-bottom-right--pm
+							.col-sm-6.col-xs-12.custom-padding
+								.project-team
+									h2.project-team__name pradeep bhatt
+									p.project-team__info project manager
+							.rectangular-border-bottom-right.rectangular-border-bottom-right--designer-profile.hidden-xs		
+									
+						.col-md-6.designer-profile__pm
+							.col-sm-6.col-xs-10.col-xs-offset-1.col-sm-offset-0.col-md-6
+								.designer-profile__block
+									img(src='/img/portpolio/designer-profile-img.png').designer-profile__image
+									.rectangular-border-bottom-right.visible-xs.rectangular-border-bottom-right--pm
+							.col-sm-6.col-xs-12.custom-padding
+								.project-team
+									h2.project-team__name pradeep bhatt
+									p.project-team__info project manager
+							.rectangular-border-bottom-right.rectangular-border-bottom-right--designer-profile.hidden-xs
+					.explore-projects
+
+						.explore-projects__heading-pannel.our-blog__intro
+							include ./jade-components/comman/section-intro.jade
+							+section-intro("Explore other projects")
+
+						.row
+
+							.our-work-wraper.col-sm-12.clearfix
+								ul.image-thumbnail
+									li.image-thumbnail__item.grid
+										figure.image-thumbnail__link.effect-bubba(href="#")
+											img.image-thumbnail__img(src="img/work1.png", alt="our work images")
+											figcaption
+												.image-thumbnail__caption
+													h3.image-thumbnail__owner Mr. Shaman Ahuja
+													p.image-thumbnail__info 3bhk home interiors in Salarpuria Senorita
+
+									li.image-thumbnail__item.grid
+										figure.image-thumbnail__link.effect-bubba(href="#")
+											img.image-thumbnail__img(src="img/work4.png", alt="our work images")
+											figcaption
+												.image-thumbnail__caption
+													h3.image-thumbnail__owner Mr. Shaman Ahuja
+													p.image-thumbnail__info 3bhk home interiors in Salarpuria Senorita
+
+									li.image-thumbnail__item.grid
+										figure.image-thumbnail__link.effect-bubba(href="#")
+											img.image-thumbnail__img(src="img/work2.png", alt="our work images")
+											figcaption
+												.image-thumbnail__caption
+													h3.image-thumbnail__owner Mr. Shaman Ahuja
+													p.image-thumbnail__info 3bhk home interiors in Salarpuria Senorita
+									//- .col-sm-6
+									li.image-thumbnail__item.grid
+										figure.image-thumbnail__link.effect-bubba(href="#")
+											img.image-thumbnail__img(src="img/portpolio/portfolio-img.jpg", alt="our work images")
+											figcaption
+												.image-thumbnail__caption
+													h3.image-thumbnail__owner Mr. Shaman Ahuja
+													p.image-thumbnail__info 3bhk home interiors in Salarpuria Senorit	
+
+									
+
+	//START: Footer
+	include jade-components/base/footer.jade
+
+	script(src="js/plugins/jquery.min.js")
+	script(src="js/plugins/bootstrap.min.js")
+	script(src="js/plugins/jquery.stellar.min.js")
+	script(src="js/plugins/SmoothScroll.js")
+	script(src="js/plugins/jquery.magnific-popup.min.js")
+	script(src="js/plugins/slick.min.js")
+	script(src="js/plugins/classie.js")
+	script(src="js/plugins/masonry.pkgd.min.js")
+	script(src="js//masonry-initialization.js")  	
+	script(src="js/plugins/main.js")
+

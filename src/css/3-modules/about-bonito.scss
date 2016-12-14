@@ -1,0 +1,87 @@
+
+
+.about-bonito-wraper
+ {
+ 	@media(min-width:768px){
+	 	display: flex;
+	 	align-items:flex-end;
+ 	}
+ }
+
+.about-bonito {
+	@include sectionPadding;
+
+	&__info {
+		@media(min-width:1200px){
+			padding-left:30px;
+		}
+		h2 {
+
+			&::before {
+				left:0;
+				transform: translateX(0%);
+			}
+
+		}
+	}
+
+	&__dsec {
+		.section-intro__heading, .section-intro__info {
+			text-align:left;
+		}
+
+		// p.section-intro__info {
+		// 	line-height: 27px;
+		// 	@media(min-width:768px){ 
+		// 		line-height: 28px;
+		// 	}
+		// 	@media(min-width:992px){ 
+		// 		line-height: 32px;
+		// 	}
+		// }
+
+	}
+}
+
+.about-bonito-banner {
+	position:relative;
+	margin-bottom:60px;
+
+	@media(min-width:768px){
+		margin-bottom: 0;
+	}
+
+	&__img {
+		height:400px;
+		width: 100%;
+		@media(min-width:768px){
+			height:auto;
+		}
+	}
+
+}
+
+.button-default--about-bonito  {
+	margin:40px 15px 0 15px;
+
+	@media(min-width:768px){
+		margin:45px 0 0 115px;
+	}
+	@media(min-width:992px){
+		margin:55px 0 0 130px;
+	}
+}
+
+.down-arrow-container {
+	text-align: center;
+}
+.down-arrow {
+	color: $dark-blue;
+	font-size: 20px;
+}
+
+.btn-know-more {
+	@media(min-width: 768px) {
+		text-align: center;
+	}
+}

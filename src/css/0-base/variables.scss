@@ -1,15 +1,21 @@
 
 //Font-colors
+
 $dark-blue:#00355f;
-$white :#fff;
+$white:#fff;
 $black:#000;
 $light-black:#181818;
 
 //background colors
-$bg-light-blue:#f9fcfd
+
+$bg-light-blue:#f9fcfd;
 
 //other colors
-$btn-border:#606364;
+
+body {
+	font-family: 'Lato', sans-serif;
+}
+$btn-border: #606364;
 
 h1 {
 	font-family: 'Monteserrat-Regular';
@@ -27,12 +33,10 @@ h1 {
 
 h2 {
 	font-size:24px;
-	line-height:28px;
+	line-height:34px;
+	font-weight:400;
 	font-family: 'Monteserrat-Regular';
-	@media(min-width:768px){
-		font-size:28px;
-		line-height:38px;
-	}
+
 	@media(min-width:992px){
 		font-size:38px;
 		line-height:48px;
@@ -54,26 +58,43 @@ p {
 }
 
 .button-default {
-	padding: 15px 40px;
+	padding: 10px 15px;
+	display:inline-block;
 	border:1px solid $btn-border;
 	text-align:center;
 	text-transform:uppercase;
-	color: $light-black
+	color: $light-black;
 	font-size:16px;
-
+	transition: all 0.6s ease;
 	&:hover {
 		color: $white;
 		background: $light-black
 	}
+	@media(min-width: 768px) {
+		padding: 15px 30px;
+	}
+	@media(min-width: 992px) {
+		padding: 15px 40px;
+	}
+}
+
+.rectangular-border {
+	 border: 1px solid #191616;
+	    position: absolute;
+	    bottom: -20px;
+    	left: -20px;
+	    height: 100%;
+	    width:100%;
 }
 
 @mixin sectionPadding(){
-	padding:40px 0;
+	padding:50px 0;
+
 	@media(min-width:768px){
-		padding 50px 0;
+		padding:50px 0;
 	}
 	@media(min-width:992px){
-		padding 70px 0;
+		padding:70px 0;
 	}
 }
 
@@ -90,6 +111,5 @@ p {
 	justify-content:$justify-content;
 }
 
-
-
+//comman checkbox
 
