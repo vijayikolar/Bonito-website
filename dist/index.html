@@ -6,27 +6,27 @@
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-  <main>
-    <!--Created by manjunath on 11/22/2016.
-    -->
-    <header>
-      <nav id="bnt-header-menu" class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-          <div class="navbar-header">
-            <button type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" class="navbar-toggle collapsed"><span class="sr-only">Toggle navigation</span><span class="icon-bar top-bar"></span><span class="icon-bar middle-bar"></span><span class="icon-bar bottom-bar"></span></button><a href="#" class="navbar-brand"><img src="img/logo.png" alt="Brand logo"></a>
-          </div>
-          <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
-            <ul class="nav navbar-nav navbar-right nav-right--list">
-              <li class="nav-right--list__item"><a href="#">about us</a></li>
-              <li class="nav-right--list__item"><a href="#">Our Portfolio</a></li>
-              <li class="nav-right--list__item"><a href="#">Blog</a></li>
-              <li class="nav-right--list__item"><a href="#">Contact Us</a></li>
-              <li class="nav-right--list__item"><a href="#">Squadro</a></li>
-            </ul>
-          </div>
+  <!--START: Header-->
+  <header>
+    <nav id="bnt-header-menu" class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" class="navbar-toggle collapsed"><span class="sr-only">Toggle navigation</span><span class="icon-bar top-bar"></span><span class="icon-bar middle-bar"></span><span class="icon-bar bottom-bar"></span></button><a href="#" class="navbar-brand"><img src="img/logo.png" alt="Brand logo"></a>
         </div>
-      </nav>
-    </header>
+        <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right nav-right--list">
+            <li class="nav-right--list__item"><a href="#">about us</a></li>
+            <li class="nav-right--list__item"><a href="#">Our Portfolio</a></li>
+            <li class="nav-right--list__item"><a href="#">Blog</a></li>
+            <li class="nav-right--list__item"><a href="#">Contact Us</a></li>
+            <li class="nav-right--list__item"><a href="#">Squadro</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!--START: Main-->
+  <main>
     <div class="banner-slider">
       <div class="banner-slider-wraper">
         <div class="banner-slider__img-wraper">
@@ -43,11 +43,12 @@
       </div>
     </div>
     <!--about bonito section-->
+    <div class="down-arrow-container"><a href="#" class="down-arrow"><i class="fa fa-angle-double-down"></i></a></div>
     <section class="about-bonito">
       <div class="container">
         <div class="row">
-          <div class="col-sm-10 col-sm-offset-1 about-bonito-wraper">
-            <div class="col-sm-6">
+          <div class="col-sm-10 about-bonito-wraper">
+            <div class="col-sm-6 col-xs-offset-1">
               <div class="about-bonito-banner"><img src="img/about-bonoto-img.png" alt="about bonito imge" class="about-bonito-banner__img img-responsive">
                 <div class="rectangular-border"></div>
               </div>
@@ -60,7 +61,7 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-6 col-sm-offset-6"><a class="button-default button-default--about-bonito">know more</a></div>
+          <div class="col-sm-12 btn-know-more"><a class="button-default button-default--about-bonito">know more</a></div>
         </div>
       </div>
     </section>
@@ -229,18 +230,18 @@
           <div class="about-us-video-section-container clearfix">
             <div class="col-sm-7">
               <div class="about-us-video-banner__wraper"><img src="img/about-us-video-banner.png" alt="about-video-baner" class="about-us-video-banner-img">
-                <div class="rectangular-border-bottom-right"></div><a id="open-popup" class="about-us-video-banner video"><i class="fa fa-play"></i></a>
+                <div class="rectangular-border-bottom-right rectangular-border-bottom-right--about-us-video"></div><a id="open-popup" class="about-us-video-banner video"><i class="fa fa-play"></i></a>
               </div>
             </div>
             <div class="col-sm-5 clearfix">
               <div class="about-us-video-content"><img src="img/quote-icon.png" class="about-us-video-content__quote-icon">
-                <div class="about-us-video-content__quote">“I was pretty impressed with the Bonito videos that I saw on youtube and contacted them to furnish my apartment in Bangalore. Since I do not live in Bangalore, the entire project was managed online”</div>
+                <div class="about-us-video-content__quote">“I was pretty impressed with the Bonito videos that I saw on youtube and contacted them to furnish my apartment in Bangalore. Since I do not live in Bangalore, the entire project was managed online.”</div>
                 <div class="about-us-video-content__quote-by">Hemant Bajrangi,</div>
                 <div class="about-us-video-content__quote-about">Happy bonito Customer</div>
               </div>
             </div>
           </div>
-          <div class="col-sm-12 text-center"><a class="button-default button-default--about-us-video">view MORE </a></div>
+          <div class="col-sm-12 text-center"><a class="button-default button-default--about-us-video">view more videos</a></div>
         </div>
       </div>
     </section>
@@ -282,36 +283,39 @@
           <form class="clearfix text-center">
             <div class="col-sm-4"><span class="input input--kohana">
                 <input id="input-29" type="text" class="input__field input__field--kohana">
-                <label for="input-29" class="input__label input__label--kohana"><i class="fa fa-fw fa-clock-o icon icon--kohana"></i><span class="input__label-content input__label-content--kohana">Full name</span></label></span></div>
+                <label for="input-29" class="input__label input__label--kohana"><i class="fa fa-fw fa-user icon icon--kohana"></i><span class="input__label-content input__label-content--kohana">Full name</span></label></span></div>
             <div class="col-sm-4"><span class="input input--kohana">
                 <input id="input-30" type="text" class="input__field input__field--kohana">
                 <label for="input-30" class="input__label input__label--kohana"><i aria-hidden="true" class="fa fa-envelope-o icon icon--kohana"></i><span class="input__label-content input__label-content--kohana">yashna@bonito.com</span></label></span></div>
             <div class="col-sm-4"><span class="input input--kohana">
                 <input id="input-31" type="text" class="input__field input__field--kohana">
-                <label for="input-31" class="input__label input__label--kohana"><i class="fa fa-fw fa-clock-o icon icon--kohana"></i><span class="input__label-content input__label-content--kohana">Contact Number</span></label></span></div>
-            <div class="col-sm-6">		<span class="input input--kohana">
+                <label for="input-31" class="input__label input__label--kohana"><i class="fa fa-fw fa-phone icon icon--kohana"></i><span class="input__label-content input__label-content--kohana">Contact Number</span></label></span></div>
+            <div class="col-sm-6"><span class="input input--kohana">
                 <input id="input-32" type="text" class="input__field input__field--kohana">
-                <label for="input-31" class="input__label input__label--kohana"><i class="fa fa-fw fa-clock-o icon icon--kohana"></i><span class="input__label-content input__label-content--kohana">	Floor Area (sq. ft)</span></label></span></div>
-            <div class="col-sm-6">		<span class="input input--kohana">
+                <label for="input-31" class="input__label input__label--kohana"><i class="fa fa-fw fa-bed icon icon--kohana"></i><span class="input__label-content input__label-content--kohana">Floor Area (sq. ft)</span></label></span></div>
+            <div class="col-sm-6"><span class="input input--kohana"><span class="input__down-arrow fa fa-caret-down"></span>
+                <select id="input-33" class="input__field input__field--kohana">Apartment Type
+                  <option>Apartment Type</option>
+                  <option>1</option>
+                  <option>2</option>
+                </select></span></div>
+            <div class="col-sm-6"><span class="input input--kohana"><span class="input__down-arrow fa fa-caret-down"></span>
+                <select id="input-33" class="input__field input__field--kohana">Locality of your project
+                  <option>Locality of your project</option>
+                  <option>1</option>
+                  <option>2</option>
+                </select></span></div>
+            <div class="col-sm-6"><span class="input input--kohana">
                 <input id="input-33" type="text" class="input__field input__field--kohana">
-                <label for="input-31" class="input__label input__label--kohana"><i class="fa fa-fw fa-clock-o icon icon--kohana"></i><span class="input__label-content input__label-content--kohana">	Apartment Type</span></label></span></div>
-            <div class="col-sm-6">		<span class="input input--kohana">
+                <label for="input-31" class="input__label input__label--kohana"><i class="fa fa-fw fa-clock-o icon icon--kohana"></i><span class="input__label-content input__label-content--kohana">Your floor plan</span></label></span></div>
+            <div class="col-sm-12"><span class="input input--kohana">
                 <input id="input-33" type="text" class="input__field input__field--kohana">
-                <label for="input-31" class="input__label input__label--kohana"><i class="fa fa-fw fa-clock-o icon icon--kohana"></i><span class="input__label-content input__label-content--kohana">	Apartment Type	</span></label></span></div>
-            <div class="col-sm-6">		<span class="input input--kohana">
-                <input id="input-33" type="text" class="input__field input__field--kohana">
-                <label for="input-31" class="input__label input__label--kohana"><i class="fa fa-fw fa-clock-o icon icon--kohana"></i><span class="input__label-content input__label-content--kohana">	Apartment Type</span></label></span></div>
-            <div class="col-sm-12">		<span class="input input--kohana">
-                <input id="input-33" type="text" class="input__field input__field--kohana">
-                <label for="input-31" class="input__label input__label--kohana"><i class="fa fa-fw fa-clock-o icon icon--kohana"></i><span class="input__label-content input__label-content--kohana">	Leave your message here..								</span></label></span></div><a class="button-default button-default--about-bonito">submit			</a>
+                <label for="input-31" class="input__label input__label--kohana"><i class="fa fa-fw fa-commenting-o icon icon--kohana"></i><span class="input__label-content input__label-content--kohana">Leave your message here..</span></label></span></div>
+            <div class="col-sm-12"><a class="button-default button-default--about-bonito">submit</a></div>
           </form>
         </div>
       </div>
     </section>
-    <!--
-    Created by manjunath on 11/22/2016.
-    
-    -->
     <footer>
       <section class="footer-info text-center">
         <div class="container">
@@ -327,7 +331,7 @@
                     <button class="button-default button-default--white">Explore Careers                      </button></a></div>
               </li>
               <li class="col-xs-12 col-sm-4">
-                <div class="footer-blocks__items"><span class="footer-blocks__heading">Follow us</span><a href="#" aria-hidden="true" class="social-links"><i class="fa fa-medium item-white social-links__medium"></i></a><a href="#" aria-hidden="true" class="social-links"><i class="fa fa-twitter item-white social-links__twitter"></i></a><a href="#" aria-hidden="true" class="social-links"><i class="fa fa-facebook item-white social-links__facebook"></i></a><a href="#" aria-hidden="true" class="social-links"><i class="fa fa-twitter item-white social-links__google"></i></a></div>
+                <div class="footer-blocks__items"><span class="footer-blocks__heading">Follow us</span><a href="#" aria-hidden="true" class="social-links"><i class="fa fa-medium item-white social-links__medium"></i></a><a href="#" aria-hidden="true" class="social-links"><i class="fa fa-twitter item-white social-links__twitter"></i></a><a href="#" aria-hidden="true" class="social-links"><i class="fa fa-facebook item-white social-links__facebook"></i></a><a href="#" aria-hidden="true" class="social-links"><i class="fa fa-google item-white social-links__google"></i></a></div>
               </li>
             </ul>
           </div>

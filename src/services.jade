@@ -1,0 +1,32 @@
+doctype html
+html(lang='en-us')
+	head
+		meta(charset="UTF-8")
+		meta(name="viewport", content="width=device-width, initial-scale=1")
+		title Bonito -  Services
+		link(rel="stylesheet", href="css/main.css")
+
+	body
+		// header
+		include jade-components/base/header-nav
+		
+		//main content
+		main.comman-margin
+			
+		section.services
+			.container
+				.row
+					.col-sm-12.section-intro-left.our-blog__intro
+						include jade-components/comman/section-intro.jade
+						+section-intro("Services", "We’d love & actually prefer taking up turnkey projects as it eases everything on both client and our side and you get to reap complete benefit from what we have to offer. In special cases we are ready to offer particular services stand-alone too.")
+
+						p.services__info We provide the following services for residential, commercial and other type of infrastructure.
+
+
+
+		//footer
+		include jade-components/base/footer.jade
+
+		script(src="js/plugins/jquery.min.js")
+		script(src="js/plugins/bootstrap.min.js")
+
