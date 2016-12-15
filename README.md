@@ -1,4 +1,5 @@
-### Bonito Website ###
+
+# Bonito Interior Design website #
 
 This README would document whatever steps are necessary to get your application up and running.
 
@@ -6,6 +7,7 @@ This README would document whatever steps are necessary to get your application 
 
 * This repo contains front end files for the Bonito website.
 * This project uses BootStrap for the grid system
+
 * Jade(now PugJs) is used as a HTML templating language, SASS for CSS pre-processing and BEM(http://getbem.com/) as naming convention for style rules.
 * HarpJs(https://harpjs.com/) is used as a static web server for development.
 * GulpJs(http://gulpjs.com/) is used to build distribution files.
