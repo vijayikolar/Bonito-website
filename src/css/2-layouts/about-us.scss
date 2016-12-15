@@ -21,6 +21,19 @@
 			width: calc(100% - 175px);
 			left: 175px;
 		}
+		@media(min-width: 992px) {
+			width: calc(100% - 215px);
+			left: 215px;
+		}
+		@media(min-width: 1200px) {
+			width: calc(100% - 275px);
+			left: 275px;
+		}
 	}
+}
 
+.section-intro__intro{
+	&--about-us {
+		display: none;
+	}
 }
