@@ -1,0 +1,26 @@
+.about-us-container {
+	padding: 30px 0;
+	margin-top: 70px;
+
+	@media(min-width: 768px) {
+		padding: 50px 0px;
+	}
+
+	@media(min-width: 992px) {
+		padding: 70px 0px;
+	}	
+}
+
+.rectangular-border-bottom-right{
+
+	&--about-us-banner {
+		width: calc(100% - 55px);
+		left: 55px;
+
+		@media(min-width: 768px) {
+			width: calc(100% - 175px);
+			left: 175px;
+		}
+	}
+
+}

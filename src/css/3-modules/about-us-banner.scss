@@ -1,0 +1,19 @@
+.about-us-banner {
+
+	padding: 0;
+
+	&__image {
+		padding-left: 35px;
+
+		@media(min-width: 768px) {
+			padding-left: 31px;
+		}
+
+		img {
+
+			@media(min-width: 1200px) {
+				width: 100%;
+			}
+		}
+	}
+}
