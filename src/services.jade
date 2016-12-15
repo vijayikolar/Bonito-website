@@ -13,7 +13,7 @@ html(lang='en-us')
 		//main content
 		main.comman-margin
 			
-		section.services
+		section.services-section
 			.container
 				.row
 					.col-sm-12.section-intro-left.our-blog__intro
@@ -23,10 +23,74 @@ html(lang='en-us')
 						p.services__info We provide the following services for residential, commercial and other type of infrastructure.
 
 
+					//- .services.image-thumbnail.col-sm-12
+					//- 	.col-md-6.image-thumbnail__item.services__item1
+					//- 		img(src="img/services1.png", alt="service image")
+					//- 	.col-md-6.image-thumbnail__item.services__item2
+					//- 		img(src="img/services2.png", alt="service image")
+					//- 	.col-md-6.image-thumbnail__item.services__item3
+					//- 		img(src="img/services3.png", alt="service images")
+
+
+					.col-sm-12.services
+						ul.image-thumbnail
+							li.image-thumbnail__item.image-thumbnail__item--services
+								.services__img-wrapper.col-xs-9.col-sm-8.col-md-8
+									img.services__img-small(src="img/services1.png", alt="our work images")
+									.rectangular-border-bottom-right.rectangular-border-bottom-right--services
+
+								.services__item-wrapper.col-xs-7.col-sm-5.col-md-6
+									.services__content
+										h4.services__content-heading Planning & Design
+										p.services__content-info Spatial Planning Interior Designing
+							
+
+							li.image-thumbnail__item.image-thumbnail__item--services
+								.services__item-wrapper.services__item-wrapper--big.col-xs-7.col-sm-5.col-md-6
+									.services__content
+										h4.services__content-heading Visualization
+										p.services__content-info 3D Architecture 3D Interior & Exterior Walk-through Rendering
+
+								.services__img-wrapper.services__img-wrapper--big.col-xs-9.col-sm-8.col-md-9
+									img.services__img(src="img/services2.png", alt="our work images")
+									.rectangular-border-bottom-right.rectangular-border-bottom-right--services-big									
+
+							li.image-thumbnail__item.image-thumbnail__item--services
+								.services__img-wrapper.col-xs-9.col-sm-8.col-md-8
+									img.services__img-small(src="img/services3.png", alt="our work images")
+									.rectangular-border-bottom-right.rectangular-border-bottom-right--services
+
+								.services__item-wrapper.col-xs-7.col-sm-5.col-md-6
+									.services__content
+										h4.services__content-heading Consultancy & Other
+										p.services__content-info Interior Cost Estimation
+										
+
+		section.services-elite-secton.clearfix
+			.container
+				.row
+					.image-thumbnail
+						.image-thumbnail__item.image-thumbnail__item--services.image-thumbnail__item--services-ilite
+							.services__item-wrapper-elite.services__item-wrapper--big.col-xs-8.col-sm-5.col-md-3
+								.services__content.services__content-ilite
+									h4.services__content-heading Elite Services
+									p.services__content-info World class personalised interior designing
+							
+								.col-sm-12.services-elite__btn
+									a.button-default Know more
+
+							.services__img-wrapper.services__img-wrapper--big.services__img-wrapper--big-ilite.col-xs-11.col-sm-11.col-md-9
+								img.services__img.services__img-elite(src="img/services4.png", alt="our work images")
+								.rectangular-border-bottom-right.rectangular-border-bottom-right--services-big
+
+
+									
 
 		//footer
 		include jade-components/base/footer.jade
 
 		script(src="js/plugins/jquery.min.js")
 		script(src="js/plugins/bootstrap.min.js")
+		script(src="js/plugins/masonry.pkgd.min.js")
+		script(src="js//masonry-initialization.js")
 
