@@ -19,7 +19,12 @@
 	}
 }
 
+.button-default{
+	&--view-more {
+		margin-left: 0px;
+	}
 
+}
 .image-thumbnail{
 	// display: flex;
  //    justify-content: center;
@@ -149,13 +154,12 @@
 			position:absolute;
 		}
 		.image-thumbnail__caption {
-		    transform: translate(-50%,-180px);
-
+		
+			padding-bottom: 20px;
 		    @media(min-width:992px){
-		    	left: 50%;
+		    
 			    width: 100%;
-			    top: 50%;
-			    -webkit-transform: translate(-50%,-50%);
+			    padding-bottom: 0px;
 		    }
 		}
 	}

@@ -15,7 +15,15 @@
 }
 
 .rapidfire-qa-container {
-	margin-top: 50px;
+
+	margin-top: 25px;
+	
+	@media(min-width: 768px) {
+		margin-top: 30px;
+	}
+	:first-child {
+		margin-top: 50px;
+	}
 }
 
 .rapidfire-que {
@@ -29,7 +37,7 @@
 	}
 
 	@media(min-width: 1200px) {
-		font-size: 22px;
+		font-size: 20px;
 		line-height: 22px;
 	}
 }
@@ -37,22 +45,25 @@
 .rapidfire-ans {
 	font-family: 'Lato-Regular', serif;
 	font-weight: normal;
-	margin-top: 30px;
-	font-size: $fnt-xxs;
+	margin-top: 20px;
+	font-size: 14px;
 	line-height: 22px;
-
+	&:last-child {
+		margin-bottom: 25px;
+	}
 	
 	@media(min-width: 768px) {
-		font-size: 16px;
+		font-size: 14px;
 		line-height: 26px;
+		&:last-child {
+			margin-bottom: 30px;
+		}
 	}
 
 	@media(min-width: 1200px) {
-		font-size: $fnt-sm;
+		font-size: 16px;
 		line-height: 28px;
 		letter-spacing: 0.6px;
 	}
-	&:last-child {
-		margin-bottom: 50px;
-	}
+	
 }
