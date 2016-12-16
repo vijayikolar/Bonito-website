@@ -29,8 +29,8 @@
 	}
 
 	&__heading {
-		color: $black;
-		font-family: 'Lato-Light';
+		color: $black333;
+		font-family: 'Lato-Regular', serif;
 		font-size: 18px;
 		line-height: 23px;
 		padding:20px 0;
@@ -41,7 +41,7 @@
 		}
 		@media(min-width:992px){
 			font-size: 25px;
-			line-height: 40px;
+			line-height: 45px;
 			padding:25px 0;
 		}
 	}
