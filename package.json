@@ -1,7 +1,7 @@
 {
-  "name": "Bonito website",
+  "name": "hakunamatata",
   "version": "1.0.0",
-  "description": "Bonito is an interior design website",
+  "description": "Marketing website for HakunaMatata",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
