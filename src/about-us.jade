@@ -1,0 +1,69 @@
+doctype html
+html(lang='en-us')
+	head
+		meta(charset="UTF-8")
+		meta(name="viewport", content="width=device-width, initial-scale=1")
+		title Bonito - About-us
+		link(rel="stylesheet", href="css/main.css")
+
+	body
+		// header
+		include jade-components/base/header-nav
+		
+		//main-content
+		main.comman-margin
+
+			//methodology section
+			section.methodology-section.no-info
+				.container
+					.row
+						.col-sm-12.our-services-intro
+							include jade-components/comman/section-intro.jade
+							+section-intro("Methodology in our Madness")
+
+						//methodology-1
+						.methodology.col-md-12
+							.col-md-6.methodology__img-wrapper
+								img.methodology__img(src="img/methodology1.png", alt="methodology-img")
+							.col-md-6
+								.methodology__content-wrapper
+									.methodology__bg-info 01
+									.methodology__info-wrapper
+										h4.methodology__heading Client Enquiry
+										//- ol.methodology__info-list 
+										//- 	li.methodology__info  Site visit & Measurements
+										//- 	li.methodology__info  Design Presentation
+										//- 	li.methodology__info   Laminate selection with client 
+
+										.methodology__info-list 
+											p.methodology__info  Relationship Manager takes a not of the requirements and responds with an estimate quote 
+
+						//methodology-2
+						.methodology.methodology2.col-md-12
+							.col-md-6.methodology__img-wrapper.methodology__order2
+								img.methodology__img(src="img/methodology2.png", alt="methodology-img")
+							.col-md-6
+								.methodology__content-wrapper.methodology__content-wrapper2
+									.methodology__bg-info 02
+									.methodology__info-wrapper
+										h4.methodology__heading Design Phase
+										ol.methodology__info-list 
+											li.methodology__info  Site visit & Measurements
+											li.methodology__info  Design Presentation
+											li.methodology__info   Laminate selection with client 
+
+										//- .methodology__info-list 
+										//- 	p.methodology__info  Relationship Manager takes a not of the requirements and responds with an estimate quote 
+
+
+
+
+
+
+
+		//footer
+		include jade-components/base/footer.jade
+
+		script(src="js/plugins/jquery.min.js")
+		script(src="js/plugins/bootstrap.min.js")
+
