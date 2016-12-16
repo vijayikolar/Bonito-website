@@ -1,105 +1,71 @@
-doctype
-html
+
+doctype html
+html(lang='en-us')
 	head
 		meta(charset="UTF-8")
 		meta(name="viewport", content="width=device-width, initial-scale=1")
-		title Bonito: About us
+		title Bonito - About-us
 		link(rel="stylesheet", href="css/main.css")
+
 	body
-		include jade-components/base/header-nav.jade
-		//START: Main
-		main
-			//START: About us Banner
-			section.about-us-container
-				
-				.about-us-banner.col-sm-12
-					.rectangular-border-bottom-right.rectangular-border-bottom-right--about-us-banner
-					.about-us-banner__image.col-sm-offset-2
-						img(src='img/banner.png')
-			
-			//START: About us content
+		// header
+		include jade-components/base/header-nav
+		
+		//main-content
+		main.comman-margin
 
-			section.about-us-content-container
+			//methodology section
+			section.methodology-section.no-info
 				.container
 					.row
-						.about-us-content.col-xs-7.col-xs-offset-1
-							h2.banner-slider__heading.about-us-content__heading hello!
-						.col-xs-12.col-sm-10.about-us-right.col-sm-offset-1.col-md-6
-							p.section-intro__info.about-us-content__info We’re a small but cute firm. Each of our team member take up a very special and unique role when it comes to designing and executing projects. We can say to an extent that each of the team members form unique pieces of puzzle which makes sense only when they’re together and there is no big piece or small piece in a puzzle.
-			//START: Pradeep section
-			section.designer-profile-container
-				.container
-					.row
-						h2.section-intro__heading Our Mentor
-						p.section-intro__info.section-intro__info--about-us
-						.designer-profile.col-sm-12
-							.col-sm-6.col-xs-10.col-xs-offset-1.col-sm-offset-0.col-md-5
-								.designer-profile__block
-									img(src='img/designer-image.png').designer-profile__image
-									.rectangular-border-bottom-right.visible-xs.rectangular-border-bottom-right--designer-profile
-							.col-sm-6.col-xs-12.custom-padding
-								.designer-profile__user
-									h2.designer-profile__name pradeep bhatt
-									p.designer-profile__info He is not only a self taught entrepreneur; but also carries the fame of rag to riches. With an immense business experience that he has acquired because of his chain restaurants (Cubbonpet Biryani Bazaar) and having them run successfully under fierce competition from neighbor restaurants; He knows well what it takes to make a business tick and a bucket load about our speed of growth.
-									.social-icons
-										a(href='#').social-icons__link
-											i.fa.fa-facebook
-										a(href='#').social-icons__link
-											i.fa.fa-linkedin
-													
+						.col-sm-12.our-services-intro
+							include jade-components/comman/section-intro.jade
+							+section-intro("Methodology in our Madness")
 
-							.rectangular-border-bottom-right.rectangular-border-bottom-right--designer-profile.hidden-xs
+						//methodology-1
+						.methodology.col-md-12
+							.col-md-6.methodology__img-wrapper
+								img.methodology__img(src="img/methodology1.png", alt="methodology-img")
+							.col-md-6
+								.methodology__content-wrapper
+									.methodology__bg-info 01
+									.methodology__info-wrapper
+										h4.methodology__heading Client Enquiry
+										//- ol.methodology__info-list 
+										//- 	li.methodology__info  Site visit & Measurements
+										//- 	li.methodology__info  Design Presentation
+										//- 	li.methodology__info   Laminate selection with client 
 
-			//START: Our Team
+										.methodology__info-list 
+											p.methodology__info  Relationship Manager takes a not of the requirements and responds with an estimate quote 
 
-			section.our-story.our-story--about-us
-				.container
-					.row
-						include jade-components/comman/section-intro.jade
-						+section-intro("Our Team")
+						//methodology-2
+						.methodology.methodology2.col-md-12
+							.col-md-6.methodology__img-wrapper.methodology__order2
+								img.methodology__img(src="img/methodology2.png", alt="methodology-img")
+							.col-md-6
+								.methodology__content-wrapper.methodology__content-wrapper2
+									.methodology__bg-info 02
+									.methodology__info-wrapper
+										h4.methodology__heading Design Phase
+										ol.methodology__info-list 
+											li.methodology__info  Site visit & Measurements
+											li.methodology__info  Design Presentation
+											li.methodology__info   Laminate selection with client 
 
-						.our-story__image
-							img(src="../img/our-story-banner.png")
-						
-						.col-sm-10.col-sm-push-1
-							
-							.white-patch.white-patch--spacing.text-center
-								.our-team-slider
-									.our-team-slider__item
-										h2 Designers
-										span  Designers We are the ones who bring in colors to your home. Trust us when we tell you that every single one of us can add a completely new look to your home and we keep scores among ourselves for the designs we do :) Its a ‘like’ war on Facebook for the designs done by each of us.
-									.our-team-slider__item
-										h2 Designers
-										span  Designers We are the ones who bring in colors to your home. Trust us when we tell you that every single one of us can add a completely new look to your home and we keep scores among ourselves for the designs we do :) Its a ‘like’ war on Facebook for the designs done by each of us.
-									.our-team-slider__item
-										h2 Designers
-										span  Designers We are the ones who bring in colors to your home. Trust us when we tell you that every single one of us can add a completely new look to your home and we keep scores among ourselves for the designs we do :) Its a ‘like’ war on Facebook for the designs done by each of us.
-									.our-team-slider__item
-										h2 Designers
-										span  Designers We are the ones who bring in colors to your home. Trust us when we tell you that every single one of us can add a completely new look to your home and we keep scores among ourselves for the designs we do :) Its a ‘like’ war on Facebook for the designs done by each of us.
+										//- .methodology__info-list 
+										//- 	p.methodology__info  Relationship Manager takes a not of the requirements and responds with an estimate quote 
 
-			//START: Creative and Innovation Design
 
-			section
-				.container
-					.row
-						h2.section-intro__heading Are you inspired by creative and innovative design?
-						p.section-intro__info.section-intro__info--cr-design Please check our portfolio for the designs and works that we have done. When you are applying for a position make sure you can do better than what we currently are doing. When you hop on board, we treat you as energy ball that needs channeling; whether you’re experienced or a fresher.
 
-						.div.col-sm-12.cr-desgin
-							.col-md-3.col-xs-9.col-xs-offset-2.col-md-offset-1
-								div.services-icon
-									div.services-icon__wraper
-										img.services-icon__img(src="img/design-only.png" alt="Design only")
-										.rectangular-border.rectangular-border-top 
-							.col-md-offset-1.col-md-6
-								h2.section-intro__heading.cr-desgin__heading Designers
-								p.section-intro__info.cr-desgin__info Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 	
-		//START: Footer
+
+
+
+
+		//footer
 		include jade-components/base/footer.jade
 
-		//START: Scripts
-
 		script(src="js/plugins/jquery.min.js")
-		script(src="js/plugins/slick.min.js")
-		script(src="js/plugins/main.js")
+		script(src="js/plugins/bootstrap.min.js")
+
+
